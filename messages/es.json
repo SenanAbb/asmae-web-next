@@ -175,15 +175,154 @@
     "contact_section_form_success": "Mensaje enviado exitosamente",
     "contact_section_form_error": "Error al enviar el mensaje. Por favor, inténtelo de nuevo más tarde.",
     "contact_section_form_error_too_many_requests": "Demasiadas solicitudes. Por favor, inténtelo de nuevo más tarde."
-  }
-  ,
+  },
   "expertises": {
     "page_title": "Competencias",
     "main_title": "Nuestras Competencias",
     "cta_title": "¿Necesita orientación sobre nuestras competencias?",
     "cta_subtitle": "Contácteme para comentar el servicio más adecuado a sus necesidades.",
     "cta_call": "Llamar ahora",
-    "cta_email": "Solicitar presupuesto"
+    "cta_email": "Solicitar presupuesto",
+    "visa": {
+      "title": "Acompañamiento en el procedimiento de visado",
+      "subtitle": "Análisis de su situación, solicitud de visado y ejercicio de los distintos recursos",
+      "items": {
+        "item1": {
+          "title": "Análisis del expediente",
+          "description": "Estudio de su situación personal y de los motivos de la denegación."
+        },
+        "item2": {
+          "title": "Recurso administrativo",
+          "description": "Redacción y presentación del recurso administrativo ante el organismo competente."
+        },
+        "item3": {
+          "title": "Recurso jurisdiccional",
+          "description": "Recurso ante el juez competente en caso de mantenimiento del rechazo."
+        }
+      },
+      "footerTitle": "Cada situación se estudia con precisión para maximizar sus posibilidades de éxito.",
+      "footerDescription": ""
+    },
+    "regroupement-familial": {
+      "title": "Acompañamiento en reagrupación familiar",
+      "subtitle": "Trámites, recursos y respeto de los derechos familiares",
+      "items": {
+        "item1": {
+          "title": "Solicitud de reagrupación familiar",
+          "description": "Me KIRIMOV le asiste en la constitución del expediente y los trámites para traer legalmente a sus familiares a Francia."
+        },
+        "item2": {
+          "title": "Recursos y solicitudes complementarias",
+          "description": "Intervención en caso de denegación o petición compleja por parte de la administración."
+        },
+        "item3": {
+          "title": "Reagrupación familiar vinculada al asilo:",
+          "description": "Acompañamiento específico para beneficiarios de protección internacional."
+        }
+      },
+      "footerTitle": "Mi papel es garantizar la regularidad del procedimiento y el respeto de los derechos familiares.",
+      "footerDescription": ""
+    },
+    "demandes-dasile-et-recours-cnda": {
+      "title": "Solicitud de asilo y recurso ante la CNDA",
+      "subtitle": "Me KIRIMOV le asiste y defiende en el marco de su solicitud de protección internacional.",
+      "items": {
+        "item1": {
+          "title": "Acompañamiento en la solicitud de asilo",
+          "description": "Me Kirimov le explica los retos de la entrevista ante la OFPRA y le prepara para ella."
+        },
+        "item2": {
+          "title": "Recurso ante la CNDA",
+          "description": "Me KIRIMOV le representa y prepara un expediente argumentado frente a la denegación de la OFPRA."
+        },
+        "item3": {
+          "title": "Garantía de sus derechos fundamentales",
+          "description": "Cada etapa tiene como objetivo defender su necesidad de protección."
+        }
+      },
+      "footerTitle": "Mi intervención garantiza el rigor jurídico y el respeto de sus derechos.",
+      "footerDescription": ""
+    },
+    "titres-de-sejour-et-oqtf": {
+      "title": "Permisos de residencia y OQTF",
+      "subtitle": "Asistencia y defensa de sus derechos",
+      "items": {
+        "item1": {
+          "title": "Solicitud o renovación del permiso de residencia",
+          "description": "Intervengo en su interés para solicitar, de forma argumentada, un derecho de residencia asegurando la completitud de su expediente. \n\nDel mismo modo, intervengo ante la comisión de permisos de residencia cuando está en peligro la renovación de su derecho de residencia."
+        },
+        "item2": {
+          "title": "Recurso contra una denegación u OQTF",
+          "description": "Me KIRIMOV le defiende ante las autoridades y le acompaña en los procedimientos contenciosos."
+        },
+        "item3": {
+          "title": "Cambio de estatus o regularización",
+          "description": "Le acompaño para obtener un título adaptado a la evolución de su situación familiar o profesional."
+        }
+      },
+      "footerTitle": "Mi objetivo: preservar su derecho a residir en Francia.",
+      "footerDescription": ""
+    },
+    "procedures-disciplinaires": {
+      "title": "Procedimientos disciplinarios",
+      "subtitle": "Acompañamiento desde la primera citación o medida",
+      "items": {
+        "item1": {
+          "title": "Defensa frente a sanciones disciplinarias",
+          "description": "Suspensión, amonestación u otra sanción disciplinaria: mi intervención vela por el respeto del contradictorio y de los derechos de la defensa."
+        },
+        "item2": {
+          "title": "Recurso contra sanciones abusivas",
+          "description": "Tras analizar su situación y la sanción impuesta, Me KIRIMOV le aconseja sobre la oportunidad de iniciar un procedimiento."
+        },
+        "item3": {
+          "title": "Preparación de la estrategia de defensa",
+          "description": "Me KIRIMOV le acompaña de forma preventiva para anticipar acciones disciplinarias."
+        }
+      },
+      "footerTitle": "Mi objetivo: asegurar una defensa rigurosa y adaptada a cada situación.",
+      "footerDescription": ""
+    },
+    "harcelement-moral": {
+      "title": "Acoso moral",
+      "subtitle": "Reconocimiento y recursos en caso de sufrimiento en el ejercicio de sus funciones.",
+      "items": {
+        "item1": {
+          "title": "Identificación del acoso moral",
+          "description": "Me KIRIMOV le ayuda a establecer los hechos y reunir las pruebas necesarias."
+        },
+        "item2": {
+          "title": "Responsabilidad del empleador",
+          "description": "Me KIRIMOV le acompaña para hacer reconocer la falta de la administración."
+        },
+        "item3": {
+          "title": "Representación ante los tribunales administrativos",
+          "description": "Me KIRIMOV le defiende con rigor ante los organismos competentes."
+        }
+      },
+      "footerTitle": "Mi objetivo: obtener reparación y restablecimiento de sus derechos.",
+      "footerDescription": ""
+    },
+    "maladie-professionnelle": {
+      "title": "Enfermedad profesional y accidente de servicio",
+      "subtitle": "Constitución de expediente, reconocimiento y recursos.",
+      "items": {
+        "item1": {
+          "title": "Constitución del expediente",
+          "description": "Me KIRIMOV le ayuda a reunir los documentos necesarios para hacer reconocer su situación."
+        },
+        "item2": {
+          "title": "Recurso en caso de denegación de la administración",
+          "description": "Me KIRIMOV le representa ante la administración o los tribunales competentes."
+        },
+        "item3": {
+          "title": "Gestión de bajas y indemnización",
+          "description": "En caso de accidente de servicio con grado de incapacidad establecido, le acompaño para obtener la indemnización justa de sus perjuicios."
+        }
+      },
+      "footerTitle": "Mi objetivo: hacer reconocer sus derechos.",
+      "footerDescription": ""
+    }
   },
   "seo": {
     "cabinet": {

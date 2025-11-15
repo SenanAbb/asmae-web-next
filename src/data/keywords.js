@@ -13,6 +13,7 @@ export const keywordsSEO = {
     'avocat droit des étrangers',
     'avocat immigration',
     'avocat naturalisation',
+    'AKZ Avocat',
 
     // Création d’entreprise / droit des sociétés
     'création d’entreprise France',
@@ -65,6 +66,7 @@ export const keywordsSEO = {
     'abogado inmigración Francia',
     'abogado residencia Francia',
     'abogado nacionalidad',
+    'AKZ Abogado',
 
     // Creación de empresa / sociedades
     'crear empresa en Francia',
@@ -116,6 +118,7 @@ export const keywordsSEO = {
     'immigration lawyer France',
     'residence permit lawyer France',
     'naturalization lawyer France',
+    'AKZ Lawyer',
 
     // Business / Corporate
     'company creation France',

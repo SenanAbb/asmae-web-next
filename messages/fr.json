@@ -452,6 +452,14 @@
         "item1": {
           "title": "Litiges sur les baux commerciaux",
           "description": "Placeholder"
+        },
+        "item2": {
+          "title": "Litiges entre commerçants",
+          "description": "Placeholder"
+        },
+        "item3": {
+          "title": "Concurrence déloyale",
+          "description": "Placeholder"
         }
       },
       "footerTitle": "Placeholder",
@@ -480,6 +488,20 @@
       },
       "footerTitle": "Placeholder",
       "footerDescription": "Placeholder"
+    }
+  },
+  "seo": {
+    "cabinet": {
+      "title": "Cabinet - Asmae Kirimov",
+      "description": "Cabinet à Pau : droit des sociétés, droit des étrangers et de la fonction publique. Conseil, défense et accompagnement juridiques sur mesure."
+    },
+    "expertises": {
+      "title": "Expertises – Droit des sociétés, des étrangers et de la fonction publique",
+      "description": "Découvrez nos expertises : création d'entreprise, droit des sociétés, mobilité internationale, titres de séjour, naturalisation, OQTF, fonction publique et recours administratifs."
+    },
+    "honoraires": {
+      "title": "Honoraires – Transparence, Forfaits et Aide juridictionnelle",
+      "description": "Consultez nos honoraires : tarification transparente, forfaits adaptés, paiements échelonnés et éligibilité à l'aide juridictionnelle. Obtenez un devis clair pour votre situation."
     }
   }
 }

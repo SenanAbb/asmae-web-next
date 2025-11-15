@@ -123,6 +123,9 @@ export default async function RootLayout({ children, params }) {
     notFound();
   }
 
+  // Load translation messages for the current locale
+  const messages = (await import(`../../../messages/${locale}.json`)).default;
+
   return (
     <html lang={locale}>
       <head>
@@ -161,7 +164,7 @@ export default async function RootLayout({ children, params }) {
       <body
         className={`${roboto.className} ${italianno.variable} ${poppins.variable}`}
       >
-        <NextIntlClientProvider>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
           {children}
           <Footer />

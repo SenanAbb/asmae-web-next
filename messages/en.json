@@ -180,10 +180,158 @@
   "expertises": {
     "page_title": "Expertises",
     "main_title": "Our Expertises",
+    "back_to_services": "Back to services",
+    "contact_section_title": "Contact me",
     "cta_title": "Need guidance on our expertises?",
     "cta_subtitle": "Contact me to discuss the service best suited to your needs.",
     "cta_call": "Call now",
-    "cta_email": "Request quote"
+    "cta_email": "Request quote",
+    "visa": {
+      "title": "Support in the visa process",
+      "subtitle": "Analysis of your situation, visa application and pursuing available appeals",
+      "items": {
+        "item1": { "title": "Case analysis", "description": "Study of your personal situation and the reasons for refusal." },
+        "item2": { "title": "Administrative appeal", "description": "Drafting and filing the administrative appeal with the competent authority." },
+        "item3": { "title": "Judicial appeal", "description": "Appeal before the competent court if the refusal is maintained." }
+      },
+      "footerTitle": "Each case is studied with precision to maximize your chances of success.",
+      "footerDescription": ""
+    },
+    "regroupement-familial": {
+      "title": "Family reunification support",
+      "subtitle": "Procedures, appeals and protection of family rights",
+      "items": {
+        "item1": { "title": "Family reunification application", "description": "Me KIRIMOV assists you in preparing the file and the procedures to legally bring your relatives to France." },
+        "item2": { "title": "Appeals and additional requests", "description": "Intervention in case of refusal or complex requests from the administration." },
+        "item3": { "title": "Family reunification related to asylum:", "description": "Specific support for beneficiaries of international protection." }
+      },
+      "footerTitle": "My role is to ensure procedural regularity and the protection of family rights.",
+      "footerDescription": ""
+    },
+    "demandes-dasile-et-recours-cnda": {
+      "title": "Asylum application and CNDA appeal",
+      "subtitle": "Me KIRIMOV assists and defends you in your application for international protection.",
+      "items": {
+        "item1": { "title": "Support with the asylum application", "description": "Me Kirimov explains the stakes of the OFPRA interview and prepares you for it." },
+        "item2": { "title": "Appeal before the CNDA", "description": "Me KIRIMOV represents you and prepares a well-argued case against OFPRA’s refusal." },
+        "item3": { "title": "Protection of your fundamental rights", "description": "Each step aims to defend your need for protection." }
+      },
+      "footerTitle": "My involvement guarantees legal rigor and respect for your rights.",
+      "footerDescription": ""
+    },
+    "titres-de-sejour-et-oqtf": {
+      "title": "Residence permits and OQTF",
+      "subtitle": "Assistance and defense of your rights",
+      "items": {
+        "item1": { "title": "Application or renewal of a residence permit", "description": "I act in your best interests to apply, with solid arguments, for a right to stay while ensuring your file is complete. \n\nLikewise, I intervene before the residence permit commission when the renewal of your right to stay is at risk." },
+        "item2": { "title": "Appeal against a refusal or an OQTF", "description": "Me KIRIMOV defends you before the authorities and supports you through litigation procedures." },
+        "item3": { "title": "Change of status or regularization", "description": "I help you obtain a permit adapted to the evolution of your family or professional situation." }
+      },
+      "footerTitle": "My objective: to preserve your right to stay in France.",
+      "footerDescription": ""
+    },
+    "procedures-disciplinaires": {
+      "title": "Disciplinary procedures",
+      "subtitle": "Support from the first summons or measure",
+      "items": {
+        "item1": { "title": "Defense against disciplinary sanctions", "description": "Suspension, reprimand or other disciplinary sanction: my intervention ensures respect for due process and defense rights." },
+        "item2": { "title": "Appeal against abusive sanctions", "description": "After analyzing your situation and the sanction imposed, Me KIRIMOV advises you on the opportunity to take legal action." },
+        "item3": { "title": "Defense strategy preparation", "description": "Me KIRIMOV supports you preventively to anticipate disciplinary actions." }
+      },
+      "footerTitle": "My goal: ensure a rigorous and tailored defense for each situation.",
+      "footerDescription": ""
+    },
+    "harcelement-moral": {
+      "title": "Moral harassment",
+      "subtitle": "Recognition and remedies in cases of suffering at work.",
+      "items": {
+        "item1": { "title": "Identification of moral harassment", "description": "Me KIRIMOV helps you establish the facts and compile the necessary evidence." },
+        "item2": { "title": "Holding the employer liable", "description": "Me KIRIMOV supports you in establishing the administration’s fault." },
+        "item3": { "title": "Representation before administrative courts", "description": "Me KIRIMOV defends you rigorously before the competent bodies." }
+      },
+      "footerTitle": "My objective: obtain redress and restore your rights.",
+      "footerDescription": ""
+    },
+    "maladie-professionnelle": {
+      "title": "Occupational disease and service-related accident",
+      "subtitle": "File preparation, recognition and appeals.",
+      "items": {
+        "item1": { "title": "File preparation", "description": "Me KIRIMOV helps you gather the necessary documents to have your situation recognized." },
+        "item2": { "title": "Appeal in case of an administrative refusal", "description": "Me KIRIMOV represents you before the administration or competent courts." },
+        "item3": { "title": "Management of sick leave and compensation", "description": "In case of a service-related accident with an established disability rate, I support you in obtaining fair compensation for your damages." }
+      },
+      "footerTitle": "My objective: have your rights recognized.",
+      "footerDescription": ""
+    },
+    "creations-et-rachat": {
+      "title": "Business creation and acquisition",
+      "subtitle": "Placeholder",
+      "items": {
+        "item1": { "title": "Company incorporation", "description": "Placeholder" },
+        "item2": { "title": "Acquisition of a business", "description": "Placeholder" },
+        "item3": { "title": "Advice on legal form", "description": "Placeholder" },
+        "item4": { "title": "Drafting of bylaws", "description": "Placeholder" },
+        "item5": { "title": "Support with formalities", "description": "Placeholder" },
+        "item6": { "title": "Shareholders’ agreements drafting", "description": "Placeholder" }
+      },
+      "footerTitle": "Placeholder",
+      "footerDescription": "Placeholder"
+    },
+    "vie-de-lentreprise": {
+      "title": "Company operations",
+      "subtitle": "Placeholder",
+      "items": {
+        "item1": { "title": "Corporate housekeeping and secretarial work", "description": "Placeholder" },
+        "item2": { "title": "Approval of accounts and drafting of minutes", "description": "Placeholder" },
+        "item3": { "title": "Keeping statutory registers", "description": "Placeholder" },
+        "item4": { "title": "Filing mandatory documents with the commercial court registry", "description": "Placeholder" },
+        "item5": { "title": "Bylaws amendments (capital increase / registered office transfer / corporate bodies)", "description": "Placeholder" },
+        "item6": { "title": "Contribution of securities and partial asset contributions", "description": "Placeholder" },
+        "item7": { "title": "Tax optimization (dividends / transfer / sale)", "description": "Placeholder" }
+      },
+      "footerTitle": "Placeholder",
+      "footerDescription": "Placeholder"
+    },
+    "cession-et-transmission": {
+      "title": "Business transfer and sale",
+      "subtitle": "Placeholder",
+      "items": {
+        "item1": { "title": "Sales negotiation", "description": "Placeholder" },
+        "item2": { "title": "Transfer of a business", "description": "Placeholder" },
+        "item3": { "title": "Drafting of transfer and acquisition deeds", "description": "Placeholder" },
+        "item4": { "title": "Amicable dissolution and liquidation", "description": "Placeholder" }
+      },
+      "footerTitle": "Placeholder",
+      "footerDescription": "Placeholder"
+    },
+    "conditions-generales-de-vente": {
+      "title": "Terms and conditions of sale",
+      "subtitle": "Placeholder",
+      "items": {
+        "item1": { "title": "Placeholder", "description": "Placeholder" }
+      },
+      "footerTitle": "Placeholder",
+      "footerDescription": "Placeholder"
+    },
+    "relations-clients": {
+      "title": "Client / supplier relations",
+      "subtitle": "Placeholder",
+      "items": {
+        "item1": { "title": "Debt collection", "description": "Placeholder" },
+        "item2": { "title": "Challenging service quality", "description": "Placeholder" }
+      },
+      "footerTitle": "Placeholder",
+      "footerDescription": "Placeholder"
+    },
+    "relations-avec-les-tiers": {
+      "title": "Relations with third parties",
+      "subtitle": "Placeholder",
+      "items": {
+        "item1": { "title": "Disputes over commercial leases", "description": "Placeholder" },
+        "item2": { "title": "Disputes between merchants", "description": "Placeholder" },
+        "item3": { "title": "Unfair competition", "description": "Placeholder" }
+      }
+    }
   },
   "seo": {
     "cabinet": {
