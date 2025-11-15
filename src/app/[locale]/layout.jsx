@@ -5,6 +5,7 @@ import { Roboto, Italianno, Poppins } from 'next/font/google';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { keywordsSEO } from '@/data/keywords';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 /** SECTIONS STYLES */
 import './globals.css';
@@ -168,6 +169,7 @@ export default async function RootLayout({ children, params }) {
           <Navbar />
           {children}
           <Footer />
+          <SpeedInsights />
         </NextIntlClientProvider>
       </body>
     </html>
