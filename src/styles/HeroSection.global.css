@@ -1,0 +1,479 @@
+.hero-section {
+  height: 100dvh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  .hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+
+    &.loaded {
+      opacity: 1;
+    }
+  }
+
+  .black-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+
+    .overlay-pattern {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(
+          circle at 30% 70%,
+          rgba(37, 77, 50, 0.2) 0%,
+          transparent 50%
+        ),
+        radial-gradient(
+          circle at 70% 30%,
+          rgba(215, 154, 16, 0.15) 0%,
+          transparent 50%
+        );
+    }
+
+    .overlay-gradient {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.3) 0%,
+        rgba(37, 77, 50, 0.2) 30%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgba(37, 77, 50, 0.3) 100%
+      );
+    }
+  }
+
+  .decorative-elements {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+
+    .floating-element {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.05;
+
+      &.element-1 {
+        width: 200px;
+        height: 200px;
+        background: linear-gradient(
+          135deg,
+          var(--secondary) 0%,
+          var(--secondary-light) 100%
+        );
+        top: 15%;
+        right: 10%;
+        animation: float 8s ease-in-out infinite;
+      }
+
+      &.element-2 {
+        width: 150px;
+        height: 150px;
+        background: linear-gradient(
+          135deg,
+          var(--primary) 0%,
+          var(--primary-light) 100%
+        );
+        bottom: 25%;
+        left: 15%;
+        animation: float 6s ease-in-out infinite reverse;
+      }
+
+      &.element-3 {
+        width: 100px;
+        height: 100px;
+        background: linear-gradient(
+          135deg,
+          var(--secondary-light) 0%,
+          var(--primary) 100%
+        );
+        top: 50%;
+        right: 25%;
+        animation: pulse 4s ease-in-out infinite;
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 9rem;
+      width: fit-content;
+      position: relative;
+
+      h1 {
+        color: var(--white);
+        font-size: 7rem;
+        font-weight: 400;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        line-height: 10rem;
+        font-family: 'Italianno', 'Poppins', sans-serif;
+        text-align: center;
+        position: relative;
+        margin: 0;
+
+        .name-container {
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+          flex-wrap: wrap;
+
+          .subtitle-text {
+            color: var(--secondary-light);
+            font-weight: 400;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-family: 'Italianno', 'Poppins', sans-serif;
+            font-size: 7rem;
+            line-height: 10rem;
+            letter-spacing: 2px;
+            position: relative;
+          }
+
+          .name-text {
+            color: var(--white);
+            font-weight: 400;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-family: 'Italianno', 'Poppins', sans-serif;
+            font-size: 7rem;
+            line-height: 10rem;
+            position: relative;
+          }
+        }
+      }
+
+      .social-links {
+        display: flex;
+        gap: 1.5rem;
+        margin-top: 3rem;
+
+        .social-link {
+          position: relative;
+          display: block;
+          text-decoration: none;
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+          .social-icon-wrapper {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.4s ease;
+
+            svg {
+              fill: var(--white);
+              transition: all 0.3s ease;
+              filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+              position: relative;
+              z-index: 2;
+            }
+
+            .social-ripple {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 0;
+              height: 0;
+              background: rgba(255, 255, 255, 0.2);
+              border-radius: 50%;
+              transition: all 0.4s ease;
+            }
+          }
+
+          .social-tooltip {
+            position: absolute;
+            bottom: -45px;
+            left: 50%;
+            transform: translateX(-50%) translateY(10px);
+            background: rgba(0, 0, 0, 0.9);
+            color: var(--white);
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            white-space: nowrap;
+            opacity: 0;
+            transition: all 0.3s ease;
+            pointer-events: none;
+            font-family: 'Poppins', sans-serif;
+
+            &::before {
+              content: '';
+              position: absolute;
+              top: -4px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 0;
+              height: 0;
+              border-left: 4px solid transparent;
+              border-right: 4px solid transparent;
+              border-bottom: 4px solid rgba(0, 0, 0, 0.9);
+            }
+          }
+
+          &:hover {
+            transform: translateY(-8px);
+
+            .social-icon-wrapper {
+              background: rgba(255, 255, 255, 0.2);
+              border-color: var(--primary-light);
+              box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+
+              svg {
+                fill: var(--primary-light);
+                transform: scale(1.1);
+              }
+
+              .social-ripple {
+                width: 100%;
+                height: 100%;
+              }
+            }
+
+            .social-tooltip {
+              opacity: 1;
+              transform: translateX(-50%) translateY(0);
+            }
+          }
+        }
+      }
+    }
+
+    .scroll-indicator {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      color: var(--white);
+      opacity: 0.8;
+
+      .scroll-arrow {
+        color: var(--secondary-light);
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+      }
+
+      .scroll-text {
+        font-size: 0.8rem;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
+/* Animations */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(180deg);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.05;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.1;
+    transform: scale(1.05);
+  }
+}
+
+/* Responsive */
+@media (width < 800px) {
+  .hero-section {
+    .content {
+      position: relative;
+
+      .title {
+        align-items: center;
+
+        h1 {
+          font-size: 4.5rem;
+          line-height: 4.5rem;
+          text-align: center;
+
+          .name-container {
+            flex-direction: column;
+            gap: 0.5rem;
+
+            .subtitle-text,
+            .name-text {
+              font-size: 4.5rem;
+              line-height: 4.5rem;
+            }
+          }
+        }
+
+        .social-links {
+          gap: 1rem;
+          margin-top: 2rem;
+
+          .social-link {
+            .social-icon-wrapper {
+              width: 65px;
+              height: 65px;
+
+              svg {
+                width: 36px;
+                height: 36px;
+              }
+            }
+          }
+        }
+      }
+
+      .scroll-indicator {
+        bottom: 30px;
+
+        .scroll-text {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+
+@media (width < 480px) {
+  .hero-section {
+    .content {
+      .title {
+        margin-top: 6rem;
+
+        h1 {
+          font-size: 3.8rem;
+          line-height: 3.8rem;
+
+          .name-container {
+            .subtitle-text,
+            .name-text {
+              font-size: 3.8rem;
+              line-height: 3.8rem;
+            }
+          }
+        }
+
+        .social-links {
+          gap: 0.8rem;
+
+          .social-link {
+            .social-icon-wrapper {
+              width: 60px;
+              height: 60px;
+
+              svg {
+                width: 32px;
+                height: 32px;
+              }
+            }
+          }
+        }
+      }
+
+      .scroll-indicator {
+        .scroll-text {
+          font-size: 0.85rem;
+        }
+      }
+    }
+  }
+}
+
+/* Añadir breakpoint adicional para dispositivos muy pequeños */
+@media (width < 360px) {
+  .hero-section {
+    .content {
+      .title {
+        margin-top: 4rem;
+
+        h1 {
+          font-size: 3.2rem;
+          line-height: 3.2rem;
+
+          .name-container {
+            .subtitle-text,
+            .name-text {
+              font-size: 3.2rem;
+              line-height: 3.2rem;
+            }
+          }
+        }
+
+        .social-links {
+          gap: 0.6rem;
+
+          .social-link {
+            .social-icon-wrapper {
+              width: 55px;
+              height: 55px;
+
+              svg {
+                width: 28px;
+                height: 28px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Loading state */
+.hero-section .hero-video:not(.loaded) + .black-overlay {
+  background-color: rgba(37, 77, 50, 0.8);
+}

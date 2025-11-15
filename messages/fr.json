@@ -1,0 +1,485 @@
+{
+  "home": {
+    "title": "Bienvenue",
+    "hero_subtitle": "Maître"
+  },
+  "navbar": {
+    "about_label": "Cabinet",
+    "contact_label": "Contact",
+    "expertises_label": "Expertises",
+    "home_label": "Accueil",
+    "honoraires_label": "Honoraires",
+    "language_selector_english_label": "English",
+    "language_selector_french_label": "Français",
+    "language_selector_spanish_label": "Español",
+    "navbar_cta_label": "Besoin d'une aide juridique ?",
+    "expertises": {
+      "family1": {
+        "title": "Droit des affaires et des sociétés",
+        "sub1a": {
+          "title": "Sociétés",
+          "item1": "Création et rachat d'entreprise",
+          "item2": "Vie de l'entreprise",
+          "item3": "Transmission et cession d'entreprise"
+        },
+        "sub1b": {
+          "title": "Contrats",
+          "item1": "Conditions générales de vente",
+          "item2": "Mandat de vente / location",
+          "item3": "Baux commerciaux"
+        },
+        "sub1c": {
+          "title": "Commercial",
+          "item1": "Relations clients / fournisseurs",
+          "item2": "Relations avec les tiers"
+        }
+      },
+      "family2": {
+        "title": "Droit de la mobilité internationale et des étrangers",
+        "sub2a": { "title": "Visas et refus de visa" },
+        "sub2b": { "title": "Regroupement familial" },
+        "sub2c": { "title": "Demandes d'asile et recours CNDA" },
+        "sub2d": { "title": "Titres de séjour et OQTF" }
+      },
+      "family3": {
+        "title": "Droit de la fonction publique",
+        "sub3a": { "title": "Procédures disciplinaires" },
+        "sub3b": { "title": "Harcèlement moral" },
+        "sub3c": { "title": "Maladie professionnelle et accident de service" }
+      }
+    }
+  },
+  "footer": {
+    "footer_section_links_label": "Liens rapides",
+    "footer_section_contact_label": "Contact",
+    "footer_section_time_label": "Horaires d'ouverture",
+    "footer_section_monday_friday_label": "L-M-J-V",
+    "footer_section_saturday_label": "Mercredi",
+    "footer_section_sunday_label": "Sam-Dim",
+    "footer_section_closed_label": "Fermé",
+    "footer_description": "Avocate en droit des sociétés, droit des étrangers et droit public.",
+    "footer_copyright": "Asmae Kirimov - Tous droits réservés",
+    "footer_phone_label": "Téléphone",
+    "footer_email_label": "Email",
+    "footer_address_label": "Adresse",
+    "footer_bottom_text": "Site web développé par",
+    "footer_bottom_link": "Sanan Abbasov",
+    "footer_privacy_label": "Politique de Confidentialité",
+    "footer_terms_label": "Conditions Générales"
+  },
+  "honoraires": {
+    "honoraires_page_title": "Honoraires",
+    "honoraires_page_subtitle": "Transparence et flexibilité dans nos services juridiques",
+    "honoraires_page_intro": "Les honoraires sont librement fixés en accord avec le client. Nous proposons différentes modalités de facturation adaptées à chaque situation et besoin spécifique.",
+    "honoraires_page_time_based_title": "Honoraires au temps passé",
+    "honoraires_page_time_based_description": "L’avocat facture ses prestations en fonction du nombre d’heures consacrées au dossier. Le taux horaire est défini à l’avance et peut varier selon la complexité de l’affaire.",
+    "honoraires_page_fixed_fee_title": "Forfait",
+    "honoraires_page_fixed_fee_description": "Un montant global est fixé pour l’ensemble de la mission confiée, indépendamment du temps passé. Cette méthode offre une meilleure prévisibilité budgétaire.",
+    "honoraires_page_result_fee_title": "Honoraire de résultat",
+    "honoraires_page_result_fee_description": "Il s’ajoute à un honoraire de base (forfait ou temps passé). L’avocat perçoit un pourcentage des gains ou économies obtenus grâce à son intervention. En France, l’honoraire de résultat seul est interdit : il doit être combiné à un honoraire principal.",
+    "honoraires_page_legal_aid_title": "Aide juridictionnelle",
+    "honoraires_page_legal_aid_description": "Si le client remplit certaines conditions de ressources, il peut bénéficier d’une prise en charge totale ou partielle des honoraires par l’État. L’avocat accepte alors d’intervenir dans ce cadre.",
+    "honoraires_page_consultation_title": "Première consultation",
+    "honoraires_page_consultation_description": "La première consultation permet d’évaluer votre situation juridique et de définir la stratégie la plus adaptée. Sa durée et ses modalités s’ajustent à la complexité de votre dossier.",
+    "honoraires_page_cta_title": "Besoin de plus d’informations sur nos honoraires ?",
+    "honoraires_page_cta_subtitle": "Contactez-moi pour évoquer les modalités d’honoraires les plus adaptées à votre situation.",
+    "honoraires_page_cta_call": "Appeler maintenant",
+    "honoraires_page_cta_email": "Demander un devis"
+  },
+  "cabinet": {
+    "hero_subtitle": "Maître",
+    "name": "Asmae Kirimov",
+    "cabinet_page_section_title": "Mon parcours",
+    "cabinet_page_section_subtitle": "Une expertise fondée sur la formation et l'expérience",
+    "cabinet_page_description_1": "Diplômée de l'École des avocats Aliénor de Bordeaux et titulaire d'un Master en droit européen et international, Maître Kirimov vous conseille, vous assiste et vous défend devant toutes les juridictions administratives ainsi que devant les juridictions judiciaires.",
+    "cabinet_page_description_2": "Maître Kirimov vous propose également de défendre vos intérêts dans divers litiges de la vie quotidienne (conflits liés à l'achat ou à la vente de biens meubles ou immeubles, troubles de voisinage, responsabilité civile).",
+    "cabinet_page_description_3": "Grâce à son expérience professionnelle dans des cabinets d'avocats, au sein de l'administration française ou auprès d'un tribunal administratif, Maître Kirimov met ses compétences en conseil et en contentieux à votre service dans divers domaines du droit administratif (droit des étrangers et de la nationalité, droit de la fonction publique, etc.).",
+    "cabinet_page_formation_title": "Formation spécialisée en droit européen et international",
+    "cabinet_page_formation_description": "Titulaire d'un Master en droit européen et international, et diplômée de l'École des avocats Aliénor à Bordeaux. Mon parcours universitaire m'a permis d'acquérir une compréhension approfondie des problématiques juridiques nationales et internationales. Il constitue le socle de mon expertise, notamment dans l'accompagnement des entreprises à vocation internationale. Cette formation me permet également d'appréhender avec finesse les enjeux juridiques liés à la mobilité humaine.",
+    "cabinet_page_experience_title": "Un parcours professionnel riche et varié",
+    "cabinet_page_experience_description": "Mes expériences professionnelles variées m'ont permis d'aborder le droit tant en conseil qu'en contentieux, en comprenant les attentes des particuliers comme des institutions. Cette diversité me permet aujourd'hui d'avoir une approche pragmatique, réactive et adaptée à chaque situation.",
+    "cabinet_page_structure_title": "Une structure indépendante au service de vos droits",
+    "cabinet_page_structure_description": "En fondant mon cabinet, j'ai fait le choix de vous proposer une relation directe, personnalisée et transparente. Je suis votre interlocutrice unique, disponible pour vous écouter et défendre vos intérêts avec rigueur. Mon approche repose sur la confiance, la clarté et l'efficacité. Installée à Pau, je propose mes services en présentiel ou à distance, via les outils numériques disponibles.",
+    "cabinet_page_cta_title": "Prête à discuter de votre situation juridique ?",
+    "cabinet_page_cta_subtitle": "Contactez-moi pour un premier rendez-vous et explorons ensemble les solutions.",
+    "cabinet_page_cta_call": "Appeler maintenant",
+    "cabinet_page_cta_email": "Envoyer un email"
+  },
+  "welcome_section": {
+    "title": "Bienvenue au cabinet de",
+    "name": "Maître KIRIMOV",
+    "subtitle": "Votre partenaire juridique de confiance en France",
+    "description_1": "Avocate installée à Pau, j'interviens exclusivement pour vous conseiller, assister et représenter en matière de droit de la mobilité internationale et des étrangers, droit du commerce et des sociétés ainsi qu'en matière de droit de la fonction publique (côté agents).",
+    "description_2": "Diplômée d'un Master en droit des affaires européennes et internationales, je suis en mesure de vous accompagner avec précision dans les différentes problématiques, tant nationales qu'européennes et internationales que vous rencontrez grâce à une maîtrise des règlements, directives et conventions internationales (succession, mariage et choix du régime matrimonial, adoption, transmission du patrimoine...).",
+    "description_3": "Forte d'expériences au sein de l'administration française (collectivité et juridiction administrative), Maître KIRIMOV vous propose un accompagnement optimal dans le cadre de vos demandes ou litiges avec l'administration (Préfecture, collectivités territoriales, etc.).",
+    "button": "Prendre rendez-vous"
+  },
+  "expertises_section": {
+    "expertises_section_title_1": "Affaires",
+    "expertises_section_subtitle_1": "Droit des affaires et des sociétés",
+    "expertises_section_description_1": "Un accompagnement juridique clair et personnalisé des professionnels.",
+    "expertises_section_title_2": "Mobilité internationale et immigration",
+    "expertises_section_subtitle_2": "Droit de la mobilité internationale et des étrangers",
+    "expertises_section_description_2": "Un accompagnement juridique engagé et précis des ressortissants étrangers en France et expatriés à l'étranger.",
+    "expertises_section_title_3": "Public",
+    "expertises_section_subtitle_3": "Droit de la fonction publique",
+    "expertises_section_description_3": "Un accompagnement juridique au service exclusif des agents territoriaux.",
+    "expertises_section_button": "En savoir plus"
+  },
+  "advantages_section": {
+    "advantages_section_title": "Les forces du cabinet",
+    "advantages_section_subtitle": "Animée par des valeurs telles que l'humanité, la détermination et la transparence, Me Kirimov s'évertue à répondre à vos problématiques juridiques avec passion.",
+    "advantages_section_item_1_title": "Égalité",
+    "advantages_section_item_1_description": "Consciente que chaque dossier représente un enjeu majeur pour chaque client, Me Kirimov accorde la même importance à chacun d'eux.",
+    "advantages_section_item_2_title": "Suivi personnalisé",
+    "advantages_section_item_2_description": "Afin de garantir un accompagnement adapté aux besoins spécifiques de ses clients, Me Kirimov traite personnellement chaque dossier, sans recours à la sous-traitance.",
+    "advantages_section_item_3_title": "Transparence",
+    "advantages_section_item_3_description": "Il est essentiel avant chaque ouverture de dossier que vous compreniez les risques encourus, notamment financiers et administratifs, afin de prendre une décision éclairée dans la défense de vos intérêts.",
+    "advantages_section_item_4_title": "Réactivité",
+    "advantages_section_item_4_description": "Me Kirimov veille à concilier réactivité, disponibilité et qualité dans le traitement des différentes demandes."
+  },
+  "information_section": {
+    "information_section_title": "Adresse & Contact",
+    "information_section_map_title": "Où me trouver",
+    "information_section_contact_title": "Coordonnées",
+    "information_section_contact_subtitle": "Je suis à votre écoute",
+    "information_section_address_title": "Adresse",
+    "information_section_phone_title": "Téléphone",
+    "information_section_email_title": "Email",
+    "information_section_cta_text": "Prêt·e à commencer ? Contactez-moi aujourd'hui.",
+    "information_section_cta_button": "Appeler maintenant"
+  },
+  "reviews_section": {
+    "reviews_section_title": "Avis Google",
+    "reviews_section_button": "Laissez-moi un avis sur Google",
+    "reviews_section_subtitle": "Témoignages authentiques de clients satisfaits",
+    "reviews_section_rating_label": "Excellent",
+    "reviews_section_review_count": "Basé sur plus de {{count}} avis",
+    "reviews_section_prev_button": "Précédent",
+    "reviews_section_next_button": "Suivant"
+  },
+  "contact_section": {
+    "contact_section_title": "Me contacter",
+    "contact_section_subtitle": "Me Kirimov est là pour vous. Remplissez le formulaire et Me Kirimov vous répondra rapidement.",
+    "contact_section_form_name_label": "Prénom",
+    "contact_section_form_name_placeholder": "Saisissez votre prénom",
+    "contact_section_form_lastname_label": "Nom",
+    "contact_section_form_lastname_placeholder": "Saisissez votre nom",
+    "contact_section_form_email_label": "Email",
+    "contact_section_form_email_placeholder": "votre@email.com",
+    "contact_section_form_phone_label": "Téléphone",
+    "contact_section_form_message_label": "Message",
+    "contact_section_form_message_placeholder": "Expliquez-moi comment je peux vous aider...",
+    "contact_section_form_button": "Envoyer le message",
+    "contact_section_form_button_loading": "Envoi du message...",
+    "contact_section_form_success": "Message envoyé avec succès",
+    "contact_section_form_error": "Erreur lors de l'envoi du message. Veuillez réessayer plus tard.",
+    "contact_section_form_error_too_many_requests": "Trop de requêtes. Veuillez réessayer plus tard."
+  },
+  "expertises": {
+    "page_title": "Expertises",
+    "main_title": "Expertises Juridiques",
+    "cta_title": "Besoin de conseils juridiques?",
+    "cta_subtitle": "Contactez-moi pour discuter de votre situation et trouver la meilleure solution adaptée à vos besoins.",
+    "cta_call": "Appeler maintenant",
+    "cta_email": "Demander une consultation",
+    "back_to_services": "Retour aux services",
+    "contact_section_title": "Me contacter",
+    "visa": {
+      "title": "Accompagnement dans la procédure de visa",
+      "subtitle": "Analyse de votre situation, dépôt de visa et exercice des différents recours",
+      "items": {
+        "item1": {
+          "title": "Analyse du dossier",
+          "description": "Étude de votre situation personnelle et des motifs du refus."
+        },
+        "item2": {
+          "title": "Recours administratif",
+          "description": "Rédaction et dépôt du recours administratif auprès de l’instance compétente."
+        },
+        "item3": {
+          "title": "Recours juridictionnel",
+          "description": "Recours devant le juge compétent en cas de refus maintenu."
+        }
+      },
+      "footerTitle": "Chaque situation est étudiée avec précision pour maximiser vos chances de succès.",
+      "footerDescription": ""
+    },
+    "regroupement-familial": {
+      "title": "Accompagnement en regroupement familial",
+      "subtitle": "Démarches, recours et respect des droits familiaux",
+      "items": {
+        "item1": {
+          "title": "Demande de regroupement familial",
+          "description": "Maître KIRIMOV vous assiste dans la constitution du dossier et les démarches pour faire venir légalement vos proches en France."
+        },
+        "item2": {
+          "title": "Recours et demandes complémentaires",
+          "description": "Intervention en cas de refus ou de demande complexe de la part de l'administration."
+        },
+        "item3": {
+          "title": "Regroupement familial lié à l'asile :",
+          "description": "Accompagnement spécifique pour les bénéficiaires de la protection internationale."
+        }
+      },
+      "footerTitle": "Mon rôle est d'assurer la régularité de la procédure et le respect des droits familiaux.",
+      "footerDescription": ""
+    },
+    "demandes-dasile-et-recours-cnda": {
+      "title": "Demande d'asile et recours CNDA",
+      "subtitle": "Maître KIRIMOV vous assiste et vous défends dans le cadre de votre demande de protection internationale.",
+      "items": {
+        "item1": {
+          "title": "Accompagnement dans la demande d'asile",
+          "description": "Maître Kirimov vous explique les enjeux de l’entretien OFPRA et vous y prépare."
+        },
+        "item2": {
+          "title": "Recours devant la CNDA",
+          "description": "Maître KIRIMOV vous représente et prépare un dossier argumenté face au refus de l'OFPRA."
+        },
+        "item3": {
+          "title": "Garantie de vos droits fondamentaux",
+          "description": "Chaque étape vise à défendre votre besoin de protection."
+        }
+      },
+      "footerTitle": "Mon intervention garantit la rigueur juridique et le respect de vos droits.",
+      "footerDescription": ""
+    },
+    "titres-de-sejour-et-oqtf": {
+      "title": "Titres de séjour et OQTF",
+      "subtitle": "Assistance et défense de vos droits",
+      "items": {
+        "item1": {
+          "title": "Demande ou renouvellement de titre de séjour",
+          "description": "J’interviens dans votre intérêt pour solliciter, de manière argumentée, un droit au séjour tout en assurant la complétude de votre dossier. \n\nDe la même façon , j’interviens devant la commission des titres de séjour lorsque le renouvellement de votre droit au séjour est menacé."
+        },
+        "item2": {
+          "title": "Recours contre un refus ou une OQTF",
+          "description": "Maître KIRIMOV vous défends devant les autorités et vous accompagne dans les procédures contentieuses."
+        },
+        "item3": {
+          "title": "Changement de statut ou régularisation",
+          "description": "Je vous accompagne à obtenir un titre adapté à l’évolution de votre situation familiale ou professionnelle."
+        }
+      },
+      "footerTitle": "Mon objectif : préserver votre droit au séjour en France.",
+      "footerDescription": ""
+    },
+    "procedures-disciplinaires": {
+      "title": "Procédures disciplinaires",
+      "subtitle": "Accompagnement dès la première convocation ou mesure",
+      "items": {
+        "item1": {
+          "title": "Défense face aux sanctions disciplinaires",
+          "description": "Suspension, blâme ou autre sanction disciplinaire, mon intervention veille à garantir le respect du contradictoire et les droits de la défense."
+        },
+        "item2": {
+          "title": "Recours contre les sanctions abusives",
+          "description": "Après analyse de votre situation et de la sanction prononcée à votre encontre, Maître KIRIMOV vous conseille sur l'opportunité d'engager une procédure."
+        },
+        "item3": {
+          "title": "Préparation de la stratégie de défense",
+          "description": "Maître KIRIMOV vous accompagne en prévention pour anticiper les actions disciplinaires."
+        }
+      },
+      "footerTitle": "Mon objectif  : assurer une défense rigoureuse et adaptée à chaque situation.",
+      "footerDescription": ""
+    },
+    "harcelement-moral": {
+      "title": "Harcèlement moral",
+      "subtitle": "Reconnaissance et recours en cas de souffrance dans l’exercice de vos fonctions.",
+      "items": {
+        "item1": {
+          "title": "Identification du harcèlement moral",
+          "description": "Maître KIRIMOV vous aide à établir les faits et constituer les preuves nécessaires."
+        },
+        "item2": {
+          "title": "Engagement de la responsabilité de l'employeur",
+          "description": "Maître KIRIMOV vous accompagne pour faire reconnaître la faute de l'administration."
+        },
+        "item3": {
+          "title": "Représentation devant les tribunaux administratifs",
+          "description": "Maître KIRIMOV vous défend avec rigueur devant les instances compétentes."
+        }
+      },
+      "footerTitle": "Mon objectif : obtenir réparation et rétablissement dans vos droits.",
+      "footerDescription": ""
+    },
+    "maladie-professionnelle": {
+      "title": "Maladie professionnelle et accident de service",
+      "subtitle": "Constitution de dossier, reconnaissance et recours.",
+      "items": {
+        "item1": {
+          "title": "Constitution du dossier",
+          "description": "Maître KIRIMOV vous aide à rassembler les pièces nécessaires pour faire reconnaître votre situation."
+        },
+        "item2": {
+          "title": "Recours en cas de refus de l'administration",
+          "description": "Maître KIRIMOV vous représente devant l'administration ou les tribunaux compétents."
+        },
+        "item3": {
+          "title": "Gestion des arrêts maladie et indemnisation",
+          "description": "En cas d'accident de service avec taux d'incapacité établi, je vous accompagne pour obtenir l'indemnisation juste de vos préjudices."
+        }
+      },
+      "footerTitle": "Mon objectif : faire reconnaître vos droits.",
+      "footerDescription": ""
+    },
+    "creations-et-rachat": {
+      "title": "Créations et rachat d'entreprise",
+      "subtitle": "Placeholder",
+      "items": {
+        "item1": {
+          "title": "Constitution de sociétés",
+          "description": "Placeholder"
+        },
+        "item2": {
+          "title": "Acquisition de fonds de commerce",
+          "description": "Placeholder"
+        },
+        "item3": {
+          "title": "Conseil de la forme juridique",
+          "description": "Placeholder"
+        },
+        "item4": {
+          "title": "Rédaction de statuts",
+          "description": "Placeholder"
+        },
+        "item5": {
+          "title": "Accompagnement formalités",
+          "description": "Placeholder"
+        },
+        "item6": {
+          "title": "Rédaction pactes d’associés",
+          "description": "Placeholder"
+        }
+      },
+      "footerTitle": "Placeholder",
+      "footerDescription": "Placeholder"
+    },
+    "vie-de-lentreprise": {
+      "title": "Vie de l'entreprise",
+      "subtitle": "Placeholder",
+      "items": {
+        "item1": {
+          "title": "Suivi et secrétariat juridique",
+          "description": "Placeholder"
+        },
+        "item2": {
+          "title": "Approbation des comptes et rédaction de procès-verbaux",
+          "description": "Placeholder"
+        },
+        "item3": {
+          "title": "Tenues des registres légaux",
+          "description": "Placeholder"
+        },
+        "item4": {
+          "title": "Transmission des documents obligatoires auprès du greffe du tribunal de commerce",
+          "description": "Placeholder"
+        },
+        "item5": {
+          "title": "Modifications statutaires (Augmentation capital / transfert de siège / organes sociaux)",
+          "description": "Placeholder"
+        },
+        "item6": {
+          "title": "Apport de titres et apport partiel d’actifs",
+          "description": "Placeholder"
+        },
+        "item7": {
+          "title": "Optimisation fiscale (dividendes / transmission cession)",
+          "description": "Placeholder"
+        }
+      },
+      "footerTitle": "Placeholder",
+      "footerDescription": "Placeholder"
+    },
+    "cession-et-transmission": {
+      "title": "Transmission et cession d'entreprise",
+      "subtitle": "Placeholder",
+      "items": {
+        "item1": {
+          "title": "Négociation des ventes",
+          "description": "Placeholder"
+        },
+        "item2": {
+          "title": "Cession de fonds de commerce",
+          "description": "Placeholder"
+        },
+        "item3": {
+          "title": "Rédaction d’actes de cession et acquisition d’entreprises",
+          "description": "Placeholder"
+        },
+        "item4": {
+          "title": "Dissolution et liquidation amiables",
+          "description": "Placeholder"
+        }
+      },
+      "footerTitle": "Placeholder",
+      "footerDescription": "Placeholder"
+    },
+    "conditions-generales-de-vente": {
+      "title": "Conditions générales de vente",
+      "subtitle": "Placeholder",
+      "items": {
+        "item1": {
+          "title": "Placeholder",
+          "description": "Placeholder"
+        }
+      },
+      "footerTitle": "Placeholder",
+      "footerDescription": "Placeholder"
+    },
+    "relations-clients": {
+      "title": "Relations clients / fournisseurs",
+      "subtitle": "Placeholder",
+      "items": {
+        "item1": {
+          "title": "Gestion des impayés",
+          "description": "Placeholder"
+        },
+        "item2": {
+          "title": "Remise en cause de la qualité de prestation",
+          "description": "Placeholder"
+        }
+      },
+      "footerTitle": "Placeholder",
+      "footerDescription": "Placeholder"
+    },
+    "relations-avec-les-tiers": {
+      "title": "Relations avec les tiers",
+      "subtitle": "Placeholder",
+      "items": {
+        "item1": {
+          "title": "Litiges sur les baux commerciaux",
+          "description": "Placeholder"
+        }
+      },
+      "footerTitle": "Placeholder",
+      "footerDescription": "Placeholder"
+    },
+    "mandat-de-vente-location": {
+      "title": "Mandat de vente / location",
+      "subtitle": "Placeholder",
+      "items": {
+        "item1": {
+          "title": "Placeholder",
+          "description": "Placeholder"
+        }
+      },
+      "footerTitle": "Placeholder",
+      "footerDescription": "Placeholder"
+    },
+    "baux-commerciaux": {
+      "title": "Baux commerciaux",
+      "subtitle": "Placeholder",
+      "items": {
+        "item1": {
+          "title": "Placeholder",
+          "description": "Placeholder"
+        }
+      },
+      "footerTitle": "Placeholder",
+      "footerDescription": "Placeholder"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "home": {
+    "title": "Bienvenido",
+    "hero_subtitle": "Abogada"
+  },
+  "navbar": {
+    "about_label": "Oficina",
+    "contact_label": "Contacto",
+    "expertises_label": "Competencias",
+    "home_label": "Inicio",
+    "honoraires_label": "Honorarios",
+    "language_selector_english_label": "English",
+    "language_selector_french_label": "Français",
+    "language_selector_spanish_label": "Español",
+    "navbar_cta_label": "¿Necesita asistencia legal?",
+    "expertises": {
+      "family1": {
+        "title": "Derecho mercantil y societario",
+        "sub1a": {
+          "title": "Sociedades",
+          "item1": "Creación y adquisición de empresa",
+          "item2": "Vida de la empresa",
+          "item3": "Transmisión y cesión de empresa"
+        },
+        "sub1b": {
+          "title": "Contratos",
+          "item1": "Condiciones generales de venta",
+          "item2": "Mandato de venta / alquiler",
+          "item3": "Arrendamientos comerciales"
+        },
+        "sub1c": {
+          "title": "Comercial",
+          "item1": "Relaciones con clientes / proveedores",
+          "item2": "Relaciones con terceros"
+        }
+      },
+      "family2": {
+        "title": "Derecho de movilidad internacional y de extranjeros",
+        "sub2a": { "title": "Visados y denegaciones de visado" },
+        "sub2b": { "title": "Reagrupación familiar" },
+        "sub2c": { "title": "Solicitudes de asilo y recursos ante la CNDA" },
+        "sub2d": { "title": "Permisos de residencia y OQTF" }
+      },
+      "family3": {
+        "title": "Derecho de la función pública",
+        "sub3a": { "title": "Procedimientos disciplinarios" },
+        "sub3b": { "title": "Acoso moral" },
+        "sub3c": { "title": "Enfermedad profesional y accidente de servicio" }
+      }
+    }
+  },
+  "footer": {
+    "footer_section_links_label": "Enlaces rápidos",
+    "footer_section_contact_label": "Contacto",
+    "footer_section_time_label": "Horarios de atención",
+    "footer_section_monday_friday_label": "Lun-Jue-Vie",
+    "footer_section_saturday_label": "Miércoles",
+    "footer_section_sunday_label": "Sáb-Dom",
+    "footer_section_closed_label": "Cerrado",
+    "footer_description": "Abogada especializada en derecho corporativo, derecho de inmigración y derecho público.",
+    "footer_copyright": "Asmae Kirimov - Todos los derechos reservados",
+    "footer_phone_label": "Teléfono",
+    "footer_email_label": "Correo electrónico",
+    "footer_address_label": "Dirección",
+    "footer_bottom_text": "Sitio web desarrollado por",
+    "footer_bottom_link": "Sanan Abbasov",
+    "footer_privacy_label": "Política de Privacidad",
+    "footer_terms_label": "Términos y Condiciones"
+  },
+  "honoraires": {
+    "honoraires_page_title": "Honorarios",
+    "honoraires_page_subtitle": "Transparencia y flexibilidad en nuestros servicios legales",
+    "honoraires_page_intro": "Los honorarios se establecen libremente de común acuerdo con el cliente. Ofrecemos diferentes modalidades de facturación adaptadas a cada situación y necesidad específica.",
+    "honoraires_page_time_based_title": "Honorario por tiempo",
+    "honoraires_page_time_based_description": "El abogado factura sus servicios en función del número de horas dedicadas al expediente. La tarifa por hora se define por adelantado y puede variar según la complejidad del asunto.",
+    "honoraires_page_fixed_fee_title": "Honorario fijo",
+    "honoraires_page_fixed_fee_description": "Se establece un importe global para toda la misión encomendada, independientemente del tiempo empleado. Este método ofrece una mejor previsibilidad presupuestaria.",
+    "honoraires_page_result_fee_title": "Honorario de resultado",
+    "honoraires_page_result_fee_description": "Se añade a un honorario base (fijo o por tiempo). El abogado percibe un porcentaje de las ganancias o ahorros obtenidos gracias a su intervención. En Francia, el honorario de resultado por sí solo está prohibido: debe combinarse con un honorario principal.",
+    "honoraires_page_legal_aid_title": "Asistencia jurídica",
+    "honoraires_page_legal_aid_description": "Si el cliente cumple ciertas condiciones de recursos, puede beneficiarse de una cobertura total o parcial de los honorarios por parte del Estado. El abogado acepta entonces intervenir en el marco de este sistema.",
+    "honoraires_page_consultation_title": "Primera consulta",
+    "honoraires_page_consultation_description": "La primera consulta permite evaluar su situación legal y definir la estrategia más adecuada. Su duración y modalidades se adaptan a la complejidad de su caso.",
+    "honoraires_page_cta_title": "¿Necesita más información sobre nuestros honorarios?",
+    "honoraires_page_cta_subtitle": "Contácteme para hablar de las modalidades de honorarios más adecuadas para su situación.",
+    "honoraires_page_cta_call": "Llamar ahora",
+    "honoraires_page_cta_email": "Solicitar presupuesto"
+  },
+  "cabinet": {
+    "hero_subtitle": "Abogada",
+    "name": "Asmae Kirimov",
+    "cabinet_page_section_title": "Mi trayectoria",
+    "cabinet_page_section_subtitle": "Experiencia construida sobre formación y experiencia",
+    "cabinet_page_description_1": "Graduada de la Escuela de Abogados Aliénor en Burdeos y con un Máster en derecho europeo e internacional, Me Kirimov asesora, asiste y defiende ante todas las jurisdicciones administrativas así como tribunales judiciales.",
+    "cabinet_page_description_2": "Me Kirimov también ofrece defender sus intereses en diversos conflictos cotidianos (conflictos relacionados con la compra o venta de bienes muebles o inmuebles, disputas vecinales, responsabilidad civil).",
+    "cabinet_page_description_3": "Gracias a su experiencia profesional en bufetes de abogados, dentro de la administración francesa, o en un tribunal administrativo, Me Kirimov pone sus habilidades de asesoramiento y litigio a su servicio en diversas áreas del derecho administrativo (derecho de inmigración y nacionalidad, derecho del servicio público, etc.).",
+    "cabinet_page_formation_title": "Formación especializada en derecho europeo e internacional",
+    "cabinet_page_formation_description": "Poseedora de un Máster en derecho europeo e internacional y graduada de la Escuela de Abogados Aliénor en Burdeos. Mi formación académica me ha permitido adquirir una comprensión profunda de los temas legales nacionales e internacionales. Forma la base de mi experiencia, particularmente en el apoyo a empresas con orientación internacional. Esta formación también me permite abordar con finura los temas legales relacionados con la movilidad humana.",
+    "cabinet_page_experience_title": "Un recorrido profesional rico y variado",
+    "cabinet_page_experience_description": "Mis diversas experiencias profesionales me han permitido abordar el derecho tanto en roles de asesoramiento como de litigio, entendiendo las expectativas tanto de individuos como de instituciones. Esta diversidad me permite hoy tener un enfoque pragmático, receptivo y adaptado a cada situación.",
+    "cabinet_page_structure_title": "Una estructura independiente al servicio de sus derechos",
+    "cabinet_page_structure_description": "Al fundar mi bufete, elegí ofrecerle una relación directa, personalizada y transparente. Soy su único punto de contacto, disponible para escuchar y defender sus intereses con rigor. Mi enfoque se basa en la confianza, la claridad y la eficiencia. Establecida en Pau, ofrezco mis servicios en persona o a distancia, utilizando las herramientas digitales disponibles.",
+    "cabinet_page_cta_title": "¿Listo para discutir su situación legal?",
+    "cabinet_page_cta_subtitle": "Contácteme para una cita inicial, y exploremos juntos las soluciones.",
+    "cabinet_page_cta_call": "Llamar ahora",
+    "cabinet_page_cta_email": "Enviar un correo electrónico"
+  },
+  "welcome_section": {
+    "title": "Bienvenido a la oficina de la",
+    "name": "Abogada KIRIMOV",
+    "subtitle": "Su socio legal de confianza en Francia",
+    "description_1": "Como abogada establecida en Pau, me especializo en asesorar, asistir y representar a clientes en asuntos de movilidad internacional y derecho de inmigración, derecho comercial y empresarial, así como derecho del servicio público (para funcionarios).",
+    "description_2": "Con un Máster en derecho empresarial europeo e internacional, estoy equipada para proporcionar orientación precisa sobre diversos temas legales nacionales, europeos e internacionales, incluyendo reglamentos, directivas y convenios internacionales (herencias, matrimonio y regímenes matrimoniales, adopción, transmisión de bienes, etc.).",
+    "description_3": "Basándome en mi experiencia dentro de la administración francesa (gobierno local y jurisdicción administrativa), ofrezco un apoyo óptimo para sus solicitudes o disputas con organismos administrativos (Prefectura, autoridades locales, etc.).",
+    "button": "Programar una cita"
+  },
+  "expertises_section": {
+    "expertises_section_title_1": "Empresarial",
+    "expertises_section_subtitle_1": "Derecho empresarial y corporativo",
+    "expertises_section_description_1": "Apoyo legal claro y personalizado para profesionales.",
+    "expertises_section_title_2": "Movilidad internacional e inmigración",
+    "expertises_section_subtitle_2": "Derecho de movilidad internacional e inmigración",
+    "expertises_section_description_2": "Apoyo legal dedicado y preciso para extranjeros en Francia y expatriados en el extranjero.",
+    "expertises_section_title_3": "Público",
+    "expertises_section_subtitle_3": "Derecho del servicio público",
+    "expertises_section_description_3": "Apoyo legal exclusivo para funcionarios.",
+    "expertises_section_button": "Saber más"
+  },
+  "advantages_section": {
+    "advantages_section_title": "Fortalezas de la oficina",
+    "advantages_section_subtitle": "Impulsada por valores como la humanidad, la determinación y la transparencia, Me Kirimov se esfuerza por abordar sus desafíos legales con pasión.",
+    "advantages_section_item_1_title": "Igualdad",
+    "advantages_section_item_1_description": "Consciente de que cada caso representa un tema importante para cada cliente, Me Kirimov da igual importancia a cada uno.",
+    "advantages_section_item_2_title": "Seguimiento personalizado",
+    "advantages_section_item_2_description": "Para asegurar un apoyo adaptado a las necesidades específicas de sus clientes, Me Kirimov maneja cada caso personalmente, sin subcontratación.",
+    "advantages_section_item_3_title": "Transparencia",
+    "advantages_section_item_3_description": "Antes de abrir cualquier caso, es esencial que comprenda los riesgos involucrados, particularmente financieros y administrativos, para tomar una decisión informada en la defensa de sus intereses.",
+    "advantages_section_item_4_title": "Capacidad de respuesta",
+    "advantages_section_item_4_description": "Me Kirimov asegura un equilibrio de capacidad de respuesta, disponibilidad y calidad en el manejo de diversas solicitudes."
+  },
+  "information_section": {
+    "information_section_title": "Dirección y Contacto",
+    "information_section_map_title": "Dónde encontrarme",
+    "information_section_contact_title": "Datos de contacto",
+    "information_section_contact_subtitle": "Estoy aquí para escuchar",
+    "information_section_address_title": "Dirección",
+    "information_section_phone_title": "Teléfono",
+    "information_section_email_title": "Correo electrónico",
+    "information_section_cta_text": "¿Listo para comenzar? Contácteme hoy.",
+    "information_section_cta_button": "Llamar ahora"
+  },
+  "reviews_section": {
+    "reviews_section_title": "Reseñas de Google",
+    "reviews_section_button": "Déjeme una reseña en Google",
+    "reviews_section_subtitle": "Testimonios auténticos de clientes satisfechos",
+    "reviews_section_rating_label": "Excelente",
+    "reviews_section_review_count": "Basado en más de {{count}} reseñas",
+    "reviews_section_prev_button": "Anterior",
+    "reviews_section_next_button": "Siguiente"
+  },
+  "contact_section": {
+    "contact_section_title": "Contácteme",
+    "contact_section_subtitle": "Me Kirimov está aquí para usted. Complete el formulario y Me Kirimov responderá rápidamente.",
+    "contact_section_form_name_label": "Nombre",
+    "contact_section_form_name_placeholder": "Ingrese su nombre",
+    "contact_section_form_lastname_label": "Apellido",
+    "contact_section_form_lastname_placeholder": "Ingrese su apellido",
+    "contact_section_form_email_label": "Correo electrónico",
+    "contact_section_form_email_placeholder": "su@correo.com",
+    "contact_section_form_phone_label": "Teléfono",
+    "contact_section_form_message_label": "Mensaje",
+    "contact_section_form_message_placeholder": "Explique cómo puedo ayudarle...",
+    "contact_section_form_button": "Enviar mensaje",
+    "contact_section_form_button_loading": "Enviando mensaje...",
+    "contact_section_form_success": "Mensaje enviado exitosamente",
+    "contact_section_form_error": "Error al enviar el mensaje. Por favor, inténtelo de nuevo más tarde.",
+    "contact_section_form_error_too_many_requests": "Demasiadas solicitudes. Por favor, inténtelo de nuevo más tarde."
+  }
+  ,
+  "expertises": {
+    "page_title": "Competencias",
+    "main_title": "Nuestras Competencias",
+    "cta_title": "¿Necesita orientación sobre nuestras competencias?",
+    "cta_subtitle": "Contácteme para comentar el servicio más adecuado a sus necesidades.",
+    "cta_call": "Llamar ahora",
+    "cta_email": "Solicitar presupuesto"
+  },
+  "seo": {
+    "cabinet": {
+      "title": "Despacho - Asmae Kirimov",
+      "description": "Despacho en Pau: derecho societario, inmigración y función pública. Asesoramiento, defensa y acompañamiento jurídico a medida."
+    },
+    "expertises": {
+      "title": "Competencias – Societario, Inmigración y Función Pública",
+      "description": "Explore nuestras competencias: creación de empresas, derecho societario, inmigración, permisos de residencia, nacionalidad, OQTF, función pública y recursos administrativos."
+    },
+    "honoraires": {
+      "title": "Honorarios – Transparencia, Paquetes y Asistencia Jurídica",
+      "description": "Consulte nuestros honorarios: precios transparentes, paquetes adaptados, pago fraccionado y elegibilidad a la asistencia jurídica. Obtenga un presupuesto claro para su situación."
+    }
+  }
+}

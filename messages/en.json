@@ -1,0 +1,202 @@
+{
+  "home": {
+    "title": "Welcome",
+    "hero_subtitle": "Lawyer"
+  },
+  "navbar": {
+    "about_label": "Office",
+    "contact_label": "Contact",
+    "expertises_label": "Expertises",
+    "home_label": "Home",
+    "honoraires_label": "Honoraires",
+    "language_selector_english_label": "English",
+    "language_selector_french_label": "Français",
+    "language_selector_spanish_label": "Español",
+    "navbar_cta_label": "Need legal assistance?",
+    "expertises": {
+      "family1": {
+        "title": "Business and corporate law",
+        "sub1a": {
+          "title": "Companies",
+          "item1": "Creation and acquisition of a business",
+          "item2": "Company operations",
+          "item3": "Business transfer and sale"
+        },
+        "sub1b": {
+          "title": "Contracts",
+          "item1": "Terms and conditions of sale",
+          "item2": "Sales / rental mandate",
+          "item3": "Commercial leases"
+        },
+        "sub1c": {
+          "title": "Commercial",
+          "item1": "Client / supplier relations",
+          "item2": "Relations with third parties"
+        }
+      },
+      "family2": {
+        "title": "International mobility and immigration law",
+        "sub2a": { "title": "Visas and visa refusals" },
+        "sub2b": { "title": "Family reunification" },
+        "sub2c": { "title": "Asylum applications and CNDA appeals" },
+        "sub2d": { "title": "Residence permits and OQTF" }
+      },
+      "family3": {
+        "title": "Public service law",
+        "sub3a": { "title": "Disciplinary procedures" },
+        "sub3b": { "title": "Moral harassment" },
+        "sub3c": { "title": "Occupational disease and service-related accident" }
+      }
+    }
+  },
+  "footer": {
+    "footer_section_links_label": "Quick links",
+    "footer_section_contact_label": "Contact",
+    "footer_section_time_label": "Opening hours",
+    "footer_section_monday_friday_label": "Mon-Thu-Fri",
+    "footer_section_saturday_label": "Wednesday",
+    "footer_section_sunday_label": "Sat-Sun",
+    "footer_section_closed_label": "Closed",
+    "footer_description": "Lawyer specializing in corporate law, immigration law, and public law.",
+    "footer_copyright": "Asmae Kirimov - All rights reserved",
+    "footer_phone_label": "Phone",
+    "footer_email_label": "Email",
+    "footer_address_label": "Address",
+    "footer_bottom_text": "Website developed by",
+    "footer_bottom_link": "Sanan Abbasov",
+    "footer_privacy_label": "Privacy Policy",
+    "footer_terms_label": "Terms and Conditions"
+  },
+  "honoraires": {
+    "honoraires_page_title": "Fees",
+    "honoraires_page_subtitle": "Transparency and flexibility in our legal services",
+    "honoraires_page_intro": "Fees are freely set in agreement with the client. We offer different billing methods adapted to each situation and specific need.",
+    "honoraires_page_time_based_title": "Time-based fee",
+    "honoraires_page_time_based_description": "The lawyer bills their services based on the number of hours spent on the case. The hourly rate is defined in advance and may vary according to the complexity of the matter.",
+    "honoraires_page_fixed_fee_title": "Fixed fee",
+    "honoraires_page_fixed_fee_description": "A global amount is set for the entire mission entrusted, regardless of the time spent. This method offers better budget predictability.",
+    "honoraires_page_result_fee_title": "Result-based fee",
+    "honoraires_page_result_fee_description": "It is added to a base fee (fixed or time-based). The lawyer receives a percentage of the gains or savings obtained through their intervention. In France, a result-based fee alone is prohibited: it must be combined with a principal fee.",
+    "honoraires_page_legal_aid_title": "Legal aid",
+    "honoraires_page_legal_aid_description": "If the client meets certain resource conditions, they may benefit from total or partial coverage of fees by the State. The lawyer then agrees to intervene within the framework of this system.",
+    "honoraires_page_consultation_title": "First consultation",
+    "honoraires_page_consultation_description": "The first consultation allows us to evaluate your legal situation and define the most appropriate strategy. Its duration and methods are adapted to the complexity of your case.",
+    "honoraires_page_cta_title": "Need more information about our fees?",
+    "honoraires_page_cta_subtitle": "Contact me to discuss the fee arrangements most suitable for your situation.",
+    "honoraires_page_cta_call": "Call now",
+    "honoraires_page_cta_email": "Request quote"
+  },
+  "cabinet": {
+    "hero_subtitle": "Attorney-at-law",
+    "name": "Asmae Kirimov",
+    "cabinet_page_section_title": "My journey",
+    "cabinet_page_section_subtitle": "Expertise built on training and experience",
+    "cabinet_page_description_1": "Graduated from the Aliénor School of Lawyers in Bordeaux and holding a Master's degree in European and international law, Me Kirimov advises, assists, and defends you before all administrative jurisdictions as well as judicial courts.",
+    "cabinet_page_description_2": "Me Kirimov also offers to defend your interests in various everyday disputes (conflicts related to the purchase or sale of movable or immovable property, neighborhood disputes, civil liability).",
+    "cabinet_page_description_3": "Thanks to her professional experience in law firms, within the French administration, or at an administrative tribunal, Me Kirimov puts her advisory and litigation skills at your service in various areas of administrative law (immigration and nationality law, public service law, etc.).",
+    "cabinet_page_formation_title": "Specialized training in European and international law",
+    "cabinet_page_formation_description": "Holder of a Master's degree in European and international law and a graduate of the Aliénor School of Lawyers in Bordeaux. My academic background has allowed me to acquire an in-depth understanding of national and international legal issues. It forms the foundation of my expertise, particularly in supporting internationally oriented businesses. This training also enables me to approach legal issues related to human mobility with finesse.",
+    "cabinet_page_experience_title": "A rich and varied professional journey",
+    "cabinet_page_experience_description": "My diverse professional experiences have allowed me to approach law both in advisory and litigation roles, understanding the expectations of individuals and institutions alike. This diversity enables me today to have a pragmatic, responsive, and tailored approach to each situation.",
+    "cabinet_page_structure_title": "An independent structure at the service of your rights",
+    "cabinet_page_structure_description": "By founding my firm, I chose to offer you a direct, personalized, and transparent relationship. I am your sole point of contact, available to listen and defend your interests with rigor. My approach is based on trust, clarity, and efficiency. Based in Pau, I offer my services in person or remotely, using available digital tools.",
+    "cabinet_page_cta_title": "Ready to discuss your legal situation?",
+    "cabinet_page_cta_subtitle": "Contact me for an initial appointment, and let's explore solutions together.",
+    "cabinet_page_cta_call": "Call now",
+    "cabinet_page_cta_email": "Send an email"
+  },
+  "welcome_section": {
+    "title": "Welcome to the office of",
+    "name": "Asmae KIRIMOV",
+    "subtitle": "Your trusted legal partner in France",
+    "description_1": "As a lawyer based in Pau, I specialize in advising, assisting, and representing clients in matters of international mobility and immigration law, commercial and corporate law, as well as public service law (for civil servants).",
+    "description_2": "With a Master's degree in European and international business law, I am equipped to provide precise guidance on various national, European, and international legal issues, including regulations, directives, and international conventions (inheritance, marriage and matrimonial regimes, adoption, asset transmission, etc.).",
+    "description_3": "Drawing on my experience within the French administration (local government and administrative jurisdiction), I offer optimal support for your requests or disputes with administrative bodies (Prefecture, local authorities, etc.).",
+    "button": "Schedule an appointment"
+  },
+  "expertises_section": {
+    "expertises_section_title_1": "Business",
+    "expertises_section_subtitle_1": "Business and corporate law",
+    "expertises_section_description_1": "Clear and personalized legal support for professionals.",
+    "expertises_section_title_2": "International mobility and immigration",
+    "expertises_section_subtitle_2": "International mobility and immigration law",
+    "expertises_section_description_2": "Dedicated and precise legal support for foreign nationals in France and expatriates abroad.",
+    "expertises_section_title_3": "Public",
+    "expertises_section_subtitle_3": "Public service law",
+    "expertises_section_description_3": "Legal support exclusively for civil servants.",
+    "expertises_section_button": "Learn more"
+  },
+  "advantages_section": {
+    "advantages_section_title": "Strengths of the office",
+    "advantages_section_subtitle": "Driven by values such as humanity, determination, and transparency, Me Kirimov strives to address your legal challenges with passion.",
+    "advantages_section_item_1_title": "Equality",
+    "advantages_section_item_1_description": "Aware that each case represents a major issue for every client, Me Kirimov gives equal importance to each one.",
+    "advantages_section_item_2_title": "Personalized follow-up",
+    "advantages_section_item_2_description": "To ensure tailored support for the specific needs of her clients, Me Kirimov handles each case personally, without outsourcing.",
+    "advantages_section_item_3_title": "Transparency",
+    "advantages_section_item_3_description": "Before opening any case, it is essential that you understand the risks involved, particularly financial and administrative, to make an informed decision in defending your interests.",
+    "advantages_section_item_4_title": "Responsiveness",
+    "advantages_section_item_4_description": "Me Kirimov ensures a balance of responsiveness, availability, and quality in handling various requests."
+  },
+  "information_section": {
+    "information_section_title": "Address & Contact",
+    "information_section_map_title": "Where to find me",
+    "information_section_contact_title": "Contact details",
+    "information_section_contact_subtitle": "I am here to listen",
+    "information_section_address_title": "Address",
+    "information_section_phone_title": "Phone",
+    "information_section_email_title": "Email",
+    "information_section_cta_text": "Ready to get started? Contact me today.",
+    "information_section_cta_button": "Call now"
+  },
+  "reviews_section": {
+    "reviews_section_title": "Google Reviews",
+    "reviews_section_button": "Leave me a review on Google",
+    "reviews_section_subtitle": "Authentic testimonials from satisfied clients",
+    "reviews_section_rating_label": "Excellent",
+    "reviews_section_review_count": "Based on over {{count}} reviews",
+    "reviews_section_prev_button": "Previous",
+    "reviews_section_next_button": "Next"
+  },
+  "contact_section": {
+    "contact_section_title": "Contact me",
+    "contact_section_subtitle": "Me Kirimov is here for you. Fill out the form, and Me Kirimov will respond promptly.",
+    "contact_section_form_name_label": "First name",
+    "contact_section_form_name_placeholder": "Enter your first name",
+    "contact_section_form_lastname_label": "Last name",
+    "contact_section_form_lastname_placeholder": "Enter your last name",
+    "contact_section_form_email_label": "Email",
+    "contact_section_form_email_placeholder": "your@email.com",
+    "contact_section_form_phone_label": "Phone",
+    "contact_section_form_message_label": "Message",
+    "contact_section_form_message_placeholder": "Explain how I can help you...",
+    "contact_section_form_button": "Send message",
+    "contact_section_form_button_loading": "Sending message...",
+    "contact_section_form_success": "Message sent successfully",
+    "contact_section_form_error": "Error sending message. Please try again later.",
+    "contact_section_form_error_too_many_requests": "Too many requests. Please try again later."
+  }
+  ,
+  "expertises": {
+    "page_title": "Expertises",
+    "main_title": "Our Expertises",
+    "cta_title": "Need guidance on our expertises?",
+    "cta_subtitle": "Contact me to discuss the service best suited to your needs.",
+    "cta_call": "Call now",
+    "cta_email": "Request quote"
+  },
+  "seo": {
+    "cabinet": {
+      "title": "Cabinet - Asmae Kirimov",
+      "description": "Law firm based in Pau, handling corporate law, immigration law and public service law. Tailored legal advice, representation and support."
+    },
+    "expertises": {
+      "title": "Expertises – Corporate, Immigration & Public Service Law",
+      "description": "Explore our areas of expertise: company creation, corporate law, immigration, residence permits, naturalization, OQTF, public service law and administrative appeals."
+    },
+    "honoraires": {
+      "title": "Fees – Transparency, Flat Rates & Legal Aid",
+      "description": "Consult our fees: transparent pricing, tailored packages, installment payments and eligibility for legal aid. Get a clear quote for your situation."
+    }
+  }
+}

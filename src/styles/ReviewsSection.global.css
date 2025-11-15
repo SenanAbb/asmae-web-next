@@ -1,0 +1,117 @@
+.embla {
+  overflow: hidden;
+  position: relative;
+}
+
+.embla__container {
+  display: flex;
+  gap: 1rem;
+  touch-action: pan-y;
+  user-select: none;
+  padding: 0 1rem;
+  max-width: 100dvw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.embla__slide {
+  flex: 0 0 100%; /* Móvil: 1 por página */
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.embla__prev,
+.embla__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  cursor: pointer;
+
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.embla__prev:hover,
+.embla__next:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.embla__prev svg,
+.embla__next svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: var(--black); /* O un color más contrastado */
+}
+
+.embla__prev {
+  left: 0;
+}
+
+.embla__next {
+  right: 0;
+}
+
+.embla__prev svg {
+  transform: rotate(180deg);
+}
+
+/* Desktop: 3 por página */
+@media (width >= 1085px) {
+  .embla__slide {
+    flex: 0 0 33.3333%;
+  }
+}
+
+.reviews-section {
+  padding: 1rem 0 4rem 0;
+}
+
+.review-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem 0;
+  background-color: #f0f0f0;
+  border-radius: 0.3rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  @media (width <= 768px) {
+    flex-direction: column;
+  }
+
+  .review-title-text-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    span {
+      font-size: 3.6rem;
+    }
+
+    h2 {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    .stars {
+      svg {
+        color: var(--secondary);
+      }
+    }
+  }
+}
