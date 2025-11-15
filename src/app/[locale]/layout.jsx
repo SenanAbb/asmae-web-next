@@ -6,7 +6,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { keywordsSEO } from '@/data/keywords';
 import { SpeedInsights } from '@vercel/speed-insights/next';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from '@vercel/analytics/next';
 
 /** SECTIONS STYLES */
 import './globals.css';
@@ -160,8 +160,18 @@ export default async function RootLayout({ children, params }) {
           );
         })()}
         {/* Preload critical assets (hero video & logo) */}
-        <link rel="preload" as="video" href="/videos/hero-video.mp4" type="video/mp4" crossOrigin="anonymous" />
+        <link
+          rel="preload"
+          as="video"
+          href="/videos/hero-video.mp4"
+          type="video/mp4"
+          crossOrigin="anonymous"
+        />
         <link rel="preload" as="image" href="/images/logo-color.webp" />
+        <meta
+          name="google-site-verification"
+          content="v3W_Uq-gtwZU7oDFVzA9psmR5HpZ89YOFXQGJZHDZHU"
+        />
       </head>
       <body
         className={`${roboto.className} ${italianno.variable} ${poppins.variable}`}
