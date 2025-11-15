@@ -111,6 +111,7 @@
           var(--secondary-light) 0%,
           var(--primary) 100%
         );
+        opacity: 0.1;
         top: 50%;
         right: 25%;
         animation: pulse 4s ease-in-out infinite;

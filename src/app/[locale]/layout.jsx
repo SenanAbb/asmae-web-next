@@ -17,10 +17,7 @@ import '@/styles/ReviewsSection.global.css';
 import '@/styles/ReviewCard.global.css';
 import '@/styles/ContactSection.global.css';
 import '@/styles/Footer.global.css';
-import '@/styles/CabinetPage.global.css';
-import '@/styles/HonorairesPage.global.css';
 import '@/styles/ExpertisesDropdown.global.css';
-import '@/styles/ExpertisesPage.global.css';
 
 /** COMPONENTS STYLES */
 import '@/styles/LanguageSelector.global.css';
@@ -52,7 +49,7 @@ const poppins = Poppins({
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const siteUrl = process.env.SITE_URL || 'http://localhost:3000';
-  const titleBase = 'Asmae Kirimov';
+  const titleBase = 'AKZ · Asmae Kirimov Avocat';
   const defaultTitle = `${titleBase}`;
   const description =
     'Avocate à Pau. Droit des affaires et des sociétés, mobilité internationale et droit des étrangers, droit de la fonction publique.';
@@ -160,6 +157,9 @@ export default async function RootLayout({ children, params }) {
             />
           );
         })()}
+        {/* Preload critical assets (hero video & logo) */}
+        <link rel="preload" as="video" href="/videos/hero-video.mp4" type="video/mp4" crossOrigin="anonymous" />
+        <link rel="preload" as="image" href="/images/logo-color.webp" />
       </head>
       <body
         className={`${roboto.className} ${italianno.variable} ${poppins.variable}`}

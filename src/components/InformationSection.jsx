@@ -1,11 +1,30 @@
 'use client';
 
+import { useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { AiFillMail, AiFillPhone } from 'react-icons/ai';
 import { BsFillPinMapFill } from 'react-icons/bs';
 
 const InformationSection = () => {
   const t = useTranslations('information_section');
+  const mapContainerRef = useRef(null);
+  const [mapVisible, setMapVisible] = useState(false);
+
+  useEffect(() => {
+    const el = mapContainerRef.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setMapVisible(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: '200px 0px' }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
 
   return (
     <section className="information-section">
@@ -25,17 +44,37 @@ const InformationSection = () => {
                 <h3>{t('information_section_map_title')}</h3>
                 <div className="map-decoration"></div>
               </div>
-              <div className="map">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2903.8163170685216!2d-0.3741877!3d43.2971682!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5649a14ecc3449%3A0x639aef6cf383aa82!2sAsmae%20KIRIMOV!5e0!3m2!1ses!2ses!4v1748599617919!5m2!1ses!2ses"
-                  width="100%"
-                  height="400"
-                  style={{ border: 0 }}
-                  allowFullScreen={true}
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Office Location"
-                ></iframe>
+              <div
+                className="map"
+                ref={mapContainerRef}
+                style={{ width: '100%', aspectRatio: '16 / 9', position: 'relative' }}
+              >
+                {mapVisible ? (
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2903.8163170685216!2d-0.3741877!3d43.2971682!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5649a14ecc3449%3A0x639aef6cf383aa82!2sAsmae%20KIRIMOV!5e0!3m2!1ses!2ses!4v1748599617919!5m2!1ses!2ses"
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Office Location"
+                    style={{ border: 0, width: '100%', height: '100%' }}
+                    allowFullScreen
+                  />
+                ) : (
+                  <div
+                    aria-hidden
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      background:
+                        'linear-gradient(135deg, rgba(82,183,136,0.15), rgba(45,106,79,0.15))',
+                      display: 'grid',
+                      placeItems: 'center',
+                      color: '#1f2937',
+                      fontWeight: 600,
+                    }}
+                  >
+                    {t('information_section_map_title')}
+                  </div>
+                )}
               </div>
             </div>
           </div>

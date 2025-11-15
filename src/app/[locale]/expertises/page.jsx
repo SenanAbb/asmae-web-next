@@ -1,5 +1,6 @@
 'use client';
 
+import '@/styles/ExpertisesPage.global.css';
 import React, { useEffect, useRef, useState } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 import { Link } from '@/i18n/navigation';

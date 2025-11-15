@@ -1,5 +1,6 @@
 'use client';
 
+import '@/styles/HonorairesPage.global.css';
 import { useRef, useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';

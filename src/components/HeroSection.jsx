@@ -1,6 +1,7 @@
 'use client';
 
 import { useRef, useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { motion, useInView } from 'framer-motion';
 import { AiFillLinkedin, AiFillMail, AiFillPhone, AiOutlineArrowDown } from 'react-icons/ai';
@@ -9,17 +10,97 @@ export default function HeroSection() {
   const t = useTranslations('home');
   const ref = useRef(null);
   const videoRef = useRef(null);
-  const isInView = useInView(ref, { once: true });
+  const isInView = useInView(ref, { once: false });
   const [videoLoaded, setVideoLoaded] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
-    if (videoRef.current) {
-      const video = videoRef.current;
-      const handleLoadedData = () => setVideoLoaded(true);
-      video.addEventListener('loadeddata', handleLoadedData);
-      return () => video.removeEventListener('loadeddata', handleLoadedData);
-    }
+    if (!videoRef.current) return;
+    const video = videoRef.current;
+
+    const attemptPlay = () => {
+      try {
+        video.muted = true;
+        // Do not always reset time here to avoid visual jump if already playing
+        const p = video.play();
+        if (p && typeof p.catch === 'function') p.catch(() => {});
+      } catch {}
+    };
+
+    const handleLoadedData = () => {
+      setVideoLoaded(true);
+      attemptPlay();
+    };
+
+    video.addEventListener('loadeddata', handleLoadedData);
+
+    // Try initial play on mount
+    attemptPlay();
+    // Try again shortly after mount in case layout/paint delayed
+    const retry1 = setTimeout(attemptPlay, 200);
+    const retry2 = setTimeout(attemptPlay, 1000);
+
+    const onVisibility = () => {
+      if (document.visibilityState === 'visible') attemptPlay();
+    };
+    document.addEventListener('visibilitychange', onVisibility);
+
+    return () => {
+      clearTimeout(retry1);
+      clearTimeout(retry2);
+      document.removeEventListener('visibilitychange', onVisibility);
+      video.removeEventListener('loadeddata', handleLoadedData);
+    };
   }, []);
+
+  // Ensure captions track remains hidden by default
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video || !video.textTracks) return;
+    try {
+      for (let i = 0; i < video.textTracks.length; i++) {
+        video.textTracks[i].mode = 'hidden';
+      }
+    } catch {}
+  }, [pathname, isInView]);
+
+  // Try to (re)start playback when returning to home route
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+    // Consider home paths: "/" or "/fr" or "/en" optionally with trailing slash
+    const isHome = /^(\/)($|\/?$)|^\/[a-zA-Z]{2}\/?$/.test(pathname || '');
+    if (!isHome) return;
+    // Reset and try to play to ensure autoplay engages after client navigation
+    try {
+      video.muted = true; // ensure muted before play for autoplay policies
+      video.currentTime = 0;
+      // Force reload pipeline then play
+      video.load();
+      const onCanPlay = () => {
+        const p2 = video.play();
+        if (p2 && typeof p2.catch === 'function') p2.catch(() => {});
+        video.removeEventListener('canplay', onCanPlay);
+      };
+      video.addEventListener('canplay', onCanPlay);
+      const p = video.play();
+      if (p && typeof p.catch === 'function') {
+        p.catch(() => {});
+      }
+    } catch {}
+  }, [pathname]);
+
+  // If autoplay is deferred until visible, try to play when the hero enters viewport
+  useEffect(() => {
+    if (!isInView) return;
+    const video = videoRef.current;
+    if (!video) return;
+    try {
+      video.muted = true;
+      const p = video.play();
+      if (p && typeof p.catch === 'function') p.catch(() => {});
+    } catch {}
+  }, [isInView]);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -82,8 +163,15 @@ export default function HeroSection() {
         loop
         muted
         playsInline
+        preload="auto"
       >
         <source src="/videos/hero-video.mp4" type="video/mp4" title="Hero Video" />
+        <track
+          kind="captions"
+          src="/videos/hero-video.vtt"
+          srcLang="fr"
+          label="Français"
+        />
       </video>
 
       {/* Overlay */}

@@ -15,7 +15,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/logo-color.webp') no-repeat center center;
+    background: url('/images/logo-color.webp') no-repeat center center;
     background-size: 800px;
     opacity: 0.03;
     pointer-events: none;

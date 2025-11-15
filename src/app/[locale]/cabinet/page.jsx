@@ -1,5 +1,6 @@
 'use client';
 
+import '@/styles/CabinetPage.global.css';
 import { useRef, useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion, useInView } from 'framer-motion';
