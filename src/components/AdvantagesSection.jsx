@@ -2,6 +2,7 @@
 
 import { AiOutlineEye, AiOutlineFieldTime, AiOutlineThunderbolt, AiOutlineUser } from 'react-icons/ai';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 const AdvantagesSection = () => {
   const t = useTranslations('advantages_section');
@@ -12,7 +13,7 @@ const AdvantagesSection = () => {
         {/* Header con logo */}
         <div className="section-header">
           <div className="logo-container">
-            <img src="/images/logo-color.webp" alt="Logo" className="brand-logo" />
+            <Image src="/images/logo-color.webp" alt="Logo" className="brand-logo" width={100} height={100} />
           </div>
           <h2 className="title">{t('advantages_section_title')}</h2>
           <p className="subtitle">{t('advantages_section_subtitle')}</p>

@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 import LanguageSelector from './LanguageSelector';
 import { expertisesMenu } from '@/data/expertises';
 import { IoCloseSharp } from 'react-icons/io5';
+import Image from 'next/image';
 
 const HamburgerIcon = () => {
   const t = useTranslations('navbar');
@@ -119,10 +120,12 @@ const HamburgerIcon = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3, duration: 0.5 }}
                 >
-                  <img
+                  <Image
                     src="/images/logo-color.webp"
                     alt="Logo"
                     className="menu-logo"
+                    width={100}
+                    height={100}
                   />
                   <div className="menu-close" onClick={handleClose}>
                     <IoCloseSharp />

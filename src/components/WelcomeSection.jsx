@@ -1,9 +1,10 @@
-"use client";
+'use client';
 
 import { useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion, useInView } from 'framer-motion';
 import Button from './Button';
+import Image from 'next/image';
 
 const WelcomeSection = () => {
   const t = useTranslations('welcome_section');
@@ -30,22 +31,37 @@ const WelcomeSection = () => {
 
   const fadeInUpVariants = {
     hidden: { opacity: 0, y: 30 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: 'easeOut' } },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.8, ease: 'easeOut' },
+    },
   };
 
   const titleVariants = {
     hidden: { opacity: 0, y: 30 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: 'easeOut' } },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.8, ease: 'easeOut' },
+    },
   };
 
   const underlineVariants = {
     hidden: { width: '0%' },
-    visible: { width: '100%', transition: { duration: 1.5, ease: 'easeOut', delay: 0.5 } },
+    visible: {
+      width: '100%',
+      transition: { duration: 1.5, ease: 'easeOut', delay: 0.5 },
+    },
   };
 
   const buttonVariants = {
     hidden: { opacity: 0, scale: 0.8 },
-    visible: { opacity: 1, scale: 1, transition: { duration: 0.6, ease: 'easeOut', delay: 0.8 } },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: { duration: 0.6, ease: 'easeOut', delay: 0.8 },
+    },
   };
 
   return (
@@ -75,7 +91,10 @@ const WelcomeSection = () => {
                 <motion.span className="name" variants={fadeInUpVariants}>
                   {t('name')}
                 </motion.span>
-                <motion.div className="name-underline" variants={underlineVariants}></motion.div>
+                <motion.div
+                  className="name-underline"
+                  variants={underlineVariants}
+                ></motion.div>
               </span>
             </motion.h2>
 
@@ -83,19 +102,37 @@ const WelcomeSection = () => {
               {t('subtitle')}
             </motion.h3>
 
-            <motion.div className="description-content" variants={containerVariants}>
-              <motion.div className="description-item" variants={fadeInUpVariants}>
-                <div className="item-icon"><div className="icon-dot"></div></div>
+            <motion.div
+              className="description-content"
+              variants={containerVariants}
+            >
+              <motion.div
+                className="description-item"
+                variants={fadeInUpVariants}
+              >
+                <div className="item-icon">
+                  <div className="icon-dot"></div>
+                </div>
                 <p className="description-text">{t('description_1')}</p>
               </motion.div>
 
-              <motion.div className="description-item" variants={fadeInUpVariants}>
-                <div className="item-icon"><div className="icon-dot"></div></div>
+              <motion.div
+                className="description-item"
+                variants={fadeInUpVariants}
+              >
+                <div className="item-icon">
+                  <div className="icon-dot"></div>
+                </div>
                 <p className="description-text">{t('description_2')}</p>
               </motion.div>
 
-              <motion.div className="description-item" variants={fadeInUpVariants}>
-                <div className="item-icon"><div className="icon-dot"></div></div>
+              <motion.div
+                className="description-item"
+                variants={fadeInUpVariants}
+              >
+                <div className="item-icon">
+                  <div className="icon-dot"></div>
+                </div>
                 <p className="description-text">{t('description_3')}</p>
               </motion.div>
             </motion.div>
@@ -117,7 +154,14 @@ const WelcomeSection = () => {
           <motion.div className="welcome-image" variants={slideInRightVariants}>
             <div className="image-container">
               <motion.div className="image-frame" variants={fadeInUpVariants}>
-                <img src="/images/asmae-nobg.webp" alt="Asmae" loading="lazy" className="profile-image" />
+                <Image
+                  src="/images/asmae-nobg.webp"
+                  alt="Asmae"
+                  loading="lazy"
+                  className="profile-image"
+                  width={100}
+                  height={100}
+                />
                 <div className="image-overlay"></div>
               </motion.div>
             </div>

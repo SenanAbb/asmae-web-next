@@ -13,6 +13,7 @@ import {
   AiOutlineHeart,
   AiOutlineUser,
 } from 'react-icons/ai';
+import Image from 'next/image';
 
 export default function HonorairesPage() {
   const t = useTranslations('honoraires');
@@ -97,7 +98,7 @@ export default function HonorairesPage() {
         >
           <motion.div className="header-content" variants={fadeInUpVariants}>
             <div className="logo-container">
-              <img src="/images/logo-color.webp" alt="Logo" className="brand-logo" />
+              <Image src="/images/logo-color.webp" alt="Logo" className="brand-logo" width={100} height={100} />
             </div>
             <h1 className="page-title">{t('honoraires_page_title')}</h1>
             <p className="page-subtitle">{t('honoraires_page_subtitle')}</p>

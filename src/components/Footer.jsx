@@ -2,6 +2,7 @@ import { AiFillLinkedin, AiFillMail, AiFillPhone } from 'react-icons/ai';
 import { BsFillPinMapFill } from 'react-icons/bs';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 const Footer = () => {
   const t = useTranslations('footer');
@@ -22,7 +23,7 @@ const Footer = () => {
             <div className="description-content">
               <div className="title">
                 <div className="logo-container">
-                  <img src="/images/logo-negro.webp" alt="Logo" className="footer-logo" />
+                  <Image src="/images/logo-negro.webp" alt="Logo" className="footer-logo" width={100} height={100} />
                 </div>
                 <div className="title-content">
                   <h4 className="footer-name">Asmae Kirimov</h4>

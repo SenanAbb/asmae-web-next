@@ -7,6 +7,7 @@ import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import { expertisesMenu } from '@/data/expertises';
 import { AiFillBank, AiOutlineGlobal, AiOutlineUser } from 'react-icons/ai';
+import Image from 'next/image';
 
 export default function ExpertisesPage() {
   const t = useTranslations('expertises');
@@ -78,10 +79,12 @@ export default function ExpertisesPage() {
         >
           <motion.div className="header-content" variants={fadeInUpVariants}>
             <div className="logo-container">
-              <img
+              <Image
                 src="/images/logo-color.webp"
                 alt="Logo"
                 className="brand-logo"
+                width={100}
+                height={100}
               />
             </div>
             <h1 className="page-title">{t('main_title')}</h1>

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { AiFillStar } from 'react-icons/ai';
 
 const ReviewCard = ({ review }) => {
@@ -6,20 +7,33 @@ const ReviewCard = ({ review }) => {
       <div className="review-card-header">
         <div className="reviewer-profile">
           <div className="profile-image-container">
-            <img
+            <Image
               src={review.image || '/placeholder.svg'}
               alt={review.name}
               className="profile-image"
+              width={100}
+              height={100}
             />
             <div className="google-badge">
-              <img src="/icons/google-icon.webp" alt="Google" className="google-icon" />
+              <Image
+                src="/icons/google-icon.webp"
+                alt="Google"
+                className="google-icon"
+                width={100}
+                height={100}
+              />
             </div>
           </div>
           <div className="reviewer-info">
             <h3 className="reviewer-name">{review.name}</h3>
             <div className="rating-stars">
               {Array.from({ length: 5 }, (_, index) => (
-                <AiFillStar key={index} className={`star ${index < review.rating ? 'filled' : 'empty'}`} />
+                <AiFillStar
+                  key={index}
+                  className={`star ${
+                    index < review.rating ? 'filled' : 'empty'
+                  }`}
+                />
               ))}
             </div>
           </div>

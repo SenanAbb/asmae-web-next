@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { AiFillMail, AiFillPhone } from 'react-icons/ai';
 import { BsFillPinMapFill } from 'react-icons/bs';
+import Image from 'next/image';
 
 const InformationSection = () => {
   const t = useTranslations('information_section');
@@ -47,7 +48,11 @@ const InformationSection = () => {
               <div
                 className="map"
                 ref={mapContainerRef}
-                style={{ width: '100%', aspectRatio: '16 / 9', position: 'relative' }}
+                style={{
+                  width: '100%',
+                  aspectRatio: '16 / 9',
+                  position: 'relative',
+                }}
               >
                 {mapVisible ? (
                   <iframe
@@ -121,7 +126,9 @@ const InformationSection = () => {
                   <span className="card-label">
                     {t('information_section_address_title')}
                   </span>
-                  <p className="card-value">22 rue des Cordeliers, 64 000 Pau</p>
+                  <p className="card-value">
+                    22 rue des Cordeliers, 64 000 Pau
+                  </p>
                 </div>
                 <div className="card-decoration"></div>
               </div>
@@ -130,7 +137,13 @@ const InformationSection = () => {
             {/* CTA Section */}
             <div className="contact-cta">
               <div className="cta-content">
-                <img src="/images/logo-color.webp" alt="Logo" className="cta-logo" />
+                <Image
+                  src="/images/logo-color.webp"
+                  alt="Logo"
+                  className="cta-logo"
+                  width={100}
+                  height={100}
+                />
                 <p>{t('information_section_cta_text')}</p>
                 <button className="cta-button">
                   <AiFillPhone />
