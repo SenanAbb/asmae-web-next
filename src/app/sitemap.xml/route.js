@@ -4,6 +4,9 @@ import { subfamilyConfigs } from '@/data/expertisesSubfamilies';
 
 export async function GET(request) {
   const siteUrl = process.env.SITE_URL || request.nextUrl.origin;
+  const base = siteUrl.replace(/\/+$/, '');
+  const clean = (s) => String(s).replace(/^\/+|\/+$/g, '');
+  const buildUrl = (...parts) => `${base}/${parts.map(clean).filter(Boolean).join('/')}`;
   const now = new Date().toISOString();
 
   const routes = ['/', '/cabinet', '/expertises', '/honoraires', '/privacy'];
@@ -13,19 +16,22 @@ export async function GET(request) {
 
   const urls = routing.locales.flatMap((locale) => {
     const staticUrls = routes.map((path) => ({
-      loc: `${siteUrl}/${locale}${path}`,
+      loc: path === '/' ? buildUrl(locale) : buildUrl(locale, path),
       lastmod: now,
       changefreq: 'weekly',
       priority: path === '/' ? '1.0' : '0.8',
-      hreflangs: routing.locales.map((l) => ({ hreflang: l, href: `${siteUrl}/${l}${path}` })),
+      hreflangs: routing.locales.map((l) => ({
+        hreflang: l,
+        href: path === '/' ? buildUrl(l) : buildUrl(l, path),
+      })),
     }));
 
     const dynamicUrls = subfamilyPaths.map((path) => ({
-      loc: `${siteUrl}/${locale}${path}`,
+      loc: buildUrl(locale, path),
       lastmod: now,
       changefreq: 'weekly',
       priority: '0.7',
-      hreflangs: routing.locales.map((l) => ({ hreflang: l, href: `${siteUrl}/${l}${path}` })),
+      hreflangs: routing.locales.map((l) => ({ hreflang: l, href: buildUrl(l, path) })),
     }));
 
     return [...staticUrls, ...dynamicUrls];
