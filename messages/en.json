@@ -45,7 +45,9 @@
         "title": "Public service law",
         "sub3a": { "title": "Disciplinary procedures" },
         "sub3b": { "title": "Moral harassment" },
-        "sub3c": { "title": "Occupational disease and service-related accident" }
+        "sub3c": {
+          "title": "Occupational disease and service-related accident"
+        }
       }
     }
   },
@@ -175,8 +177,7 @@
     "contact_section_form_success": "Message sent successfully",
     "contact_section_form_error": "Error sending message. Please try again later.",
     "contact_section_form_error_too_many_requests": "Too many requests. Please try again later."
-  }
-  ,
+  },
   "expertises": {
     "page_title": "Expertises",
     "main_title": "Our Expertises",
@@ -190,9 +191,18 @@
       "title": "Support in the visa process",
       "subtitle": "Analysis of your situation, visa application and pursuing available appeals",
       "items": {
-        "item1": { "title": "Case analysis", "description": "Study of your personal situation and the reasons for refusal." },
-        "item2": { "title": "Administrative appeal", "description": "Drafting and filing the administrative appeal with the competent authority." },
-        "item3": { "title": "Judicial appeal", "description": "Appeal before the competent court if the refusal is maintained." }
+        "item1": {
+          "title": "Case analysis",
+          "description": "Study of your personal situation and the reasons for refusal."
+        },
+        "item2": {
+          "title": "Administrative appeal",
+          "description": "Drafting and filing the administrative appeal with the competent authority."
+        },
+        "item3": {
+          "title": "Judicial appeal",
+          "description": "Appeal before the competent court if the refusal is maintained."
+        }
       },
       "footerTitle": "Each case is studied with precision to maximize your chances of success.",
       "footerDescription": ""
@@ -201,9 +211,18 @@
       "title": "Family reunification support",
       "subtitle": "Procedures, appeals and protection of family rights",
       "items": {
-        "item1": { "title": "Family reunification application", "description": "Me KIRIMOV assists you in preparing the file and the procedures to legally bring your relatives to France." },
-        "item2": { "title": "Appeals and additional requests", "description": "Intervention in case of refusal or complex requests from the administration." },
-        "item3": { "title": "Family reunification related to asylum:", "description": "Specific support for beneficiaries of international protection." }
+        "item1": {
+          "title": "Family reunification application",
+          "description": "Me KIRIMOV assists you in preparing the file and the procedures to legally bring your relatives to France."
+        },
+        "item2": {
+          "title": "Appeals and additional requests",
+          "description": "Intervention in case of refusal or complex requests from the administration."
+        },
+        "item3": {
+          "title": "Family reunification related to asylum:",
+          "description": "Specific support for beneficiaries of international protection."
+        }
       },
       "footerTitle": "My role is to ensure procedural regularity and the protection of family rights.",
       "footerDescription": ""
@@ -212,9 +231,18 @@
       "title": "Asylum application and CNDA appeal",
       "subtitle": "Me KIRIMOV assists and defends you in your application for international protection.",
       "items": {
-        "item1": { "title": "Support with the asylum application", "description": "Me Kirimov explains the stakes of the OFPRA interview and prepares you for it." },
-        "item2": { "title": "Appeal before the CNDA", "description": "Me KIRIMOV represents you and prepares a well-argued case against OFPRA’s refusal." },
-        "item3": { "title": "Protection of your fundamental rights", "description": "Each step aims to defend your need for protection." }
+        "item1": {
+          "title": "Support with the asylum application",
+          "description": "Me Kirimov explains the stakes of the OFPRA interview and prepares you for it."
+        },
+        "item2": {
+          "title": "Appeal before the CNDA",
+          "description": "Me KIRIMOV represents you and prepares a well-argued case against OFPRA’s refusal."
+        },
+        "item3": {
+          "title": "Protection of your fundamental rights",
+          "description": "Each step aims to defend your need for protection."
+        }
       },
       "footerTitle": "My involvement guarantees legal rigor and respect for your rights.",
       "footerDescription": ""
@@ -223,9 +251,18 @@
       "title": "Residence permits and OQTF",
       "subtitle": "Assistance and defense of your rights",
       "items": {
-        "item1": { "title": "Application or renewal of a residence permit", "description": "I act in your best interests to apply, with solid arguments, for a right to stay while ensuring your file is complete. \n\nLikewise, I intervene before the residence permit commission when the renewal of your right to stay is at risk." },
-        "item2": { "title": "Appeal against a refusal or an OQTF", "description": "Me KIRIMOV defends you before the authorities and supports you through litigation procedures." },
-        "item3": { "title": "Change of status or regularization", "description": "I help you obtain a permit adapted to the evolution of your family or professional situation." }
+        "item1": {
+          "title": "Application or renewal of a residence permit",
+          "description": "I act in your best interests to apply, with solid arguments, for a right to stay while ensuring your file is complete. \n\nLikewise, I intervene before the residence permit commission when the renewal of your right to stay is at risk."
+        },
+        "item2": {
+          "title": "Appeal against a refusal or an OQTF",
+          "description": "Me KIRIMOV defends you before the authorities and supports you through litigation procedures."
+        },
+        "item3": {
+          "title": "Change of status or regularization",
+          "description": "I help you obtain a permit adapted to the evolution of your family or professional situation."
+        }
       },
       "footerTitle": "My objective: to preserve your right to stay in France.",
       "footerDescription": ""
@@ -234,9 +271,18 @@
       "title": "Disciplinary procedures",
       "subtitle": "Support from the first summons or measure",
       "items": {
-        "item1": { "title": "Defense against disciplinary sanctions", "description": "Suspension, reprimand or other disciplinary sanction: my intervention ensures respect for due process and defense rights." },
-        "item2": { "title": "Appeal against abusive sanctions", "description": "After analyzing your situation and the sanction imposed, Me KIRIMOV advises you on the opportunity to take legal action." },
-        "item3": { "title": "Defense strategy preparation", "description": "Me KIRIMOV supports you preventively to anticipate disciplinary actions." }
+        "item1": {
+          "title": "Defense against disciplinary sanctions",
+          "description": "Suspension, reprimand or other disciplinary sanction: my intervention ensures respect for due process and defense rights."
+        },
+        "item2": {
+          "title": "Appeal against abusive sanctions",
+          "description": "After analyzing your situation and the sanction imposed, Me KIRIMOV advises you on the opportunity to take legal action."
+        },
+        "item3": {
+          "title": "Defense strategy preparation",
+          "description": "Me KIRIMOV supports you preventively to anticipate disciplinary actions."
+        }
       },
       "footerTitle": "My goal: ensure a rigorous and tailored defense for each situation.",
       "footerDescription": ""
@@ -245,9 +291,18 @@
       "title": "Moral harassment",
       "subtitle": "Recognition and remedies in cases of suffering at work.",
       "items": {
-        "item1": { "title": "Identification of moral harassment", "description": "Me KIRIMOV helps you establish the facts and compile the necessary evidence." },
-        "item2": { "title": "Holding the employer liable", "description": "Me KIRIMOV supports you in establishing the administration’s fault." },
-        "item3": { "title": "Representation before administrative courts", "description": "Me KIRIMOV defends you rigorously before the competent bodies." }
+        "item1": {
+          "title": "Identification of moral harassment",
+          "description": "Me KIRIMOV helps you establish the facts and compile the necessary evidence."
+        },
+        "item2": {
+          "title": "Holding the employer liable",
+          "description": "Me KIRIMOV supports you in establishing the administration’s fault."
+        },
+        "item3": {
+          "title": "Representation before administrative courts",
+          "description": "Me KIRIMOV defends you rigorously before the competent bodies."
+        }
       },
       "footerTitle": "My objective: obtain redress and restore your rights.",
       "footerDescription": ""
@@ -256,9 +311,18 @@
       "title": "Occupational disease and service-related accident",
       "subtitle": "File preparation, recognition and appeals.",
       "items": {
-        "item1": { "title": "File preparation", "description": "Me KIRIMOV helps you gather the necessary documents to have your situation recognized." },
-        "item2": { "title": "Appeal in case of an administrative refusal", "description": "Me KIRIMOV represents you before the administration or competent courts." },
-        "item3": { "title": "Management of sick leave and compensation", "description": "In case of a service-related accident with an established disability rate, I support you in obtaining fair compensation for your damages." }
+        "item1": {
+          "title": "File preparation",
+          "description": "Me KIRIMOV helps you gather the necessary documents to have your situation recognized."
+        },
+        "item2": {
+          "title": "Appeal in case of an administrative refusal",
+          "description": "Me KIRIMOV represents you before the administration or competent courts."
+        },
+        "item3": {
+          "title": "Management of sick leave and compensation",
+          "description": "In case of a service-related accident with an established disability rate, I support you in obtaining fair compensation for your damages."
+        }
       },
       "footerTitle": "My objective: have your rights recognized.",
       "footerDescription": ""
@@ -267,12 +331,30 @@
       "title": "Business creation and acquisition",
       "subtitle": "Placeholder",
       "items": {
-        "item1": { "title": "Company incorporation", "description": "Placeholder" },
-        "item2": { "title": "Acquisition of a business", "description": "Placeholder" },
-        "item3": { "title": "Advice on legal form", "description": "Placeholder" },
-        "item4": { "title": "Drafting of bylaws", "description": "Placeholder" },
-        "item5": { "title": "Support with formalities", "description": "Placeholder" },
-        "item6": { "title": "Shareholders’ agreements drafting", "description": "Placeholder" }
+        "item1": {
+          "title": "Company incorporation",
+          "description": "Placeholder"
+        },
+        "item2": {
+          "title": "Acquisition of a business",
+          "description": "Placeholder"
+        },
+        "item3": {
+          "title": "Advice on legal form",
+          "description": "Placeholder"
+        },
+        "item4": {
+          "title": "Drafting of bylaws",
+          "description": "Placeholder"
+        },
+        "item5": {
+          "title": "Support with formalities",
+          "description": "Placeholder"
+        },
+        "item6": {
+          "title": "Shareholders’ agreements drafting",
+          "description": "Placeholder"
+        }
       },
       "footerTitle": "Placeholder",
       "footerDescription": "Placeholder"
@@ -281,13 +363,34 @@
       "title": "Company operations",
       "subtitle": "Placeholder",
       "items": {
-        "item1": { "title": "Corporate housekeeping and secretarial work", "description": "Placeholder" },
-        "item2": { "title": "Approval of accounts and drafting of minutes", "description": "Placeholder" },
-        "item3": { "title": "Keeping statutory registers", "description": "Placeholder" },
-        "item4": { "title": "Filing mandatory documents with the commercial court registry", "description": "Placeholder" },
-        "item5": { "title": "Bylaws amendments (capital increase / registered office transfer / corporate bodies)", "description": "Placeholder" },
-        "item6": { "title": "Contribution of securities and partial asset contributions", "description": "Placeholder" },
-        "item7": { "title": "Tax optimization (dividends / transfer / sale)", "description": "Placeholder" }
+        "item1": {
+          "title": "Corporate housekeeping and secretarial work",
+          "description": "Placeholder"
+        },
+        "item2": {
+          "title": "Approval of accounts and drafting of minutes",
+          "description": "Placeholder"
+        },
+        "item3": {
+          "title": "Keeping statutory registers",
+          "description": "Placeholder"
+        },
+        "item4": {
+          "title": "Filing mandatory documents with the commercial court registry",
+          "description": "Placeholder"
+        },
+        "item5": {
+          "title": "Bylaws amendments (capital increase / registered office transfer / corporate bodies)",
+          "description": "Placeholder"
+        },
+        "item6": {
+          "title": "Contribution of securities and partial asset contributions",
+          "description": "Placeholder"
+        },
+        "item7": {
+          "title": "Tax optimization (dividends / transfer / sale)",
+          "description": "Placeholder"
+        }
       },
       "footerTitle": "Placeholder",
       "footerDescription": "Placeholder"
@@ -297,9 +400,18 @@
       "subtitle": "Placeholder",
       "items": {
         "item1": { "title": "Sales negotiation", "description": "Placeholder" },
-        "item2": { "title": "Transfer of a business", "description": "Placeholder" },
-        "item3": { "title": "Drafting of transfer and acquisition deeds", "description": "Placeholder" },
-        "item4": { "title": "Amicable dissolution and liquidation", "description": "Placeholder" }
+        "item2": {
+          "title": "Transfer of a business",
+          "description": "Placeholder"
+        },
+        "item3": {
+          "title": "Drafting of transfer and acquisition deeds",
+          "description": "Placeholder"
+        },
+        "item4": {
+          "title": "Amicable dissolution and liquidation",
+          "description": "Placeholder"
+        }
       },
       "footerTitle": "Placeholder",
       "footerDescription": "Placeholder"
@@ -318,7 +430,10 @@
       "subtitle": "Placeholder",
       "items": {
         "item1": { "title": "Debt collection", "description": "Placeholder" },
-        "item2": { "title": "Challenging service quality", "description": "Placeholder" }
+        "item2": {
+          "title": "Challenging service quality",
+          "description": "Placeholder"
+        }
       },
       "footerTitle": "Placeholder",
       "footerDescription": "Placeholder"
@@ -327,8 +442,14 @@
       "title": "Relations with third parties",
       "subtitle": "Placeholder",
       "items": {
-        "item1": { "title": "Disputes over commercial leases", "description": "Placeholder" },
-        "item2": { "title": "Disputes between merchants", "description": "Placeholder" },
+        "item1": {
+          "title": "Disputes over commercial leases",
+          "description": "Placeholder"
+        },
+        "item2": {
+          "title": "Disputes between merchants",
+          "description": "Placeholder"
+        },
         "item3": { "title": "Unfair competition", "description": "Placeholder" }
       }
     }
@@ -346,5 +467,53 @@
       "title": "Fees – Transparency, Flat Rates & Legal Aid",
       "description": "Consult our fees: transparent pricing, tailored packages, installment payments and eligibility for legal aid. Get a clear quote for your situation."
     }
+  },
+  "privacy": {
+    "confidentiality_title": "Definitions",
+    "confidentiality_definitions_title": "Definitions",
+    "confidentiality_definitions_content": "The Publisher: The person, physical or legal, who publishes the online public communication services.\n\nThe Site: All websites, web pages, and online services offered by the Publisher.\n\nThe User: The person using the Site and services.",
+    "confidentiality_data_controller_title": "Identity of the controller of personal data processing",
+    "confidentiality_data_controller_identity": "The controller of personal data collected on Me Asmae Kirimov is: Asmae Kirimov, with VAT number: (hereinafter, Data Controller). Kirimov, VAT number: (hereinafter referred to as \"the data controller\"). Contact details are as follows:",
+    "confidentiality_data_controller_address": "Address: 22 rue des Cordeliers, 64000 Pau",
+    "confidentiality_data_controller_phone": "Contact phone number: +33 641228153",
+    "confidentiality_data_controller_email": "Email: asmaekirimov.avocat@gmail.com",
+    "confidentiality_section_1_title": "1- Nature of collected data",
+    "confidentiality_section_1_content": "In the context of using the Sites, the Publisher may collect the following categories of data concerning its Users:\n\nCivil status, identity, identification data...",
+    "confidentiality_section_2_title": "2- Communication of personal data to third parties",
+    "confidentiality_section_2_content": "No communication to third parties\n\nYour data is not communicated to any third parties. However, you are informed that they may be disclosed in application of a law, regulation, or by virtue of a decision of a competent regulatory or judicial authority.",
+    "confidentiality_section_3_title": "3- Prior information for the communication of personal data to third parties in case of merger/absorption",
+    "confidentiality_section_3_content": "Prior information and opt-out possibility before and after the merger/acquisition\n\nIn the event that we participate in a merger, acquisition, or any other form of asset transfer, we undertake to guarantee the confidentiality of your personal data and to inform you before they are transferred or subject to new confidentiality rules.",
+    "confidentiality_section_4_title": "4- Data aggregation",
+    "confidentiality_section_4_part1": "Aggregation with non-personal data\n\nWe may publish, disclose, and use aggregated information (information relating to all our Users or to specific groups or categories of Users that we combine in such a way that an individual User can no longer be identified or mentioned) and non-personal information for sector and market analysis, demographic profiling, promotional and advertising purposes, and other commercial purposes.",
+    "confidentiality_section_4_part2": "Aggregation with personal data available on the User's social accounts\n\nIf you link your account to another service's account to make cross-posts, said service may provide us with your profile, login, and any other information you have authorized to disclose. We may aggregate information relating to all our other Users, groups, accounts, with personal data available about the User.",
+    "confidentiality_section_6_title": "6- Collection of identification data",
+    "confidentiality_section_6_content": "Use of the user ID only for access to services\n\nWe use your electronic identifiers only for and during the execution of the contract.",
+    "confidentiality_section_7_title": "7- Collection of terminal data",
+    "confidentiality_section_7_content": "Use of the user ID only for access to services\n\nWe use your electronic identifiers only for and during the execution of the contract.",
+    "confidentiality_section_8_title": "8- Cookies",
+    "confidentiality_section_8_duration": "Cookie retention period\n\nIn accordance with CNIL recommendations, the maximum retention period for cookies is 13 months maximum after their first deposit on the User's terminal, as well as the duration of the User's consent to the use of these cookies. The cookie lifespan is not extended with each visit. The User's consent must therefore be renewed after this period.",
+    "confidentiality_section_8_purpose": "Purpose of cookies\n\nCookies may be used for statistical purposes, in particular to optimize the services provided to the User, based on the processing of information concerning access frequency, page personalization, as well as operations carried out and information consulted. You are informed that the Publisher may place cookies on your terminal. The cookie records information relating to navigation on the service (pages you have consulted, date and time of consultation...) that we may read during your subsequent visits.",
+    "confidentiality_section_8_optin": "Opt-in for cookie deposit\n\nWe do not use cookies. If we were to use them in the future, you would be informed beforehand and have the option to disable these cookies.",
+    "confidentiality_section_9_title": "9 - Retention of technical data",
+    "confidentiality_section_9_content": "Retention period of technical data\n\nTechnical data is retained for the strictly necessary period to achieve the purposes mentioned above.",
+    "confidentiality_section_10_title": "10 - Retention period of personal data and anonymization",
+    "confidentiality_section_10_contract": "Retention of data during the contractual relationship\n\nIn accordance with Article 6-5° of Law No. 78-17 of January 6, 1978, relating to data processing, files, and freedoms, personal data subject to processing is not retained beyond the time necessary for the performance of the obligations defined at the conclusion of the contract or the predefined duration of the contractual relationship.",
+    "confidentiality_section_10_anonymization": "Retention of anonymized data beyond the contractual relationship / after account deletion\n\nWe retain personal data for the strictly necessary period to achieve the purposes described in these Privacy Policies. Beyond this period, they will be anonymized and retained for exclusively statistical purposes and will not give rise to any exploitation of any kind.",
+    "confidentiality_section_10_delete": "Data deletion after account deletion\n\nData purge measures are implemented to ensure effective deletion as soon as the retention or archiving period necessary for the fulfillment of the determined or imposed purposes is reached. In accordance with Law No. 78-17 of January 6, 1978, relating to data processing, files, and freedoms, you also have a right to delete your data, which you can exercise at any time by contacting the Publisher.",
+    "confidentiality_section_10_inactivity": "Data deletion after 3 years of inactivity\n\nFor security reasons, if you have not logged into the Site for a period of three years, you will receive an email inviting you to log in as soon as possible, otherwise your data will be deleted from our databases.",
+    "confidentiality_section_11_title": "11 - Account deletion",
+    "confidentiality_section_11_user_delete": "Account deletion upon request\n\nThe User can delete their Account at any time, by simple request to the Publisher OR via the Account deletion menu in the Account settings if applicable.",
+    "confidentiality_section_11_violation_delete": "Account deletion in case of violation of the Privacy Policy\n\nIn case of violation of one or more provisions of the Privacy Policy or any other document incorporated herein by reference, the Publisher reserves the right to terminate or restrict without any prior warning and at its sole discretion, your use and access to the services, your account, and all Sites.",
+    "confidentiality_section_12_title": "12 - Indications in case of security breach detected by the Publisher",
+    "confidentiality_section_12_user_notice": "User information in case of security breach\n\nWe undertake to implement all appropriate technical and organizational measures to ensure a level of security adapted to the risks of accidental, unauthorized, or illegal access, disclosure, alteration, loss, or destruction of your personal data. In the event that we become aware of illegal access to your personal data stored on our servers or those of our providers, or unauthorized access resulting in the realization of the risks identified above, we undertake to: Notify you of the incident as soon as possible; Examine the causes of the incident and inform you; Take necessary measures within reasonable limits to mitigate the negative effects and damages that may result from said incident.",
+    "confidentiality_section_12_liability": "Limitation of liability\n\nUnder no circumstances can the commitments defined above regarding notification in case of a security breach be assimilated to any acknowledgment of fault or liability regarding the occurrence of the incident in question.",
+    "confidentiality_section_13_title": "13 - Transfer of personal data abroad",
+    "confidentiality_section_13_content": "No transfer outside the European Union\n\nThe Publisher undertakes not to transfer the personal data of its Users outside the European Union.\n\nhttps://www.cnil.fr/fr/la-protection-des-donnees-dans-le-monde",
+    "confidentiality_section_14_title": "14 - Modification of the privacy policy",
+    "confidentiality_section_14_content": "In case of modification of this Privacy Policy, commitment not to lower the level of confidentiality substantially without prior information of the persons concerned\n\nWe undertake to inform you in case of substantial modification of this Privacy Policy and not to lower the level of confidentiality of your data substantially without informing you and obtaining your consent.",
+    "confidentiality_section_15_title": "15 - Applicable law and remedies",
+    "confidentiality_section_15_content": "Arbitration clause\n\nIn case of dispute relating to the implementation or interpretation of this Privacy Policy, the parties agree to seek an amicable solution before initiating any legal proceedings.\n\nApplicable law\n\nThis agreement is governed by French law.",
+    "confidentiality_section_16_title": "16 - Data portability",
+    "confidentiality_section_16_content": "Data portability\n\nThe Publisher undertakes to offer you the possibility of having all your data returned to you upon simple request. The User is thus guaranteed better control over their data and retains the possibility of reusing them. This data must be provided in an open and easily reusable format."
   }
 }
