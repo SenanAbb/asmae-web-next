@@ -27,19 +27,19 @@ export const itemConfigs = {
     heroNavKey: 'expertises.family1.sub1b.item1',
     image: '/images/placeholder.webp',
     contentKey: 'conditions-generales-de-vente',
-    itemsKeys: ['item1', 'item2', 'item3'],
+    itemsKeys: ['item1'],
   },
   'droit-des-affaires-et-des-societes/contrats/mandat-de-vente-location': {
     heroNavKey: 'expertises.family1.sub1b.item2',
     image: '/images/placeholder.webp',
     contentKey: 'mandat-de-vente-location',
-    itemsKeys: ['item1', 'item2', 'item3'],
+    itemsKeys: ['item1'],
   },
   'droit-des-affaires-et-des-societes/contrats/baux-commerciaux': {
     heroNavKey: 'expertises.family1.sub1b.item3',
     image: '/images/placeholder.webp',
     contentKey: 'baux-commerciaux',
-    itemsKeys: ['item1', 'item2', 'item3'],
+    itemsKeys: ['item1'],
   },
 
   // Commercial
