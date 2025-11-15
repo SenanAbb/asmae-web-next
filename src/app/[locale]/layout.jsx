@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { keywordsSEO } from '@/data/keywords';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from "@vercel/analytics/next"
 
 /** SECTIONS STYLES */
 import './globals.css';
@@ -170,6 +171,7 @@ export default async function RootLayout({ children, params }) {
           {children}
           <Footer />
           <SpeedInsights />
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>
