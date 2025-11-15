@@ -2,8 +2,8 @@ import { NextResponse } from 'next/server';
 import { routing } from '@/i18n/routing';
 import { subfamilyConfigs } from '@/data/expertisesSubfamilies';
 
-export async function GET() {
-  const siteUrl = process.env.SITE_URL || 'http://localhost:3000';
+export async function GET(request) {
+  const siteUrl = process.env.SITE_URL || request.nextUrl.origin;
   const now = new Date().toISOString();
 
   const routes = ['/', '/cabinet', '/expertises', '/honoraires', '/privacy'];
