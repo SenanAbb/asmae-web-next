@@ -32,7 +32,7 @@ export default async function sitemap() {
       const path = route ? `${locale}/${route}` : `${locale}`;
 
       urls.push({
-        url: `${siteUrl}${path}`,
+        url: `${siteUrl}/${path}`,
         lastModified: new Date(),
       });
     });
@@ -40,7 +40,7 @@ export default async function sitemap() {
     // Dynamic expertise routes
     expertisePaths.forEach((path) => {
       urls.push({
-        url: `${siteUrl}/${locale}/${path}`,
+        url: `${siteUrl}/${locale}${path}`,
         lastModified: new Date(),
       });
     });
