@@ -29,7 +29,7 @@ export default async function sitemap() {
   routing.locales.forEach((locale) => {
     // Static routes
     staticRoutes.forEach((route) => {
-      const path = route ? `/${locale}/${route}` : `/${locale}`;
+      const path = route ? `${locale}/${route}` : `/${locale}`;
 
       urls.push({
         url: `${siteUrl}${path}`,
@@ -40,7 +40,7 @@ export default async function sitemap() {
     // Dynamic expertise routes
     expertisePaths.forEach((path) => {
       urls.push({
-        url: `${siteUrl}/${locale}${path}`,
+        url: `${siteUrl}${locale}${path}`,
         lastModified: new Date(),
       });
     });
