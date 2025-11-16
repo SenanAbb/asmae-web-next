@@ -6,7 +6,8 @@ export async function GET(request) {
   const siteUrl = process.env.SITE_URL || request.nextUrl.origin;
   const base = siteUrl.replace(/\/+$/, '');
   const clean = (s) => String(s).replace(/^\/+|\/+$/g, '');
-  const buildUrl = (...parts) => `${base}/${parts.map(clean).filter(Boolean).join('/')}`;
+  const buildUrl = (...parts) =>
+    `${base}/${parts.map(clean).filter(Boolean).join('/')}`;
   const now = new Date().toISOString();
 
   const routes = ['/', '/cabinet', '/expertises', '/honoraires', '/privacy'];
@@ -31,7 +32,10 @@ export async function GET(request) {
       lastmod: now,
       changefreq: 'weekly',
       priority: '0.7',
-      hreflangs: routing.locales.map((l) => ({ hreflang: l, href: buildUrl(l, path) })),
+      hreflangs: routing.locales.map((l) => ({
+        hreflang: l,
+        href: buildUrl(l, path),
+      })),
     }));
 
     return [...staticUrls, ...dynamicUrls];
@@ -49,7 +53,8 @@ export async function GET(request) {
         <priority>${u.priority}</priority>
         ${u.hreflangs
           .map(
-            (h) => `<xhtml:link rel="alternate" hreflang="${h.hreflang}" href="${h.href}" />`
+            (h) =>
+              `<xhtml:link rel="alternate" hreflang="${h.hreflang}" href="${h.href}" />`
           )
           .join('\n        ')}
       </url>`
@@ -62,4 +67,3 @@ export async function GET(request) {
     headers: { 'Content-Type': 'application/xml; charset=utf-8' },
   });
 }
-
