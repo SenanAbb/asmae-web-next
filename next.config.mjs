@@ -10,6 +10,7 @@ const nextConfig = {
       },
     ];
   },
+  poweredByHeader: false,
 };
 
 const withNextIntl = createNextIntlPlugin();

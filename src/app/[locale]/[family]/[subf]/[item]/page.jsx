@@ -12,7 +12,7 @@ function NotFoundItem() {
     <ExpertiseDescriptionPage
       heroTitle={t('main_title')}
       image="/images/placeholder.webp"
-      title={404}
+      title={t('wip')}
       subtitle={t('cta_subtitle')}
       itemsList={[]}
       footerTitle={t('cta_title')}
@@ -49,17 +49,19 @@ export default function ItemPage() {
   const key = `${familyParam}/${subfParam}/${itemParam}`;
   const config = resolveItemConfig(key, t, tNav);
 
-  if (!config) return <NotFoundItem />;
+  // if (!config) return <NotFoundItem />;
 
-  return (
-    <ExpertiseDescriptionPage
-      heroTitle={config.heroTitle}
-      image={config.image}
-      title={config.title}
-      subtitle={config.subtitle}
-      itemsList={config.items}
-      footerTitle={config.footerTitle}
-      footerDescription={config.footerDescription}
-    />
-  );
+  // return (
+  //   <ExpertiseDescriptionPage
+  //     heroTitle={config.heroTitle}
+  //     image={config.image}
+  //     title={config.title}
+  //     subtitle={config.subtitle}
+  //     itemsList={config.items}
+  //     footerTitle={config.footerTitle}
+  //     footerDescription={config.footerDescription}
+  //   />
+  // );
+
+  return <NotFoundItem />;
 }

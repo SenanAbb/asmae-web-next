@@ -183,6 +183,9 @@
     "cta_subtitle": "Contácteme para comentar el servicio más adecuado a sus necesidades.",
     "cta_call": "Llamar ahora",
     "cta_email": "Solicitar presupuesto",
+    "back_to_services": "Volver a los servicios",
+    "contact_section_title": "Contácteme",
+    "wip": "En desarrollo",
     "visa": {
       "title": "Acompañamiento en el procedimiento de visado",
       "subtitle": "Análisis de su situación, solicitud de visado y ejercicio de los distintos recursos",
@@ -322,6 +325,170 @@
       },
       "footerTitle": "Mi objetivo: hacer reconocer sus derechos.",
       "footerDescription": ""
+    },
+    "creations-et-rachat": {
+      "title": "Creación y compra de empresa",
+      "subtitle": "Pendiente de redacción",
+      "items": {
+        "item1": {
+          "title": "Constitución de sociedades",
+          "description": "Pendiente de redacción"
+        },
+        "item2": {
+          "title": "Adquisición de fondos de comercio",
+          "description": "Pendiente de redacción"
+        },
+        "item3": {
+          "title": "Asesoramiento sobre la forma jurídica",
+          "description": "Pendiente de redacción"
+        },
+        "item4": {
+          "title": "Redacción de estatutos",
+          "description": "Pendiente de redacción"
+        },
+        "item5": {
+          "title": "Acompañamiento en trámites formales",
+          "description": "Pendiente de redacción"
+        },
+        "item6": {
+          "title": "Redacción de pactos de socios",
+          "description": "Pendiente de redacción"
+        }
+      },
+      "footerTitle": "Pendiente de redacción",
+      "footerDescription": "Pendiente de redacción"
+    },
+    "vie-de-lentreprise": {
+      "title": "Vida de la empresa",
+      "subtitle": "Pendiente de redacción",
+      "items": {
+        "item1": {
+          "title": "Seguimiento y secretaría jurídica",
+          "description": "Pendiente de redacción"
+        },
+        "item2": {
+          "title": "Aprobación de cuentas y redacción de actas",
+          "description": "Pendiente de redacción"
+        },
+        "item3": {
+          "title": "Llevanza de los registros legales",
+          "description": "Pendiente de redacción"
+        },
+        "item4": {
+          "title": "Presentación de documentos obligatorios ante el registro mercantil",
+          "description": "Pendiente de redacción"
+        },
+        "item5": {
+          "title": "Modificaciones estatutarias (aumento de capital / traslado de domicilio / órganos sociales)",
+          "description": "Pendiente de redacción"
+        },
+        "item6": {
+          "title": "Aportación de títulos y aportación parcial de activos",
+          "description": "Pendiente de redacción"
+        },
+        "item7": {
+          "title": "Optimización fiscal (dividendos / transmisión y cesión)",
+          "description": "Pendiente de redacción"
+        }
+      },
+      "footerTitle": "Pendiente de redacción",
+      "footerDescription": "Pendiente de redacción"
+    },
+    "cession-et-transmission": {
+      "title": "Transmisión y cesión de empresa",
+      "subtitle": "Pendiente de redacción",
+      "items": {
+        "item1": {
+          "title": "Negociación de ventas",
+          "description": "Pendiente de redacción"
+        },
+        "item2": {
+          "title": "Cesión de fondos de comercio",
+          "description": "Pendiente de redacción"
+        },
+        "item3": {
+          "title": "Redacción de contratos de cesión y adquisición de empresas",
+          "description": "Pendiente de redacción"
+        },
+        "item4": {
+          "title": "Disolución y liquidación amistosa",
+          "description": "Pendiente de redacción"
+        }
+      },
+      "footerTitle": "Pendiente de redacción",
+      "footerDescription": "Pendiente de redacción"
+    },
+    "conditions-generales-de-vente": {
+      "title": "Condiciones generales de venta",
+      "subtitle": "Pendiente de redacción",
+      "items": {
+        "item1": {
+          "title": "Pendiente de redacción",
+          "description": "Pendiente de redacción"
+        }
+      },
+      "footerTitle": "Pendiente de redacción",
+      "footerDescription": "Pendiente de redacción"
+    },
+    "relations-clients": {
+      "title": "Relaciones con clientes / proveedores",
+      "subtitle": "Pendiente de redacción",
+      "items": {
+        "item1": {
+          "title": "Gestión de impagos",
+          "description": "Pendiente de redacción"
+        },
+        "item2": {
+          "title": "Impugnación de la calidad del servicio",
+          "description": "Pendiente de redacción"
+        }
+      },
+      "footerTitle": "Pendiente de redacción",
+      "footerDescription": "Pendiente de redacción"
+    },
+    "relations-avec-les-tiers": {
+      "title": "Relaciones con terceros",
+      "subtitle": "Pendiente de redacción",
+      "items": {
+        "item1": {
+          "title": "Litigios sobre arrendamientos comerciales",
+          "description": "Pendiente de redacción"
+        },
+        "item2": {
+          "title": "Litigios entre comerciantes",
+          "description": "Pendiente de redacción"
+        },
+        "item3": {
+          "title": "Competencia desleal",
+          "description": "Pendiente de redacción"
+        }
+      },
+      "footerTitle": "Pendiente de redacción",
+      "footerDescription": "Pendiente de redacción"
+    },
+    "mandat-de-vente-location": {
+      "title": "Mandato de venta / alquiler",
+      "subtitle": "Pendiente de redacción",
+      "items": {
+        "item1": {
+          "title": "Pendiente de redacción",
+          "description": "Pendiente de redacción"
+        }
+      },
+      "footerTitle": "Pendiente de redacción",
+      "footerDescription": "Pendiente de redacción"
+    },
+    "baux-commerciaux": {
+      "title": "Arrendamientos comerciales",
+      "subtitle": "Pendiente de redacción",
+      "items": {
+        "item1": {
+          "title": "Pendiente de redacción",
+          "description": "Pendiente de redacción"
+        }
+      },
+      "footerTitle": "Pendiente de redacción",
+      "footerDescription": "Pendiente de redacción"
     }
   },
   "seo": {
