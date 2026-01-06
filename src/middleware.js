@@ -34,12 +34,19 @@ function hasValidAuthCookie(req) {
 export default function middleware(req) {
   const url = new URL(req.url);
   const pathname = url.pathname;
+  const adminWithLocaleMatch = pathname.match(/^\/(fr|en|es)\/admin(\/.*)?$/);
 
-  // Rutas de admin fuera de locales (no usar next-intl)
-  const isAdminPath = pathname.startsWith('/admin');
+  // Rutas de admin (permitir que vengan con prefijo de locale y normalizar)
+  const isAdminPath = pathname.startsWith('/admin') || Boolean(adminWithLocaleMatch);
 
   if (!isAdminPath) {
     return intlMiddleware(req);
+  }
+
+  // Si viene con locale, redirigir a la ruta sin locale
+  if (adminWithLocaleMatch) {
+    const rest = adminWithLocaleMatch[2] || '';
+    return NextResponse.redirect(new URL(`/admin${rest}`, req.url));
   }
 
   const authenticated = hasValidAuthCookie(req);
@@ -70,9 +77,7 @@ export default function middleware(req) {
   return NextResponse.next();
 }
 
+// Ensure middleware runs for all routes (including /admin) but skip assets and APIs
 export const config = {
-  // Match all pathnames except for
-  // - … if they start with `/api`, `/trpc`, `/_next` or `/_vercel`
-  // - … the ones containing a dot (e.g. `favicon.ico`)
   matcher: '/((?!api|trpc|_next|_vercel|.*\\..*).*)',
 };
