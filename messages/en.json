@@ -7,6 +7,7 @@
     "about_label": "Office",
     "contact_label": "Contact",
     "expertises_label": "Expertises",
+    "articles_label": "News",
     "home_label": "Home",
     "honoraires_label": "Honoraires",
     "language_selector_english_label": "English",
@@ -516,5 +517,20 @@
     "confidentiality_section_15_content": "Arbitration clause\n\nIn case of dispute relating to the implementation or interpretation of this Privacy Policy, the parties agree to seek an amicable solution before initiating any legal proceedings.\n\nApplicable law\n\nThis agreement is governed by French law.",
     "confidentiality_section_16_title": "16 - Data portability",
     "confidentiality_section_16_content": "Data portability\n\nThe Publisher undertakes to offer you the possibility of having all your data returned to you upon simple request. The User is thus guaranteed better control over their data and retains the possibility of reusing them. This data must be provided in an open and easily reusable format."
+  },
+  "articles": {
+    "page_title": "Legal News",
+    "page_subtitle": "Discover our latest articles and legal advice",
+    "all_categories": "All",
+    "no_articles": "No articles available at the moment",
+    "loading": "Loading..."
+  },
+  "article": {
+    "back_to_articles": "Back to news",
+    "not_found": "Article not found",
+    "loading": "Loading article...",
+    "need_help": "Need legal assistance?",
+    "contact_text": "Contact me to discuss your situation and find the best solution tailored to your needs.",
+    "contact_button": "Contact me"
   }
 }

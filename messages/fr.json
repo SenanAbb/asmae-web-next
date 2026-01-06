@@ -7,6 +7,7 @@
     "about_label": "Cabinet",
     "contact_label": "Contact",
     "expertises_label": "Expertises",
+    "articles_label": "Actualités",
     "home_label": "Accueil",
     "honoraires_label": "Honoraires",
     "language_selector_english_label": "English",
@@ -551,5 +552,20 @@
     "confidentiality_section_15_content": "Clause d'arbitrage\n\nEn cas de litige relatif à la mise en œuvre ou à l'interprétation de la présente Politique de Confidentialité, les parties conviennent de rechercher une solution amiable avant toute action judiciaire.\n\nDroit applicable\n\nLa présente convention est régie par le droit français.",
     "confidentiality_section_16_title": "16 - Portabilité des données",
     "confidentiality_section_16_content": "Portabilité des données\n\nL'Éditeur s'engage à vous offrir la possibilité de vous faire restituer l'ensemble de vos données sur simple demande. L'Utilisateur est ainsi garanti d'un meilleur contrôle de ses données et conserve la possibilité de les réutiliser. Ces données devront être fournies dans un format ouvert et facilement réutilisable."
+  },
+  "articles": {
+    "page_title": "Actualités Juridiques",
+    "page_subtitle": "Découvrez nos derniers articles et conseils juridiques",
+    "all_categories": "Toutes",
+    "no_articles": "Aucun article disponible pour le moment",
+    "loading": "Chargement..."
+  },
+  "article": {
+    "back_to_articles": "Retour aux actualités",
+    "not_found": "Article non trouvé",
+    "loading": "Chargement de l'article...",
+    "need_help": "Besoin d'aide juridique ?",
+    "contact_text": "Contactez-moi pour discuter de votre situation et trouver la meilleure solution adaptée à vos besoins.",
+    "contact_button": "Me contacter"
   }
 }

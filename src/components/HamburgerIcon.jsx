@@ -50,6 +50,7 @@ const HamburgerIcon = () => {
     { to: '/expertises', label: t('expertises_label') },
     { to: '/honoraires', label: t('honoraires_label') },
     { to: '/#contact', label: t('contact_label') },
+    { to: '/actualites', label: t('articles_label') },
   ];
 
   return (

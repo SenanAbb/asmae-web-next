@@ -1,0 +1,154 @@
+.section {
+  position: relative;
+  padding: 80px 0;
+  background: linear-gradient(180deg, #f9fbfa 0%, #f2f6f4 100%);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.sectionTitle {
+  font-size: clamp(1.6rem, 2vw, 2.2rem);
+  font-weight: 800;
+  color: #1f2d3d;
+  margin-bottom: 10px;
+}
+
+.sectionSubtitle {
+  color: #6b7280;
+  font-size: 1rem;
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  width: 100%;
+  max-width: 360px;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 180px;
+}
+
+.cardBody {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1f2d3d;
+  margin: 0;
+}
+
+.cardExcerpt {
+  color: #6b7280;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #4b5563;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #d1d5db;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  background: #f0f4f2;
+  color: #254d32;
+  border: 1px solid #d9e4dd;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.viewAll {
+  margin-top: 28px;
+  text-align: center;
+}
+
+.viewAllLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  color: #254d32;
+  font-weight: 700;
+  text-decoration: none;
+  background: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.viewAllLink:hover {
+  border-color: #254d32;
+  color: #183822;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 64px 0;
+  }
+  .imageWrapper {
+    height: 200px;
+  }
+}
