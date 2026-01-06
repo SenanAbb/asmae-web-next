@@ -46,7 +46,10 @@ export default function middleware(req) {
   // Si viene con locale, redirigir a la ruta sin locale
   if (adminWithLocaleMatch) {
     const rest = adminWithLocaleMatch[2] || '';
-    return NextResponse.redirect(new URL(`/admin${rest}`, req.url));
+    const res = NextResponse.redirect(new URL(`/admin${rest}`, req.url));
+    res.headers.set('x-admin-mw', '1');
+    res.headers.set('x-admin-mw-path', pathname);
+    return res;
   }
 
   const authenticated = hasValidAuthCookie(req);
@@ -54,27 +57,45 @@ export default function middleware(req) {
   // Si entra a /admin -> redirigir según auth
   if (pathname === '/admin' || pathname === '/admin/') {
     if (!authenticated) {
-      return NextResponse.redirect(new URL('/admin/login', req.url));
+      const res = NextResponse.redirect(new URL('/admin/login', req.url));
+      res.headers.set('x-admin-mw', '1');
+      res.headers.set('x-admin-mw-path', pathname);
+      return res;
     }
-    return NextResponse.redirect(new URL('/admin/dashboard', req.url));
+    const res = NextResponse.redirect(new URL('/admin/dashboard', req.url));
+    res.headers.set('x-admin-mw', '1');
+    res.headers.set('x-admin-mw-path', pathname);
+    return res;
   }
 
   // Si ya está autenticado, /admin/login debe ir a /admin/dashboard
   if (pathname === '/admin/login') {
     if (authenticated) {
-      return NextResponse.redirect(new URL('/admin/dashboard', req.url));
+      const res = NextResponse.redirect(new URL('/admin/dashboard', req.url));
+      res.headers.set('x-admin-mw', '1');
+      res.headers.set('x-admin-mw-path', pathname);
+      return res;
     }
-    return NextResponse.next();
+    const res = NextResponse.next();
+    res.headers.set('x-admin-mw', '1');
+    res.headers.set('x-admin-mw-path', pathname);
+    return res;
   }
 
   // Proteger dashboard y cualquier otra subruta admin (excepto login)
   if (pathname.startsWith('/admin') && pathname !== '/admin/login') {
     if (!authenticated) {
-      return NextResponse.redirect(new URL('/admin/login', req.url));
+      const res = NextResponse.redirect(new URL('/admin/login', req.url));
+      res.headers.set('x-admin-mw', '1');
+      res.headers.set('x-admin-mw-path', pathname);
+      return res;
     }
   }
 
-  return NextResponse.next();
+  const res = NextResponse.next();
+  res.headers.set('x-admin-mw', '1');
+  res.headers.set('x-admin-mw-path', pathname);
+  return res;
 }
 
 // Ensure middleware runs for all routes (including /admin) but skip assets/APIs.
