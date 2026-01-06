@@ -77,7 +77,12 @@ export default function middleware(req) {
   return NextResponse.next();
 }
 
-// Ensure middleware runs for all routes (including /admin) but skip assets and APIs
+// Ensure middleware runs for all routes (including /admin) but skip assets/APIs.
+// Explicitly include admin paths in case glob filtering changes.
 export const config = {
-  matcher: '/((?!api|trpc|_next|_vercel|.*\\..*).*)',
+  matcher: [
+    '/((?!api|trpc|_next|_vercel|.*\\..*).*)',
+    '/admin/:path*',
+    '/:locale(fr|en|es)/admin/:path*',
+  ],
 };
