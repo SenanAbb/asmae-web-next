@@ -24,15 +24,20 @@ export default async function sitemap() {
     });
   });
 
-  // Get published articles
-  const articles = await prisma.article.findMany({
-    where: { published: true },
-    select: {
-      slug: true,
-      updatedAt: true,
-    },
-    orderBy: { publishedAt: 'desc' },
-  });
+  // Get published articles (defensive: do not fail build if DB unavailable)
+  let articles = [];
+  try {
+    articles = await prisma.article.findMany({
+      where: { published: true },
+      select: {
+        slug: true,
+        updatedAt: true,
+      },
+      orderBy: { publishedAt: 'desc' },
+    });
+  } catch (error) {
+    console.error('Sitemap: unable to fetch articles, continuing without them.', error);
+  }
 
   const urls = [];
 
