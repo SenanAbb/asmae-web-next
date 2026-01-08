@@ -1,0 +1,164 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.section {
+  background: #ffffff;
+  border: 1px solid #ecedf2;
+  border-radius: 14px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.sectionTitle {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #0a0a0a;
+}
+
+.sectionDescription {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-weight: 600;
+  color: #0a0a0a;
+  font-size: 14px;
+}
+
+.input, .textarea, .select {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #ecedf2;
+  background: #ffffff;
+  font-size: 14px;
+  color: #0a0a0a;
+}
+
+.textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.hint {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #0a0a0a;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.primary {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 0;
+  background: linear-gradient(135deg, #254d32, #4d8b6c);
+  color: #fbfbfb;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.secondary {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #ecedf2;
+  background: #ffffff;
+  color: #254d32;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.error {
+  background: rgba(255, 0, 0, 0.08);
+  border: 1px solid rgba(255, 0, 0, 0.2);
+  color: #9b2c2c;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.ok {
+  background: rgba(77, 139, 108, 0.12);
+  border: 1px solid rgba(77, 139, 108, 0.35);
+  color: #254d32;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.editor {
+  border: 1px solid #ecedf2;
+  border-radius: 10px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px;
+  border-bottom: 1px solid #ecedf2;
+  background: #f9f9fa;
+}
+
+.btn {
+  padding: 6px 10px;
+  border: 1px solid #e2e3e8;
+  background: #ffffff;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f1f2f5;
+}
+
+.contentEditable {
+  min-height: 240px;
+  padding: 12px;
+  outline: none;
+}

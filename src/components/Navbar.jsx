@@ -67,6 +67,7 @@ export default function Navbar() {
     { href: '/expertises', label: t('expertises_label') },
     { href: '/honoraires', label: t('honoraires_label') },
     { href: '/#contact', label: t('contact_label') },
+    { href: '/actualites', label: t('articles_label') },
   ];
 
   return (

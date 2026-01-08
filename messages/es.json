@@ -7,6 +7,7 @@
     "about_label": "Oficina",
     "contact_label": "Contacto",
     "expertises_label": "Competencias",
+    "articles_label": "Actualidad",
     "home_label": "Inicio",
     "honoraires_label": "Honorarios",
     "language_selector_english_label": "English",
@@ -552,5 +553,20 @@
     "confidentiality_section_15_content": "Cláusula de arbitraje\n\nEn caso de disputa relativa a la implementación o interpretación de esta Política de Privacidad, las partes acuerdan buscar una solución amistosa antes de iniciar cualquier procedimiento legal.\n\nLey aplicable\n\nEste acuerdo se rige por la ley francesa.",
     "confidentiality_section_16_title": "16 - Portabilidad de los datos",
     "confidentiality_section_16_content": "Portabilidad de los datos\n\nEl Editor se compromete a ofrecerle la posibilidad de que todos sus datos le sean devueltos a simple solicitud. El Usuario tiene así garantizado un mejor control de sus datos y conserva la posibilidad de reutilizarlos. Estos datos deben proporcionarse en un formato abierto y fácilmente reutilizable."
+  },
+  "articles": {
+    "page_title": "Actualidad Jurídica",
+    "page_subtitle": "Descubra nuestros últimos artículos y consejos legales",
+    "all_categories": "Todas",
+    "no_articles": "No hay artículos disponibles en este momento",
+    "loading": "Cargando..."
+  },
+  "article": {
+    "back_to_articles": "Volver a actualidad",
+    "not_found": "Artículo no encontrado",
+    "loading": "Cargando artículo...",
+    "need_help": "¿Necesita asistencia legal?",
+    "contact_text": "Contácteme para discutir su situación y encontrar la mejor solución adaptada a sus necesidades.",
+    "contact_button": "Contactarme"
   }
 }

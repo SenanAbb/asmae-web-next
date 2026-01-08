@@ -1,13 +1,13 @@
 import { routing } from '@/i18n/routing';
 import { expertisesMenu } from '@/data/expertises';
+import { prisma } from '@/lib/prisma';
 
 export default async function sitemap() {
   const siteUrl = process.env.SITE_URL || 'https://www.avocat-asmaekirimov.com';
 
-  const staticRoutes = ['', 'cabinet', 'expertises', 'honoraires', 'privacy'];
+  const staticRoutes = ['', 'cabinet', 'expertises', 'actualites', 'honoraires', 'privacy'];
 
-  // Dynamic expertise routes (without locale), e.g.
-  // /droit-des-affaires-et-des-societes/societes/creations-et-rachat-dentreprise
+  // Dynamic expertise routes
   const expertisePaths = new Set();
 
   expertisesMenu.forEach((family) => {
@@ -24,6 +24,21 @@ export default async function sitemap() {
     });
   });
 
+  // Get published articles (defensive: do not fail build if DB unavailable)
+  let articles = [];
+  try {
+    articles = await prisma.article.findMany({
+      where: { published: true },
+      select: {
+        slug: true,
+        updatedAt: true,
+      },
+      orderBy: { publishedAt: 'desc' },
+    });
+  } catch (error) {
+    console.error('Sitemap: unable to fetch articles, continuing without them.', error);
+  }
+
   const urls = [];
 
   routing.locales.forEach((locale) => {
@@ -34,6 +49,8 @@ export default async function sitemap() {
       urls.push({
         url: `${siteUrl}/${path}`,
         lastModified: new Date(),
+        changeFrequency: route === 'actualites' ? 'daily' : 'monthly',
+        priority: route === '' ? 1 : route === 'actualites' ? 0.9 : 0.8,
       });
     });
 
@@ -42,6 +59,18 @@ export default async function sitemap() {
       urls.push({
         url: `${siteUrl}/${locale}${path}`,
         lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.7,
+      });
+    });
+
+    // Dynamic article routes
+    articles.forEach((article) => {
+      urls.push({
+        url: `${siteUrl}/${locale}/actualites/${article.slug}`,
+        lastModified: article.updatedAt,
+        changeFrequency: 'weekly',
+        priority: 0.7,
       });
     });
   });

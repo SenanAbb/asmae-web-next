@@ -1,0 +1,68 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.backdropClick {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 10, 10, 0.35);
+  border: 0;
+}
+
+.card {
+  position: relative;
+  z-index: 51;
+  width: min(520px, 100%);
+  background: #ffffff;
+  border: 1px solid #ecedf2;
+  border-radius: 14px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.14);
+  overflow: hidden;
+  max-height: 90vh;
+}
+
+.cardXl {
+  width: min(960px, 100%);
+  max-height: 90vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  border-bottom: 1px solid #ecedf2;
+}
+
+.title {
+  font-weight: 700;
+  color: #0a0a0a;
+}
+
+.close {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  color: #6f6f6f;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.close:hover {
+  background: #ecedf2;
+  color: #0a0a0a;
+}
+
+.content {
+  padding: 14px;
+  max-height: calc(90vh - 60px);
+  overflow: auto;
+}
