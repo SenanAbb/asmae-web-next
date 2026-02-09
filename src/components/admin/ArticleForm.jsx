@@ -171,7 +171,7 @@ export default function ArticleForm({ article, onSaved, onCancel }) {
               disabled={uploading}
             />
             <small className={styles.hint}>
-              Formats: jpg, jpeg, png, webp. Taille max: 10MB. Se guarda en /public/images/articles.
+              Formats: jpg, jpeg, png, webp. Taille max: 10MB. Stockage: Vercel Blob.
             </small>
             {coverImage && (
               <small className={styles.hint}>Image actuelle: {coverImage}</small>

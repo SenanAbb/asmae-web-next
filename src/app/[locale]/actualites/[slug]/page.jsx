@@ -60,13 +60,11 @@ export default async function ArticlePage({ params }) {
           </div>
         </header>
 
-        {(article.coverImage && article.coverImage.startsWith("/images/")) || !article.coverImage ? (
+        {article.coverImage || !article.coverImage ? (
           <div className="article-image-wrapper">
             <img
               src={
-                article.coverImage && article.coverImage.startsWith("/images/")
-                  ? article.coverImage
-                  : "/images/logo-color.webp"
+                article.coverImage ? article.coverImage : "/images/logo-color.webp"
               }
               alt={article.title}
               className="article-cover-image"

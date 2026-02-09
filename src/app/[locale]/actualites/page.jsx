@@ -39,7 +39,7 @@ export default async function ActualitesPage({ params }) {
               <div key={article.id} className="article-card">
                 <Link href={`/actualites/${article.slug}`} className="card-link">
                   <div className="card-image-wrapper">
-                    {article.coverImage && article.coverImage.startsWith("/images/") ? (
+                    {article.coverImage ? (
                       <Image
                         src={article.coverImage}
                         alt={article.title}

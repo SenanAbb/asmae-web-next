@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { verifyAuth } from '@/lib/middleware-auth'
-import { promises as fs } from 'fs'
 import path from 'path'
+import { put } from '@vercel/blob'
 
 export const dynamic = 'force-dynamic'
 
@@ -48,14 +48,14 @@ export async function POST(request: NextRequest) {
       .toString(36)
       .slice(2)}${ext}`
 
-    const dir = path.join(process.cwd(), 'public', 'images', 'articles')
-    await fs.mkdir(dir, { recursive: true })
-    const filePath = path.join(dir, fileName)
+    const blobPath = `images/articles/${fileName}`
+    const blob = await put(blobPath, buffer, {
+      access: 'public',
+      contentType: file.type,
+      addRandomSuffix: false,
+    })
 
-    await fs.writeFile(filePath, buffer)
-
-    const url = `/images/articles/${fileName}`
-    return NextResponse.json({ url }, { status: 201 })
+    return NextResponse.json({ url: blob.url }, { status: 201 })
   } catch (error) {
     console.error('Error subiendo imagen:', error)
     return NextResponse.json(

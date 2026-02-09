@@ -12,7 +12,16 @@ const nextConfig = {
     return config;
   },
   images: {
-    // Usamos solo imágenes locales en /public, no se necesitan dominios externos
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**.public.blob.vercel-storage.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'public.blob.vercel-storage.com',
+      },
+    ],
     formats: ['image/avif', 'image/webp'],
   },
   async rewrites() {

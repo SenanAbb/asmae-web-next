@@ -32,9 +32,7 @@ export default async function ArticlesPreviewSection({ locale }) {
                 <div className={styles.imageWrapper}>
                   <Image
                     src={
-                      article.coverImage && article.coverImage.startsWith("/images/")
-                        ? article.coverImage
-                        : "/images/logo-color.webp"
+                      article.coverImage ? article.coverImage : "/images/logo-color.webp"
                     }
                     alt={article.title}
                     fill
