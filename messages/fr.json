@@ -18,35 +18,41 @@
       "family1": {
         "title": "Droit des affaires et des sociétés",
         "sub1a": {
-          "title": "Sociétés",
-          "item1": "Création et rachat d'entreprise",
-          "item2": "Vie de l'entreprise",
-          "item3": "Transmission et cession d'entreprise"
+          "title": "Création et structuration d’entreprises"
         },
         "sub1b": {
-          "title": "Contrats",
-          "item1": "Conditions générales de vente",
-          "item2": "Mandat de vente / location",
-          "item3": "Baux commerciaux"
+          "title": "Rédaction et sécurisation des contrats commerciaux"
         },
         "sub1c": {
-          "title": "Commercial",
-          "item1": "Relations clients / fournisseurs",
-          "item2": "Relations avec les tiers"
+          "title": "Relations commerciales internationales"
         }
       },
       "family2": {
-        "title": "Droit de la mobilité internationale et des étrangers",
-        "sub2a": { "title": "Visas et refus de visa" },
-        "sub2b": { "title": "Regroupement familial" },
-        "sub2c": { "title": "Demandes d'asile et recours CNDA" },
-        "sub2d": { "title": "Titres de séjour et OQTF" }
+        "title": "Droit des étrangers et de la nationalité",
+        "sub2a": {
+          "title": "Visas et refus de visa"
+        },
+        "sub2b": {
+          "title": "Regroupement familial"
+        },
+        "sub2c": {
+          "title": "Demandes d'asile et recours CNDA"
+        },
+        "sub2d": {
+          "title": "Titres de séjour et OQTF"
+        }
       },
       "family3": {
         "title": "Droit de la fonction publique",
-        "sub3a": { "title": "Procédures disciplinaires" },
-        "sub3b": { "title": "Harcèlement moral" },
-        "sub3c": { "title": "Maladie professionnelle et accident de service" }
+        "sub3a": {
+          "title": "Procédures disciplinaires"
+        },
+        "sub3b": {
+          "title": "Harcèlement moral"
+        },
+        "sub3c": {
+          "title": "Maladie professionnelle et accident de service"
+        }
       }
     }
   },
@@ -188,308 +194,247 @@
     "contact_section_title": "Me contacter",
     "wip": "En cours de développement",
     "visa": {
-      "title": "Accompagnement dans la procédure de visa",
-      "subtitle": "Analyse de votre situation, dépôt de visa et exercice des différents recours",
+      "title": "Visas et refus de visa",
+      "subtitle": "Faire une demande de visa pour la France peut vite devenir un parcours compliqué. Lorsqu’un refus intervient, parfois sans réelle explication, il remet souvent en cause des projets importants, qu’ils soient personnels, familiaux ou professionnels. Le cabinet, basé à Pau, accompagne les personnes confrontées à un refus de visa et les aide à engager les recours nécessaires, devant l’administration comme devant les juridictions compétentes.",
       "items": {
         "item1": {
-          "title": "Analyse du dossier",
-          "description": "Étude de votre situation personnelle et des motifs du refus."
+          "title": "Comprendre les motifs de refus de visa",
+          "description": "Un refus de visa peut intervenir pour de multiples raisons : insuffisance de justificatifs, doute sur l’objet du séjour, ressources jugées insuffisantes ou risque de maintien irrégulier sur le territoire. L’analyse du dossier permet d’identifier la base juridique du refus et d’élaborer une stratégie adaptée."
         },
         "item2": {
-          "title": "Recours administratif",
-          "description": "Rédaction et dépôt du recours administratif auprès de l’instance compétente."
-        },
-        "item3": {
-          "title": "Recours juridictionnel",
-          "description": "Recours devant le juge compétent en cas de refus maintenu."
+          "title": "Contester un refus de visa : quelles démarches ?",
+          "description": "Un refus de visa n’est pas nécessairement définitif. Des voies de recours existent, à condition de respecter des délais stricts et des règles procédurales précises. Le cabinet de Maître KIRIMOV vous accompagne dans les recours administratifs préalables et, lorsque cela est pertinent, dans la contestation contentieuse."
         }
       },
-      "footerTitle": "Chaque situation est étudiée avec précision pour maximiser vos chances de succès.",
-      "footerDescription": ""
+      "footerTitle": "Un accompagnement juridique depuis Pau",
+      "footerDescription": "Un refus de visa ne doit pas être subi sans analyse. Un accompagnement juridique rigoureux permet d’évaluer les chances de recours et de défendre efficacement votre situation face à l’administration. Basé à Pau, le cabinet accompagne des clients résidant en France ou à l’étranger, confrontés à des refus de visa délivrés par les autorités françaises. Maître KIRIMOV intervient à ce titre dans la Nouvelle-Aquitaine et en Occitanie et plus largement dans toute la France.",
+      "metaTitle": "Refus de visa à Pau – Avocat en droit des étrangers",
+      "metaDescription": "Avocat à Pau pour contester un refus de visa. Accompagnement juridique en droit des étrangers en Nouvelle-Aquitaine et Occitanie."
     },
     "regroupement-familial": {
-      "title": "Accompagnement en regroupement familial",
-      "subtitle": "Démarches, recours et respect des droits familiaux",
+      "title": "Regroupement familial",
+      "subtitle": "Le regroupement familial permet à un ressortissant étranger résidant régulièrement en France de faire venir sa famille dans un cadre légal. Cette procédure, strictement encadrée, implique des conditions précises et des délais parfois longs. À Pau, Maître KIRIMOV accompagne les personnes souhaitant engager ou sécuriser une demande de regroupement familial.",
       "items": {
         "item1": {
-          "title": "Demande de regroupement familial",
-          "description": "Maître KIRIMOV vous assiste dans la constitution du dossier et les démarches pour faire venir légalement vos proches en France."
+          "title": "Comprendre les conditions du regroupement familial",
+          "description": "La procédure de regroupement familial repose sur plusieurs critères cumulatifs. Les conditions concernent notamment la régularité du séjour du demandeur, la durée de résidence en France, les ressources financières, les conditions de logement et la composition de la famille. Un accompagnement juridique permet de vérifier la conformité du dossier avant son dépôt."
         },
         "item2": {
-          "title": "Recours et demandes complémentaires",
-          "description": "Intervention en cas de refus ou de demande complexe de la part de l'administration."
+          "title": "Constitution et suivi du dossier",
+          "description": "La constitution du dossier de regroupement familial nécessite la production de nombreux documents administratifs, souvent difficiles à réunir lorsque les membres de la famille résident à l’étranger. Maître KIRIMOV vous assiste dans la préparation du dossier, la vérification des pièces justificatives et le suivi de la procédure auprès de l’administration."
         },
         "item3": {
-          "title": "Regroupement familial lié à l'asile :",
-          "description": "Accompagnement spécifique pour les bénéficiaires de la protection internationale."
+          "title": "Refus de regroupement familial : quelles solutions ?",
+          "description": "Un refus de regroupement familial peut avoir des conséquences importantes sur la vie personnelle et familiale. Cependant, des voies de recours sont offertes aux requérants pour contester le refus de la demande de regroupement familial, l’assistance d’un avocat permet d’évaluer les chances de succès du dossier et de trouver une solution adaptée à chaque dossier."
         }
       },
-      "footerTitle": "Mon rôle est d'assurer la régularité de la procédure et le respect des droits familiaux.",
-      "footerDescription": ""
+      "footerTitle": "Un accompagnement en fonction de chaque dossier",
+      "footerDescription": "Le regroupement familial est une démarche essentielle pour de nombreuses familles, mais elle nécessite une préparation rigoureuse. Maître KIRIMOV vous accompagne dans le suivi de votre dossier et vous défend efficacement devant les juridictions compétentes.",
+      "metaTitle": "Regroupement familial à Pau – Avocat droit des étrangers",
+      "metaDescription": "Avocat à Pau pour le regroupement familial. Accompagnement juridique en droit des étrangers en Nouvelle-Aquitaine et Occitanie."
     },
     "demandes-dasile-et-recours-cnda": {
-      "title": "Demande d'asile et recours CNDA",
-      "subtitle": "Maître KIRIMOV vous assiste et vous défends dans le cadre de votre demande de protection internationale.",
+      "title": "Demandes d’asile et recours CNDA",
+      "subtitle": "La demande d’asile concerne des personnes confrontées à des situations de danger, de persécution ou de menaces graves dans leur pays d’origine. Cette procédure engage des enjeux humains et juridiques majeurs et suppose le respect de règles strictes. Le cabinet accompagne les demandeurs d’asile tout au long de la procédure et dans les recours devant la Cour nationale du droit d’asile (CNDA).",
       "items": {
         "item1": {
-          "title": "Accompagnement dans la demande d'asile",
-          "description": "Maître Kirimov vous explique les enjeux de l’entretien OFPRA et vous y prépare."
+          "title": "Comprendre la procédure de demande d’asile",
+          "description": "La procédure d’asile repose sur des délais stricts et des formalités précises. Une étape mal comprise ou une erreur dans le dossier peut suffire à compromettre l’obtention du statut de réfugié ou de la protection subsidiaire. Être accompagné juridiquement permet de sécuriser chaque phase de la démarche et d’avancer plus sereinement."
         },
         "item2": {
-          "title": "Recours devant la CNDA",
-          "description": "Maître KIRIMOV vous représente et prépare un dossier argumenté face au refus de l'OFPRA."
+          "title": "Préparer le dossier et l’entretien OFPRA",
+          "description": "L’entretien avec l’OFPRA est une étape clé de la demande d’asile. Le cabinet vous accompagne en amont, tant pour la préparation du récit que pour la réunion des éléments de preuve et la préparation de l’entretien, afin de présenter un dossier clair, cohérent et juridiquement solide."
         },
         "item3": {
-          "title": "Garantie de vos droits fondamentaux",
-          "description": "Chaque étape vise à défendre votre besoin de protection."
+          "title": "Recours devant la CNDA",
+          "description": "En cas de rejet de la demande d’asile par l’OFPRA, il est possible de saisir la Cour nationale du droit d’asile dans des délais particulièrement courts. Cette étape suppose une analyse attentive de la décision rendue, ainsi qu’une préparation rigoureuse du recours. Un accompagnement juridique permet de construire une argumentation solide, de réunir les éléments utiles et d’assister le demandeur tout au long de la procédure, notamment lors de l’audience devant la CNDA."
         }
       },
-      "footerTitle": "Mon intervention garantit la rigueur juridique et le respect de vos droits.",
-      "footerDescription": ""
+      "footerTitle": "Un accompagnement humain et professionnel",
+      "footerDescription": "La demande d’asile est une procédure exigeante qui nécessite une préparation rigoureuse. Un accompagnement juridique adapté permet de défendre efficacement votre droit à la protection en France. Installé à Pau, Maître KIRIMOV accompagne les demandeurs d’asile dans les Pyrénées-Atlantiques, mais aussi plus largement en Nouvelle-Aquitaine et en Occitanie. Chaque situation est prise en charge avec écoute, confidentialité et rigueur, dans le respect du parcours et des enjeux propres à chacun.",
+      "metaTitle": "Demande d’asile et recours CNDA à Pau – Avocat",
+      "metaDescription": "Avocat à Pau pour demandes d’asile et recours CNDA. Accompagnement juridique en droit des étrangers en Nouvelle-Aquitaine et Occitanie."
     },
     "titres-de-sejour-et-oqtf": {
       "title": "Titres de séjour et OQTF",
-      "subtitle": "Assistance et défense de vos droits",
+      "subtitle": "Les démarches liées aux titres de séjour, tout comme les décisions d’obligation de quitter le territoire français (OQTF), figurent parmi les situations les plus délicates en droit des étrangers. Elles s’inscrivent souvent dans des délais très courts et peuvent avoir des répercussions immédiates sur la vie personnelle, familiale ou professionnelle.",
       "items": {
         "item1": {
-          "title": "Demande ou renouvellement de titre de séjour",
-          "description": "J’interviens dans votre intérêt pour solliciter, de manière argumentée, un droit au séjour tout en assurant la complétude de votre dossier. \n\nDe la même façon , j’interviens devant la commission des titres de séjour lorsque le renouvellement de votre droit au séjour est menacé."
+          "title": "Demandes et renouvellement de titres de séjour",
+          "description": "La demande ou le renouvellement d’un titre de séjour repose sur des conditions précises, qui varient en fonction de la situation personnelle, familiale ou professionnelle de chaque personne. Une analyse en amont est souvent nécessaire pour identifier le titre le plus adapté et éviter les erreurs susceptibles de retarder ou de compromettre la procédure. Un accompagnement juridique permet ainsi de constituer un dossier complet et cohérent, mais aussi de sécuriser les échanges avec la préfecture à chaque étape de la démarche."
         },
         "item2": {
-          "title": "Recours contre un refus ou une OQTF",
-          "description": "Maître KIRIMOV vous défends devant les autorités et vous accompagne dans les procédures contentieuses."
+          "title": "Refus de titre de séjour : comprendre et agir",
+          "description": "Un refus de titre de séjour peut avoir des conséquences immédiates et particulièrement lourdes sur la situation personnelle, familiale ou professionnelle de la personne concernée. Dans ce contexte, l’intervention d’un avocat permet d’analyser attentivement la décision rendue, de vérifier que les garanties procédurales ont bien été respectées et d’identifier les voies de recours envisageables. Cet accompagnement est essentiel pour agir efficacement dans les délais impartis et défendre au mieux les droits de la personne concernée."
         },
         "item3": {
-          "title": "Changement de statut ou régularisation",
-          "description": "Je vous accompagne à obtenir un titre adapté à l’évolution de votre situation familiale ou professionnelle."
+          "title": "Contester une OQTF dans des délais contraints",
+          "description": "Une obligation de quitter le territoire français (OQTF) s’accompagne de délais de recours particulièrement courts. Toute inaction ou erreur de procédure peut rapidement rendre la décision définitive. Le cabinet vous accompagne dans l’analyse de la légalité de l’OQTF, la préparation d’un recours adapté et la défense de vos droits devant le tribunal administratif, à chaque étape de la procédure."
         }
       },
-      "footerTitle": "Mon objectif : préserver votre droit au séjour en France.",
-      "footerDescription": ""
+      "footerTitle": "Un accompagnement humain à votre écoute",
+      "footerDescription": "Les décisions relatives aux titres de séjour et aux OQTF ont un impact immédiat sur votre situation. Un accompagnement juridique adapté permet de respecter les délais, de sécuriser les démarches et de défendre efficacement votre droit au séjour. Installée à Pau, Maître KIRIMOV accompagne des clients confrontés à des problématiques de titres de séjour et d’OQTF dans les Pyrénées-Atlantiques, ainsi qu’en Nouvelle-Aquitaine et en Occitanie.",
+      "metaTitle": "Titre de séjour et OQTF à Pau – Avocat droit des étrangers",
+      "metaDescription": "Avocat à Pau pour titres de séjour et OQTF. Accompagnement juridique en droit des étrangers en Nouvelle-Aquitaine et Occitanie."
     },
     "procedures-disciplinaires": {
-      "title": "Procédures disciplinaires",
-      "subtitle": "Accompagnement dès la première convocation ou mesure",
+      "title": "Procédures disciplinaires dans la fonction publique",
+      "subtitle": "Une procédure disciplinaire peut avoir des conséquences importantes sur la carrière et le parcours professionnel d’un agent public. Selon les situations, l’administration peut envisager différentes mesures, allant de l’avertissement à des sanctions plus lourdes, voire à l’exclusion ou à la révocation du fonctionnaire.",
       "items": {
         "item1": {
-          "title": "Défense face aux sanctions disciplinaires",
-          "description": "Suspension, blâme ou autre sanction disciplinaire, mon intervention veille à garantir le respect du contradictoire et les droits de la défense."
+          "title": "Comprendre la procédure disciplinaire",
+          "description": "La procédure disciplinaire est encadrée par des règles strictes, précisément destinées à garantir les droits de l’agent public. Le non-respect de ces garanties peut avoir une incidence directe sur la légalité de la sanction envisagée ou prononcée par l’administration. Un accompagnement juridique permet de comprendre clairement les griefs reprochés, d’identifier les garanties procédurales applicables et d’aborder la procédure avec une meilleure maîtrise des enjeux."
         },
         "item2": {
-          "title": "Recours contre les sanctions abusives",
-          "description": "Après analyse de votre situation et de la sanction prononcée à votre encontre, Maître KIRIMOV vous conseille sur l'opportunité d'engager une procédure."
-        },
-        "item3": {
-          "title": "Préparation de la stratégie de défense",
-          "description": "Maître KIRIMOV vous accompagne en prévention pour anticiper les actions disciplinaires."
+          "title": "Contester une sanction disciplinaire",
+          "description": "Une sanction disciplinaire peut être contestée lorsqu’elle apparaît disproportionnée, insuffisamment fondée ou prononcée à l’issue d’une procédure irrégulière. Dans ce contexte, l’accompagnement d’un avocat permet d’analyser la décision prise par l’administration et d’identifier les moyens de contestation pertinents. Le cabinet assiste l’agent tant dans le cadre des recours administratifs que devant le tribunal administratif, afin de défendre efficacement ses droits."
         }
       },
-      "footerTitle": "Mon objectif  : assurer une défense rigoureuse et adaptée à chaque situation.",
-      "footerDescription": ""
+      "footerTitle": "Un accompagnement et un suivi à taille humaine",
+      "footerDescription": "Une procédure disciplinaire ne doit jamais être affrontée seul. Un accompagnement juridique adapté permet de sécuriser la procédure et de défendre efficacement vos droits d’agent public. Basé à Pau, le cabinet accompagne les agents publics des Pyrénées-Atlantiques, ainsi que ceux de Nouvelle-Aquitaine et d’Occitanie, avec pédagogie et transparence.",
+      "metaTitle": "Procédure disciplinaire fonction publique – Avocat à Pau",
+      "metaDescription": "Avocat à Pau pour procédures disciplinaires en fonction publique. Défense des agents publics en Nouvelle-Aquitaine et Occitanie."
     },
     "harcelement-moral": {
-      "title": "Harcèlement moral",
-      "subtitle": "Reconnaissance et recours en cas de souffrance dans l’exercice de vos fonctions.",
+      "title": "Harcèlement moral dans la fonction publique",
+      "subtitle": "Le harcèlement moral dans la fonction publique constitue une atteinte grave à la dignité, à la santé et aux conditions de travail des agents publics. Il se manifeste souvent de manière progressive et parfois insidieuse, rendant son identification et sa reconnaissance difficiles. Ses conséquences peuvent être particulièrement lourdes, tant sur le plan professionnel que personnel. À Pau, Maître KIRIMOV accompagne les agents publics confrontés à des situations de harcèlement moral, afin de les aider à faire reconnaître les faits et à défendre leurs droits.",
       "items": {
         "item1": {
-          "title": "Identification du harcèlement moral",
-          "description": "Maître KIRIMOV vous aide à établir les faits et constituer les preuves nécessaires."
+          "title": "Reconnaître une situation de harcèlement moral",
+          "description": "Le harcèlement moral se caractérise par des agissements répétés entraînant une dégradation des conditions de travail. Il peut s’agir de pressions excessives, de mises à l’écart, de propos dévalorisants ou d’atteintes à la santé. Un accompagnement juridique permet de qualifier juridiquement les faits et de faire face à de tels agissements."
         },
         "item2": {
-          "title": "Engagement de la responsabilité de l'employeur",
-          "description": "Maître KIRIMOV vous accompagne pour faire reconnaître la faute de l'administration."
+          "title": "Droits et protections de l’agent public",
+          "description": "Les agents publics bénéficient de protections spécifiques lorsqu’ils sont confrontés à des situations de harcèlement moral. L’administration est tenue de garantir la santé, la sécurité et le respect de la dignité de ses agents dans l’exercice de leurs fonctions. Cette obligation implique non seulement de prévenir les situations de harcèlement, mais également d’y répondre de manière appropriée lorsqu’elles sont portées à sa connaissance."
         },
         "item3": {
-          "title": "Représentation devant les tribunaux administratifs",
-          "description": "Maître KIRIMOV vous défend avec rigueur devant les instances compétentes."
+          "title": "Constituer un dossier et engager les démarches",
+          "description": "La constitution d’un dossier solide constitue une étape déterminante pour faire reconnaître une situation de harcèlement moral. Elle implique notamment de rassembler l’ensemble des éléments de preuve disponibles et de présenter les faits de manière claire, cohérente et chronologique, afin de permettre une analyse précise de la situation. Il est impératif de récolter le moindre élément qui pourrait faire avancer le dossier. Anticipation et préparation sont ainsi les maîtres-mots d’un dossier solide."
         }
       },
-      "footerTitle": "Mon objectif : obtenir réparation et rétablissement dans vos droits.",
-      "footerDescription": ""
+      "footerTitle": "Un accompagnement humain à votre écoute",
+      "footerDescription": "Le harcèlement moral ne doit jamais être banalisé. Un accompagnement juridique adapté permet de faire reconnaître la situation, de protéger l’agent et d’obtenir une indemnisation à hauteur du préjudice subi. Installé à Pau, le cabinet accompagne les agents publics des Pyrénées-Atlantiques, ainsi que de Nouvelle-Aquitaine et d’Occitanie, avec confidentialité et détermination.",
+      "metaTitle": "Harcèlement moral fonction publique – Avocat à Pau",
+      "metaDescription": "Avocat à Pau pour harcèlement moral dans la fonction publique. Défense et accompagnement des agents publics en Nouvelle-Aquitaine."
     },
     "maladie-professionnelle": {
-      "title": "Maladie professionnelle et accident de service",
-      "subtitle": "Constitution de dossier, reconnaissance et recours.",
+      "title": "Maladie professionnelle et accident de service dans la fonction publique",
+      "subtitle": "La maladie professionnelle comme l’accident de service peuvent avoir des conséquences significatives sur la santé, la carrière et les droits des agents publics. Leur reconnaissance par l’administration peut toutefois s’avérer complexe et donner lieu à des difficultés, des contestations, voire des refus, nécessitant une attention particulière à chaque étape de la procédure.",
       "items": {
         "item1": {
-          "title": "Constitution du dossier",
-          "description": "Maître KIRIMOV vous aide à rassembler les pièces nécessaires pour faire reconnaître votre situation."
+          "title": "Comprendre la notion d’imputabilité au service",
+          "description": "La reconnaissance d’une maladie professionnelle ou d’un accident de service repose sur la notion d’imputabilité au service. Il est alors nécessaire d’établir l’existence d’un lien direct entre l’activité professionnelle et l’atteinte portée à la santé de l’agent. Cette reconnaissance revêt une importance particulière, puisqu’elle conditionne notamment la prise en charge des soins, le maintien de la rémunération et l’ouverture de droits à des congés spécifiques."
         },
         "item2": {
-          "title": "Recours en cas de refus de l'administration",
-          "description": "Maître KIRIMOV vous représente devant l'administration ou les tribunaux compétents."
+          "title": "Démarches pour la reconnaissance d’une maladie professionnelle",
+          "description": "La reconnaissance d’une maladie professionnelle dans la fonction publique s’inscrit dans une procédure administrative encadrée, qui nécessite la production d’éléments médicaux et professionnels précis. Ces éléments permettent d’apprécier le lien entre l’état de santé de l’agent et ses conditions de travail, et conditionnent l’issue de la demande."
         },
         "item3": {
-          "title": "Gestion des arrêts maladie et indemnisation",
-          "description": "En cas d'accident de service avec taux d'incapacité établi, je vous accompagne pour obtenir l'indemnisation juste de vos préjudices."
-        }
-      },
-      "footerTitle": "Mon objectif : faire reconnaître vos droits.",
-      "footerDescription": ""
-    },
-    "creations-et-rachat": {
-      "title": "Créations et rachat d'entreprise",
-      "subtitle": "Placeholder",
-      "items": {
-        "item1": {
-          "title": "Constitution de sociétés",
-          "description": "Placeholder"
-        },
-        "item2": {
-          "title": "Acquisition de fonds de commerce",
-          "description": "Placeholder"
-        },
-        "item3": {
-          "title": "Conseil de la forme juridique",
-          "description": "Placeholder"
+          "title": "Accident de service : faire valoir vos droits",
+          "description": "Un accident survenu dans le cadre du service peut ouvrir droit à une reconnaissance spécifique, avec des conséquences importantes pour l’agent concerné. Cette reconnaissance n’est toutefois pas automatique et peut faire l’objet de discussions ou de contestations de la part de l’administration. Un accompagnement juridique permet alors de qualifier précisément l’accident, d’établir le lien avec le service et de défendre les droits de l’agent tout au long de la procédure."
         },
         "item4": {
-          "title": "Rédaction de statuts",
-          "description": "Placeholder"
-        },
-        "item5": {
-          "title": "Accompagnement formalités",
-          "description": "Placeholder"
-        },
-        "item6": {
-          "title": "Rédaction pactes d’associés",
-          "description": "Placeholder"
+          "title": "Contester un refus de reconnaissance",
+          "description": "Un refus de reconnaissance d’une maladie professionnelle ou d’un accident de service peut avoir des conséquences importantes sur la situation de l’agent. Il peut notamment affecter la prise en charge médicale, la rémunération ou les droits à congés, et fragiliser durablement la situation professionnelle de la personne concernée."
         }
       },
-      "footerTitle": "Placeholder",
-      "footerDescription": "Placeholder"
+      "footerTitle": "Accompagnement des agents publics à Pau",
+      "footerDescription": "La reconnaissance d’une maladie professionnelle ou d’un accident de service constitue un enjeu majeur pour les agents publics. Un accompagnement juridique adapté permet de sécuriser les démarches et de défendre efficacement vos droits. Installé à Pau, le cabinet accompagne les agents publics des Pyrénées-Atlantiques, ainsi que de Nouvelle-Aquitaine et d’Occitanie, confrontés à des problématiques de santé liées au travail.",
+      "metaTitle": "Maladie professionnelle et accident de service – Avocat à Pau",
+      "metaDescription": "Avocat à Pau pour maladie professionnelle et accident de service en fonction publique. Accompagnement juridique des agents publics en Nouvelle-Aquitaine."
     },
-    "vie-de-lentreprise": {
-      "title": "Vie de l'entreprise",
-      "subtitle": "Placeholder",
+    "meres": {
+      "droit-des-affaires-et-des-societes": {
+        "title": "Droit des affaires et des sociétés",
+        "subtitle": "Une approche méthodique et à votre écoute",
+        "intro": "Entreprendre, structurer une activité ou faire évoluer une société implique des choix juridiques engageants, parfois irréversibles. Installé à Pau, le cabinet accompagne les dirigeants, entrepreneurs, commerçants et porteurs de projet à chaque étape de la vie de leur entreprise. Le droit des affaires est constitué d’une multitude de matières transversales qui vont venir impacter les chefs d’entreprises et la gestion de leurs sociétés. Sécurisation des relations contractuelles, démarches administratives et frais divers rendent ardue la gestion d’une entreprise. Maître Asmae KIRIMOV propose un accompagnement technique, accessible et personnalisé, sans sous-traitance, avec une attention particulière portée à la clarté des enjeux et à la transparence sur les risques pour vous aider à y voir plus clair dans cette prolifération normative. Le cabinet intervient à Pau, dans les Pyrénées-Atlantiques, ainsi que dans les régions Nouvelle-Aquitaine et Occitanie et plus généralement dans toute la France.",
+        "metaTitle": "Droit des affaires et des sociétés à Pau – Avocat",
+        "metaDescription": "Avocat à Pau en droit des affaires et des sociétés. Accompagnement des entreprises en Nouvelle-Aquitaine et Occitanie."
+      },
+      "droit-des-etrangers-et-de-la-nationalite": {
+        "title": "Droit des étrangers et de la nationalité",
+        "subtitle": "Une approche humaine et rigoureuse du droit des étrangers",
+        "intro": "Le droit des étrangers touche à des situations personnelles souvent urgentes et sensibles, où les enjeux juridiques se mêlent à des réalités humaines fortes. Installé à Pau, le cabinet de Maître KIRIMOV accompagne les personnes étrangères confrontées à des démarches administratives complexes, des refus ou des décisions mettant en cause leur droit au séjour en France. Forte d’une expérience au sein de l’administration française, Maître Asmae KIRIMOV propose un accompagnement fondé sur la compréhension des mécanismes administratifs, la rigueur juridique et un suivi personnalisé, sans sous-traitance. Chaque situation est analysée avec transparence, en tenant compte des risques, des délais et des perspectives réels. Le cabinet intervient principalement à Pau, dans les Pyrénées-Atlantiques, et plus largement en Nouvelle-Aquitaine et en Occitanie.",
+        "metaTitle": "Droit des étrangers et de la nationalité à Pau – Avocat",
+        "metaDescription": "Avocat à Pau en droit des étrangers et de la nationalité. Accompagnement juridique en Nouvelle-Aquitaine et Occitanie."
+      },
+      "droit-de-la-fonction-publique": {
+        "title": "Droit de la fonction publique",
+        "subtitle": "Défendre les droits des agents publics avec clarté et rigueur",
+        "intro": "Le droit de la fonction publique encadre l’ensemble de la carrière des agents publics, leurs droits comme leurs obligations. Les procédures disciplinaires, les situations de harcèlement ou encore les problématiques liées à la santé au travail peuvent avoir des répercussions importantes, tant sur la vie professionnelle que personnelle. Ces situations nécessitent souvent une compréhension fine des règles applicables et des mécanismes propres à l’administration. Situé à Pau, le cabinet accompagne les agents publics dans leurs relations avec l’administration. L’approche est accessible, pédagogique et rigoureuse, afin de permettre à chaque agent de comprendre ses droits et les démarches possibles. Forte d’une expérience acquise au sein de l’administration française, Maître Asmae KIRIMOV dispose d’une connaissance concrète de son fonctionnement interne et des leviers juridiques permettant une défense efficace des intérêts des agents. Le cabinet intervient à Pau, dans les Pyrénées-Atlantiques, et plus largement en Nouvelle-Aquitaine et en Occitanie.",
+        "metaTitle": "Droit de la fonction publique à Pau – Avocat",
+        "metaDescription": "Avocat à Pau en droit de la fonction publique. Défense des agents publics en Nouvelle-Aquitaine et Occitanie."
+      }
+    },
+    "creation-et-structuration": {
+      "title": "Création et structuration d’entreprises",
+      "subtitle": "La création d’une entreprise constitue le premier pas vers la concrétisation d’un projet et va permettre de l’organiser pour finalement lui donner vie. Choix de la forme sociale (SAS, SARL, SASU, EI…), rédaction des statuts, démarches administratives ou encore fiscalité, le porteur de projet devra étudier avec soin la conception de sa société afin que celle-ci réponde à ses attentes et serve ses intérêts. Le cabinet vous accompagne tout au long de votre projet tant en conseil qu’en contentieux.",
       "items": {
         "item1": {
-          "title": "Suivi et secrétariat juridique",
-          "description": "Placeholder"
+          "title": "Choisir la forme juridique adaptée à votre projet",
+          "description": "Les règles qui régissent une société sont déterminées par sa forme sociale. À ce titre, opter pour une forme sociale adaptée à son projet et ses envies est crucial pour que son activité soit florissante. La forme la mieux adaptée variera en fonction du nombre d’associés ou encore des projets et des activités envisagées par l’entreprise. À titre d’exemple, la SAS offre une plus grande liberté aux actionnaires qui devront rédiger des statuts précis là où la SARL dispose d’un régime légal complet. La forme choisie impactera aussi le régime social du dirigeant. Ce volet devra donc être pris en compte au moment de la création."
         },
         "item2": {
-          "title": "Approbation des comptes et rédaction de procès-verbaux",
-          "description": "Placeholder"
+          "title": "Rédaction des statuts et organisation juridique",
+          "description": "Véritable pierre angulaire, les statuts ont vocation à régir l’entier fonctionnement de la société : répartition du capital social, nomination et révocation du dirigeant en passant par la tenue des assemblées générales, les statuts permettent de personnaliser le fonctionnement de la société (dans les limites imposées par la loi). Il sera également possible d’insérer tout un panel de clauses pour optimiser la gouvernance de la société (clause d’agrément, clause de non-concurrence…)."
         },
         "item3": {
-          "title": "Tenues des registres légaux",
-          "description": "Placeholder"
+          "title": "Sécuriser le démarrage de l’activité",
+          "description": "Le lancement de l’activité est bien souvent une période particulière, c’est l’instant où les premiers contrats essentiels sont signés (contrat de bail, fournitures, franchise…). C’est également une période d’incertitude pour la société qui sera confrontée à ses premières difficultés. Il n’est d’ailleurs pas rare qu’au lancement de l’activité la société soit encore en formation entraînant l’application d’un régime juridique spécifique."
+        }
+      },
+      "footerTitle": "Un accompagnement sur mesure",
+      "footerDescription": "Basé à Pau, le cabinet accompagne les entrepreneurs des Pyrénées-Atlantiques ainsi que ceux de Nouvelle-Aquitaine et d’Occitanie, avec une connaissance concrète des enjeux économiques locaux. La création et la structuration d’une entreprise ne doivent jamais être abordées comme de simples formalités. Un accompagnement juridique dès le départ permet de sécuriser le projet et de préparer sereinement l’avenir.",
+      "metaTitle": "Création et structuration d’entreprises à Pau – Avocat",
+      "metaDescription": "Avocat à Pau en droit des sociétés pour la création et la structuration d’entreprise. Accompagnement juridique en Nouvelle-Aquitaine."
+    },
+    "contrats-commerciaux": {
+      "title": "Rédaction et sécurisation des contrats commerciaux",
+      "subtitle": "Les contrats commerciaux sont d’une importance capitale pour une société et représentent sa source de revenus. Une mauvaise rédaction des contrats peut entraîner de long blocage et des situations conflictuelles entre cocontractants. Maître Asmae KIRIMOV accompagne ses clients dans les différentes phases de la vie du contrat, de sa formation en passant par son exécution et in fine son extinction.",
+      "items": {
+        "item1": {
+          "title": "Pourquoi sécuriser juridiquement vos contrats commerciaux ?",
+          "description": "La sécurité juridique des contrats est un élément clé pour une entreprise. Sans cet élément, il est difficile d’envisager de maintenir une activité pérenne sur le long terme. Contrat de vente, de fourniture, d’approvisionnement ou encore partenariat, chaque acte dispose de son propre régime juridique et possède des subtilités qu’il convient de maîtriser pour assurer le bon fonctionnement de la relation."
+        },
+        "item2": {
+          "title": "Rédaction de contrats adaptés à votre activité",
+          "description": "L’adaptabilité et l’agilité doivent être les maîtres-mots qui guident la plume du rédacteur d’un contrat. Nombre de modèles de contrats existent sur internet, mais aucun ne permet réellement de s’adapter aux contraintes de votre entreprise. Maître KIRIMOV possède une solide expérience en droit des contrats et est à même de rédiger vos futures stipulations contractuelles en respectant vos contraintes et vos besoins."
+        },
+        "item3": {
+          "title": "Analyse et sécurisation de contrats existants",
+          "description": "Identifier les risques est un enjeu crucial en présence d’un contrat. Une analyse poussée met en lumière les failles juridiques et permet d’identifier les éventuelles stipulations n’étant plus à jour. Il sera crucial de mettre à jour la matrice de contrat dont dispose la société afin qu’elle soit toujours à la pointe de la dernière évolution juridique."
         },
         "item4": {
-          "title": "Transmission des documents obligatoires auprès du greffe du tribunal de commerce",
-          "description": "Placeholder"
-        },
-        "item5": {
-          "title": "Modifications statutaires (Augmentation capital / transfert de siège / organes sociaux)",
-          "description": "Placeholder"
-        },
-        "item6": {
-          "title": "Apport de titres et apport partiel d’actifs",
-          "description": "Placeholder"
-        },
-        "item7": {
-          "title": "Optimisation fiscale (dividendes / transmission cession)",
-          "description": "Placeholder"
+          "title": "Anticiper les litiges et protéger l’entreprise",
+          "description": "Un contrat bien rédigé est celui qui anticipe les potentielles situations litigieuses, les verrouille et offre une solution pour que ces litiges disparaissent le plus vite possible en évitant une phase contentieuse. Naturellement, l’anticipation augmente la protection juridique d’une société face à une inexécution ou une prestation qui ne serait pas conforme aux attentes contractuelles. Le contrat pourra par exemple définir les attendus de la relation contractuelle pour chaque partie en rédigeant un préambule au contrat. Le contrat pourra prévoir en outre des clauses d’arbitrage ou de médiation afin d’éviter un contentieux judiciaire."
         }
       },
-      "footerTitle": "Placeholder",
-      "footerDescription": "Placeholder"
+      "footerTitle": "Un accompagnement clair, professionnel et rigoureux",
+      "footerDescription": "Basé à Pau, le cabinet accompagne les TPE, PME, entrepreneurs et commerçants de la Nouvelle-Aquitaine et d’Occitanie, avec un suivi personnalisé et réactif. Être bien accompagné dès la phase de formation du contrat permet au dirigeant de piloter l’activité de sa société sans se soucier de la fiabilité de ses contrats. Le cabinet vous propose un accompagnement sur mesure pour répondre à l’ensemble de vos besoins.",
+      "metaTitle": "Contrats commerciaux à Pau – Avocat en droit des affaires",
+      "metaDescription": "Avocat à Pau pour la rédaction et la sécurisation des contrats commerciaux. Accompagnement juridique des entreprises en Nouvelle-Aquitaine."
     },
-    "cession-et-transmission": {
-      "title": "Transmission et cession d'entreprise",
-      "subtitle": "Placeholder",
+    "relations-commerciales-internationales": {
+      "title": "Relations commerciales internationales",
+      "subtitle": "Pour une société, l’ouverture à l’international est une source de nouveaux enjeux et de belles opportunités. Néanmoins ces dernières entraînent également leurs lots problématiques juridiques : droit applicable, juridiction compétente, etc. Le droit international regorge de subtilité et rend nécessaire un accompagnement par un professionnel qualifié.",
       "items": {
         "item1": {
-          "title": "Négociation des ventes",
-          "description": "Placeholder"
+          "title": "Sécuriser juridiquement vos échanges internationaux",
+          "description": "Le commerce international implique naturellement de commercer avec des partenaires soumis à un cadre législatif et réglementaire différent. Il est donc primordial de structurer les échanges internationaux via des conventions claires qui feront office de loi entre les parties."
         },
         "item2": {
-          "title": "Cession de fonds de commerce",
-          "description": "Placeholder"
+          "title": "Rédaction et analyse de contrats commerciaux internationaux",
+          "description": "Un contrat commercial international revêt une attention toute particulière. Les cocontractants devront se mettre d’accord sur les modalités de la prestation, mais également sur la juridiction compétente et la loi applicable en cas de litige. Une connaissance fine des règles de droit international alliée à une rédaction minutieuse peuvent transformer un corpus législatif contraignant en une nouvelle opportunité."
         },
         "item3": {
-          "title": "Rédaction d’actes de cession et acquisition d’entreprises",
-          "description": "Placeholder"
-        },
-        "item4": {
-          "title": "Dissolution et liquidation amiables",
-          "description": "Placeholder"
+          "title": "Anticiper les litiges et protéger les intérêts de l’entreprise",
+          "description": "Complexe par nature, les contrats internationaux nécessitent une grande capacité d’anticiper et ne doivent pas être rédigés sans réflexion préalable. Les clauses d’arbitrage et d’élection de for sont particulièrement remises en cause lorsque survient un conflit. Un contrat fiable et sûr permet de prévoir l’issue d’un litige et assure un confort et une sécurité juridique."
         }
       },
-      "footerTitle": "Placeholder",
-      "footerDescription": "Placeholder"
-    },
-    "conditions-generales-de-vente": {
-      "title": "Conditions générales de vente",
-      "subtitle": "Placeholder",
-      "items": {
-        "item1": {
-          "title": "Placeholder",
-          "description": "Placeholder"
-        }
-      },
-      "footerTitle": "Placeholder",
-      "footerDescription": "Placeholder"
-    },
-    "relations-clients": {
-      "title": "Relations clients / fournisseurs",
-      "subtitle": "Placeholder",
-      "items": {
-        "item1": {
-          "title": "Gestion des impayés",
-          "description": "Placeholder"
-        },
-        "item2": {
-          "title": "Remise en cause de la qualité de prestation",
-          "description": "Placeholder"
-        }
-      },
-      "footerTitle": "Placeholder",
-      "footerDescription": "Placeholder"
-    },
-    "relations-avec-les-tiers": {
-      "title": "Relations avec les tiers",
-      "subtitle": "Placeholder",
-      "items": {
-        "item1": {
-          "title": "Litiges sur les baux commerciaux",
-          "description": "Placeholder"
-        },
-        "item2": {
-          "title": "Litiges entre commerçants",
-          "description": "Placeholder"
-        },
-        "item3": {
-          "title": "Concurrence déloyale",
-          "description": "Placeholder"
-        }
-      },
-      "footerTitle": "Placeholder",
-      "footerDescription": "Placeholder"
-    },
-    "mandat-de-vente-location": {
-      "title": "Mandat de vente / location",
-      "subtitle": "Placeholder",
-      "items": {
-        "item1": {
-          "title": "Placeholder",
-          "description": "Placeholder"
-        }
-      },
-      "footerTitle": "Placeholder",
-      "footerDescription": "Placeholder"
-    },
-    "baux-commerciaux": {
-      "title": "Baux commerciaux",
-      "subtitle": "Placeholder",
-      "items": {
-        "item1": {
-          "title": "Placeholder",
-          "description": "Placeholder"
-        }
-      },
-      "footerTitle": "Placeholder",
-      "footerDescription": "Placeholder"
+      "footerTitle": "Accompagnement depuis Pau vers l’international",
+      "footerDescription": "Situé à Pau, le cabinet vous propose un accompagnement vers l’international. Le cabinet a vocation à aider les entreprises situées en Nouvelle-Aquitaine, en Occitanie et plus généralement dans toute la France. Les relations commerciales internationales constituent un levier de croissance important, à condition d’être juridiquement maîtrisées. Un accompagnement adapté permet de sécuriser les échanges et de soutenir un développement international durable.",
+      "metaTitle": "Relations commerciales internationales – Avocat à Pau",
+      "metaDescription": "Avocat à Pau pour sécuriser vos relations commerciales internationales. Accompagnement juridique des entreprises en Nouvelle-Aquitaine."
     }
   },
   "seo": {

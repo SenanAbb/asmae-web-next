@@ -831,11 +831,13 @@
         }
       }
 
-      strong {
+      strong,
+      .service-item-title {
         display: block;
         font-size: 1.3rem;
         font-weight: 600;
         color: var(--primary-dark);
+        margin-top: 0;
         margin-bottom: 12px;
         line-height: 1.4;
 
@@ -851,7 +853,8 @@
       }
 
       /* Text content after strong */
-      strong + * {
+      strong + *,
+      .service-item-text {
         font-size: 1.05rem;
         line-height: 1.6;
         color: var(--gray-text);

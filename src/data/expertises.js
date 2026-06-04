@@ -2,85 +2,55 @@ export const expertisesMenu = [
   {
     familyKey: 'family1',
     i18nKey: 'family1.title',
+    path: '/droit-des-affaires-et-des-societes',
     subfamilies: [
       {
         subfamilyKey: 'sub1a',
         i18nKey: 'family1.sub1a.title',
-        subItems: [
-          {
-            i18nKey: 'family1.sub1a.item1',
-            path: '/droit-des-affaires-et-des-societes/societes/creations-et-rachat-dentreprise',
-          },
-          {
-            i18nKey: 'family1.sub1a.item2',
-            path: '/droit-des-affaires-et-des-societes/societes/vie-de-lentreprise',
-          },
-          {
-            i18nKey: 'family1.sub1a.item3',
-            path: '/droit-des-affaires-et-des-societes/societes/cession-et-transmission-dentreprise',
-          },
-        ],
+        path: '/droit-des-affaires-et-des-societes/creation-et-structuration-dentreprises',
+        subItems: [],
       },
       {
         subfamilyKey: 'sub1b',
         i18nKey: 'family1.sub1b.title',
-        subItems: [
-          {
-            i18nKey: 'family1.sub1b.item1',
-            path: '/droit-des-affaires-et-des-societes/contrats/conditions-generales-de-vente',
-          },
-          {
-            i18nKey: 'family1.sub1b.item2',
-            path: '/droit-des-affaires-et-des-societes/contrats/mandat-de-vente-location',
-          },
-          {
-            i18nKey: 'family1.sub1b.item3',
-            path: '/droit-des-affaires-et-des-societes/contrats/baux-commerciaux',
-          },
-        ],
+        path: '/droit-des-affaires-et-des-societes/redaction-et-securisation-des-contrats-commerciaux',
+        subItems: [],
       },
       {
         subfamilyKey: 'sub1c',
         i18nKey: 'family1.sub1c.title',
-        subItems: [
-          {
-            i18nKey: 'family1.sub1c.item1',
-            path: '/droit-des-affaires-et-des-societes/commercial/relations-clients-fournisseurs',
-          },
-          {
-            i18nKey: 'family1.sub1c.item2',
-            path: '/droit-des-affaires-et-des-societes/commercial/relations-avec-les-tiers',
-          },
-        ],
-      }
+        path: '/droit-des-affaires-et-des-societes/relations-commerciales-internationales',
+        subItems: [],
+      },
     ],
   },
   {
     familyKey: 'family2',
     i18nKey: 'family2.title',
+    path: '/droit-des-etrangers-et-de-la-nationalite',
     subfamilies: [
       {
         subfamilyKey: 'sub2a',
         i18nKey: 'family2.sub2a.title',
-        path: '/droit-de-la-mobilite-internationale-et-des-etrangers/visas-et-refus-de-visa',
+        path: '/droit-des-etrangers-et-de-la-nationalite/visas-et-refus-de-visa',
         subItems: [],
       },
       {
         subfamilyKey: 'sub2b',
         i18nKey: 'family2.sub2b.title',
-        path: '/droit-de-la-mobilite-internationale-et-des-etrangers/regroupement-familial',
+        path: '/droit-des-etrangers-et-de-la-nationalite/regroupement-familial',
         subItems: [],
       },
       {
         subfamilyKey: 'sub2c',
         i18nKey: 'family2.sub2c.title',
-        path: '/droit-de-la-mobilite-internationale-et-des-etrangers/demandes-dasile-et-recours-cnda',
+        path: '/droit-des-etrangers-et-de-la-nationalite/demandes-dasile-et-recours-cnda',
         subItems: [],
       },
       {
         subfamilyKey: 'sub2d',
         i18nKey: 'family2.sub2d.title',
-        path: '/droit-de-la-mobilite-internationale-et-des-etrangers/titres-de-sejour-et-oqtf',
+        path: '/droit-des-etrangers-et-de-la-nationalite/titres-de-sejour-et-oqtf',
         subItems: [],
       },
     ],
@@ -88,6 +58,7 @@ export const expertisesMenu = [
   {
     familyKey: 'family3',
     i18nKey: 'family3.title',
+    path: '/droit-de-la-fonction-publique',
     color: 'primary-light',
     subfamilies: [
       {

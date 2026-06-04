@@ -11,6 +11,10 @@ export default async function sitemap() {
   const expertisePaths = new Set();
 
   expertisesMenu.forEach((family) => {
+    // mother page (PAGE MÈRE) landing
+    if (family.path) {
+      expertisePaths.add(family.path);
+    }
     family.subfamilies.forEach((sub) => {
       if (sub.subItems && sub.subItems.length > 0) {
         sub.subItems.forEach((item) => {

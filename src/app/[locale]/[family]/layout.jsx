@@ -1,12 +1,5 @@
 import { getTranslations } from 'next-intl/server';
 
-// Map family slugs to navbar keys for localized titles
-const familyTitleKeys = {
-  'droit-des-affaires-et-des-societes': 'expertises.family1.title',
-  'droit-de-la-mobilite-internationale-et-des-etrangers': 'expertises.family2.title',
-  'droit-de-la-fonction-publique': 'expertises.family3.title',
-};
-
 export async function generateMetadata({ params }) {
   const { locale, family } = await params;
   const siteUrl = process.env.SITE_URL || 'http://localhost:3000';
@@ -15,25 +8,20 @@ export async function generateMetadata({ params }) {
   let description = '';
 
   try {
-    const tNav = await getTranslations({ locale, namespace: 'navbar' });
-    const key = familyTitleKeys[family];
-    if (key) {
-      title = tNav.optional?.(key) ?? '';
-    }
+    const tExp = await getTranslations({ locale, namespace: 'expertises' });
+    title = tExp.optional?.(`meres.${family}.metaTitle`) ?? tExp.optional?.(`meres.${family}.title`) ?? '';
+    description = tExp.optional?.(`meres.${family}.metaDescription`) ?? tExp.optional?.('cta_subtitle') ?? '';
     if (!title) {
       const humanize = (slug) => slug.replace(/-/g, ' ').replace(/\b\w/g, (m) => m.toUpperCase());
       title = humanize(family);
     }
-
-    const tExp = await getTranslations({ locale, namespace: 'expertises' });
-    description = tExp.optional?.('cta_subtitle') ?? '';
   } catch (e) {
-    // Fallbacks on any error
     const humanize = (slug) => slug.replace(/-/g, ' ').replace(/\b\w/g, (m) => m.toUpperCase());
     title = humanize(family);
   }
 
-  const brandedTitle = title ? `${title} · AKZ Avocat` : 'AKZ Avocat';
+  const hasMeta = !!title && /Avocat|Pau/i.test(title);
+  const brandedTitle = hasMeta ? title : (title ? `${title} · AKZ Avocat` : 'AKZ Avocat');
 
   return {
     title: { absolute: brandedTitle },

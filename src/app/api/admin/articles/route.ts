@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 import { verifyAuth } from '@/lib/middleware-auth'
+import { revalidateArticles } from '@/lib/revalidate-articles'
 
 export async function GET(request: NextRequest) {
   const authResult = await verifyAuth(request)
@@ -121,6 +122,8 @@ export async function POST(request: NextRequest) {
         publishedAt: published !== false ? new Date() : null,
       },
     })
+
+    revalidateArticles()
 
     return NextResponse.json(
       { success: true, article },

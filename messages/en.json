@@ -18,34 +18,38 @@
       "family1": {
         "title": "Business and corporate law",
         "sub1a": {
-          "title": "Companies",
-          "item1": "Creation and acquisition of a business",
-          "item2": "Company operations",
-          "item3": "Business transfer and sale"
+          "title": "Creation and structuring of businesses"
         },
         "sub1b": {
-          "title": "Contracts",
-          "item1": "Terms and conditions of sale",
-          "item2": "Sales / rental mandate",
-          "item3": "Commercial leases"
+          "title": "Drafting and securing commercial contracts"
         },
         "sub1c": {
-          "title": "Commercial",
-          "item1": "Client / supplier relations",
-          "item2": "Relations with third parties"
+          "title": "International commercial relations"
         }
       },
       "family2": {
-        "title": "International mobility and immigration law",
-        "sub2a": { "title": "Visas and visa refusals" },
-        "sub2b": { "title": "Family reunification" },
-        "sub2c": { "title": "Asylum applications and CNDA appeals" },
-        "sub2d": { "title": "Residence permits and OQTF" }
+        "title": "Immigration and nationality law",
+        "sub2a": {
+          "title": "Visas and visa refusals"
+        },
+        "sub2b": {
+          "title": "Family reunification"
+        },
+        "sub2c": {
+          "title": "Asylum applications and CNDA appeals"
+        },
+        "sub2d": {
+          "title": "Residence permits and OQTF"
+        }
       },
       "family3": {
         "title": "Public service law",
-        "sub3a": { "title": "Disciplinary procedures" },
-        "sub3b": { "title": "Moral harassment" },
+        "sub3a": {
+          "title": "Disciplinary procedures"
+        },
+        "sub3b": {
+          "title": "Moral harassment"
+        },
         "sub3c": {
           "title": "Occupational disease and service-related accident"
         }
@@ -190,270 +194,247 @@
     "cta_email": "Request quote",
     "wip": "Work in progress",
     "visa": {
-      "title": "Support in the visa process",
-      "subtitle": "Analysis of your situation, visa application and pursuing available appeals",
+      "title": "Visas and visa refusals",
+      "subtitle": "Applying for a visa for France can quickly become a complicated journey. When a refusal is issued, sometimes without any real explanation, it often jeopardises important plans, whether personal, family or professional. Based in Pau, the firm assists people facing a visa refusal and helps them bring the necessary appeals, both before the administration and before the competent courts.",
       "items": {
         "item1": {
-          "title": "Case analysis",
-          "description": "Study of your personal situation and the reasons for refusal."
+          "title": "Understanding the grounds for a visa refusal",
+          "description": "A visa may be refused for many reasons: insufficient supporting documents, doubts about the purpose of the stay, resources deemed inadequate or a risk of remaining unlawfully on French territory. Reviewing the file makes it possible to identify the legal basis of the refusal and to develop a suitable strategy."
         },
         "item2": {
-          "title": "Administrative appeal",
-          "description": "Drafting and filing the administrative appeal with the competent authority."
-        },
-        "item3": {
-          "title": "Judicial appeal",
-          "description": "Appeal before the competent court if the refusal is maintained."
+          "title": "Challenging a visa refusal: what steps to take?",
+          "description": "A visa refusal is not necessarily final. Avenues of appeal exist, provided that strict deadlines and precise procedural rules are respected. The firm of Maître Kirimov assists you with preliminary administrative appeals and, where appropriate, with challenging the decision before the courts."
         }
       },
-      "footerTitle": "Each case is studied with precision to maximize your chances of success.",
-      "footerDescription": ""
+      "footerTitle": "Legal support from Pau",
+      "footerDescription": "A visa refusal should not be accepted without analysis. Rigorous legal support makes it possible to assess the prospects of an appeal and to defend your situation effectively before the administration. Based in Pau, the firm assists clients residing in France or abroad who face visa refusals issued by the French authorities. Maître Kirimov accordingly acts in Nouvelle-Aquitaine and Occitanie and, more broadly, throughout France.",
+      "metaTitle": "Visa refusal in Pau – Immigration law lawyer",
+      "metaDescription": "Lawyer in Pau to challenge a visa refusal. Legal support in immigration law across Nouvelle-Aquitaine and Occitanie."
     },
     "regroupement-familial": {
-      "title": "Family reunification support",
-      "subtitle": "Procedures, appeals and protection of family rights",
+      "title": "Family reunification",
+      "subtitle": "Family reunification allows a foreign national lawfully residing in France to bring their family within a legal framework. This strictly regulated procedure involves precise conditions and sometimes lengthy timeframes. In Pau, Maître Kirimov assists people wishing to initiate or secure a family reunification application.",
       "items": {
         "item1": {
-          "title": "Family reunification application",
-          "description": "Me KIRIMOV assists you in preparing the file and the procedures to legally bring your relatives to France."
+          "title": "Understanding the conditions for family reunification",
+          "description": "The family reunification procedure rests on several cumulative criteria. The conditions concern in particular the lawfulness of the applicant's residence, the length of residence in France, financial resources, housing conditions and the composition of the family. Legal support makes it possible to check that the file complies with the requirements before it is submitted."
         },
         "item2": {
-          "title": "Appeals and additional requests",
-          "description": "Intervention in case of refusal or complex requests from the administration."
+          "title": "Building and following up the file",
+          "description": "Building a family reunification file requires the production of numerous administrative documents, which are often difficult to gather when family members reside abroad. Maître Kirimov assists you in preparing the file, checking the supporting documents and following up the procedure with the administration."
         },
         "item3": {
-          "title": "Family reunification related to asylum:",
-          "description": "Specific support for beneficiaries of international protection."
+          "title": "Refusal of family reunification: what are the options?",
+          "description": "A refusal of family reunification can have significant consequences on personal and family life. However, applicants do have avenues of appeal to challenge the refusal of a family reunification application; the assistance of a lawyer makes it possible to assess the file's prospects of success and to find a solution suited to each case."
         }
       },
-      "footerTitle": "My role is to ensure procedural regularity and the protection of family rights.",
-      "footerDescription": ""
+      "footerTitle": "Support tailored to each case",
+      "footerDescription": "Family reunification is an essential process for many families, but it requires rigorous preparation. Maître Kirimov supports you in following up your file and defends you effectively before the competent courts.",
+      "metaTitle": "Family reunification in Pau – Immigration lawyer",
+      "metaDescription": "Lawyer in Pau for family reunification. Legal support in immigration law across Nouvelle-Aquitaine and Occitanie."
     },
     "demandes-dasile-et-recours-cnda": {
-      "title": "Asylum application and CNDA appeal",
-      "subtitle": "Me KIRIMOV assists and defends you in your application for international protection.",
+      "title": "Asylum applications and CNDA appeals",
+      "subtitle": "Asylum applications concern people facing situations of danger, persecution or serious threats in their country of origin. This procedure raises major human and legal stakes and requires strict rules to be respected. The firm supports asylum seekers throughout the procedure and in appeals before the National Court of Asylum (CNDA).",
       "items": {
         "item1": {
-          "title": "Support with the asylum application",
-          "description": "Me Kirimov explains the stakes of the OFPRA interview and prepares you for it."
+          "title": "Understanding the asylum application procedure",
+          "description": "The asylum procedure rests on strict deadlines and precise formalities. A misunderstood step or an error in the file can be enough to jeopardise obtaining refugee status or subsidiary protection. Legal support makes it possible to secure each phase of the process and to move forward with greater peace of mind."
         },
         "item2": {
-          "title": "Appeal before the CNDA",
-          "description": "Me KIRIMOV represents you and prepares a well-argued case against OFPRA’s refusal."
+          "title": "Preparing the file and the OFPRA interview",
+          "description": "The interview with the French Office for the Protection of Refugees and Stateless Persons (OFPRA) is a key stage in an asylum application. The firm supports you beforehand, both in preparing your account and in gathering supporting evidence and preparing for the interview, so as to present a clear, consistent and legally sound file."
         },
         "item3": {
-          "title": "Protection of your fundamental rights",
-          "description": "Each step aims to defend your need for protection."
+          "title": "Appeals before the CNDA",
+          "description": "If the asylum application is rejected by OFPRA, it is possible to bring the matter before the National Court of Asylum within particularly short deadlines. This stage calls for careful analysis of the decision handed down, as well as rigorous preparation of the appeal. Legal support makes it possible to build a strong line of argument, to gather the relevant evidence and to assist the applicant throughout the procedure, in particular at the hearing before the CNDA."
         }
       },
-      "footerTitle": "My involvement guarantees legal rigor and respect for your rights.",
-      "footerDescription": ""
+      "footerTitle": "Human and professional support",
+      "footerDescription": "Applying for asylum is a demanding procedure that requires rigorous preparation. Suitable legal support makes it possible to defend your right to protection in France effectively. Based in Pau, Maître Kirimov assists asylum seekers in the Pyrénées-Atlantiques, but also more broadly across Nouvelle-Aquitaine and Occitanie. Each situation is handled with attentiveness, confidentiality and rigour, respecting each person's own journey and circumstances.",
+      "metaTitle": "Asylum application and CNDA appeal in Pau – Lawyer",
+      "metaDescription": "Lawyer in Pau for asylum applications and CNDA appeals. Legal support in immigration law across Nouvelle-Aquitaine and Occitanie."
     },
     "titres-de-sejour-et-oqtf": {
       "title": "Residence permits and OQTF",
-      "subtitle": "Assistance and defense of your rights",
+      "subtitle": "Matters relating to residence permits, like decisions imposing an obligation to leave French territory (OQTF), are among the most delicate situations in immigration law. They often arise within very short timeframes and can have immediate repercussions on personal, family or professional life.",
       "items": {
         "item1": {
-          "title": "Application or renewal of a residence permit",
-          "description": "I act in your best interests to apply, with solid arguments, for a right to stay while ensuring your file is complete. \n\nLikewise, I intervene before the residence permit commission when the renewal of your right to stay is at risk."
+          "title": "Applying for and renewing residence permits",
+          "description": "Applying for or renewing a residence permit rests on precise conditions, which vary according to each person's personal, family or professional situation. An upfront analysis is often necessary to identify the most suitable permit and to avoid mistakes that could delay or jeopardise the procedure. Legal support thus makes it possible to put together a complete and coherent file, and to secure dealings with the prefecture at every stage of the process."
         },
         "item2": {
-          "title": "Appeal against a refusal or an OQTF",
-          "description": "Me KIRIMOV defends you before the authorities and supports you through litigation procedures."
+          "title": "Refusal of a residence permit: understanding and acting",
+          "description": "A refusal of a residence permit can have immediate and particularly serious consequences on the personal, family or professional situation of the person concerned. In this context, the involvement of a lawyer makes it possible to analyse the decision carefully, to check that procedural safeguards have been respected and to identify the available avenues of appeal. This support is essential in order to act effectively within the applicable deadlines and to defend the rights of the person concerned as fully as possible."
         },
         "item3": {
-          "title": "Change of status or regularization",
-          "description": "I help you obtain a permit adapted to the evolution of your family or professional situation."
+          "title": "Challenging an OQTF within tight deadlines",
+          "description": "An obligation to leave French territory (OQTF) comes with particularly short appeal deadlines. Any inaction or procedural error can quickly render the decision final. The firm supports you in analysing the lawfulness of the OQTF, preparing a suitable appeal and defending your rights before the administrative court, at every stage of the procedure."
         }
       },
-      "footerTitle": "My objective: to preserve your right to stay in France.",
-      "footerDescription": ""
+      "footerTitle": "Human support, attentive to your needs",
+      "footerDescription": "Decisions relating to residence permits and OQTFs have an immediate impact on your situation. Suitable legal support makes it possible to meet deadlines, to secure the procedures and to defend your right to reside effectively. Based in Pau, Maître Kirimov assists clients facing issues relating to residence permits and OQTFs in the Pyrénées-Atlantiques, as well as in Nouvelle-Aquitaine and Occitanie.",
+      "metaTitle": "Residence permit and OQTF in Pau – Immigration lawyer",
+      "metaDescription": "Lawyer in Pau for residence permits and OQTF. Legal support in immigration law across Nouvelle-Aquitaine and Occitanie."
     },
     "procedures-disciplinaires": {
-      "title": "Disciplinary procedures",
-      "subtitle": "Support from the first summons or measure",
+      "title": "Disciplinary proceedings in the public service",
+      "subtitle": "Disciplinary proceedings can have significant consequences on the career and professional path of a public-sector employee. Depending on the situation, the administration may consider various measures, ranging from a warning to heavier sanctions, and even to exclusion or dismissal of the official.",
       "items": {
         "item1": {
-          "title": "Defense against disciplinary sanctions",
-          "description": "Suspension, reprimand or other disciplinary sanction: my intervention ensures respect for due process and defense rights."
+          "title": "Understanding disciplinary proceedings",
+          "description": "Disciplinary proceedings are governed by strict rules specifically intended to safeguard the rights of the public-sector employee. Failure to respect these safeguards can have a direct bearing on the lawfulness of the sanction contemplated or imposed by the administration. Legal support makes it possible to understand clearly the allegations made, to identify the applicable procedural safeguards and to approach the proceedings with a better grasp of what is at stake."
         },
         "item2": {
-          "title": "Appeal against abusive sanctions",
-          "description": "After analyzing your situation and the sanction imposed, Me KIRIMOV advises you on the opportunity to take legal action."
-        },
-        "item3": {
-          "title": "Defense strategy preparation",
-          "description": "Me KIRIMOV supports you preventively to anticipate disciplinary actions."
+          "title": "Challenging a disciplinary sanction",
+          "description": "A disciplinary sanction may be challenged where it appears disproportionate, insufficiently founded or imposed following irregular proceedings. In this context, the support of a lawyer makes it possible to analyse the decision taken by the administration and to identify the relevant grounds of challenge. The firm assists the employee both in administrative appeals and before the administrative court, in order to defend their rights effectively."
         }
       },
-      "footerTitle": "My goal: ensure a rigorous and tailored defense for each situation.",
-      "footerDescription": ""
+      "footerTitle": "Support and follow-up on a human scale",
+      "footerDescription": "Disciplinary proceedings should never be faced alone. Suitable legal support makes it possible to secure the procedure and to defend your rights as a public-sector employee effectively. Based in Pau, the firm assists public-sector employees in the Pyrénées-Atlantiques, as well as those in Nouvelle-Aquitaine and Occitanie, with a clear and transparent approach.",
+      "metaTitle": "Public service disciplinary proceedings – Lawyer in Pau",
+      "metaDescription": "Lawyer in Pau for disciplinary proceedings in the public service. Defending public-sector employees across Nouvelle-Aquitaine and Occitanie."
     },
     "harcelement-moral": {
-      "title": "Moral harassment",
-      "subtitle": "Recognition and remedies in cases of suffering at work.",
+      "title": "Workplace harassment in the public service",
+      "subtitle": "Workplace harassment in the public service is a serious attack on the dignity, health and working conditions of public-sector employees. It often develops gradually and sometimes insidiously, making it difficult to identify and to have it recognised. Its consequences can be particularly heavy, both professionally and personally. In Pau, Maître Kirimov assists public-sector employees facing situations of workplace harassment, to help them have the facts recognised and to defend their rights.",
       "items": {
         "item1": {
-          "title": "Identification of moral harassment",
-          "description": "Me KIRIMOV helps you establish the facts and compile the necessary evidence."
+          "title": "Recognising a situation of workplace harassment",
+          "description": "Workplace harassment is characterised by repeated conduct leading to a deterioration in working conditions. It may take the form of excessive pressure, exclusion, belittling remarks or harm to health. Legal support makes it possible to characterise the facts in legal terms and to confront such conduct."
         },
         "item2": {
-          "title": "Holding the employer liable",
-          "description": "Me KIRIMOV supports you in establishing the administration’s fault."
+          "title": "Rights and protections of the public-sector employee",
+          "description": "Public-sector employees benefit from specific protections when facing situations of workplace harassment. The administration is required to safeguard the health, safety and dignity of its employees in the exercise of their duties. This obligation involves not only preventing situations of harassment, but also responding to them appropriately when they are brought to its attention."
         },
         "item3": {
-          "title": "Representation before administrative courts",
-          "description": "Me KIRIMOV defends you rigorously before the competent bodies."
+          "title": "Building a file and initiating proceedings",
+          "description": "Building a strong file is a decisive step in having a situation of workplace harassment recognised. It involves gathering all available evidence and presenting the facts in a clear, consistent and chronological manner, so as to allow a precise analysis of the situation. It is essential to collect even the smallest piece of evidence that could advance the case. Anticipation and preparation are therefore the watchwords of a strong file."
         }
       },
-      "footerTitle": "My objective: obtain redress and restore your rights.",
-      "footerDescription": ""
+      "footerTitle": "Human support, attentive to your needs",
+      "footerDescription": "Workplace harassment should never be trivialised. Suitable legal support makes it possible to have the situation recognised, to protect the employee and to obtain compensation commensurate with the harm suffered. Based in Pau, the firm assists public-sector employees in the Pyrénées-Atlantiques, as well as in Nouvelle-Aquitaine and Occitanie, with confidentiality and determination.",
+      "metaTitle": "Public service workplace harassment – Lawyer in Pau",
+      "metaDescription": "Lawyer in Pau for workplace harassment in the public service. Defending and supporting public-sector employees across Nouvelle-Aquitaine."
     },
     "maladie-professionnelle": {
-      "title": "Occupational disease and service-related accident",
-      "subtitle": "File preparation, recognition and appeals.",
+      "title": "Occupational illness and work-related accidents in the public service",
+      "subtitle": "Both occupational illness and work-related accidents can have significant consequences on the health, career and rights of public-sector employees. Having them recognised by the administration can, however, prove complex and give rise to difficulties, challenges and even refusals, requiring particular attention at every stage of the procedure.",
       "items": {
         "item1": {
-          "title": "File preparation",
-          "description": "Me KIRIMOV helps you gather the necessary documents to have your situation recognized."
+          "title": "Understanding the concept of attributability to service",
+          "description": "Recognition of an occupational illness or a work-related accident rests on the concept of attributability to service. It is then necessary to establish a direct link between the professional activity and the harm caused to the employee's health. This recognition is of particular importance, since it determines, among other things, the coverage of care, the maintenance of remuneration and entitlement to specific leave."
         },
         "item2": {
-          "title": "Appeal in case of an administrative refusal",
-          "description": "Me KIRIMOV represents you before the administration or competent courts."
+          "title": "Steps for the recognition of an occupational illness",
+          "description": "Recognition of an occupational illness in the public service follows a regulated administrative procedure that requires the production of precise medical and professional evidence. This evidence makes it possible to assess the link between the employee's state of health and their working conditions, and determines the outcome of the application."
         },
         "item3": {
-          "title": "Management of sick leave and compensation",
-          "description": "In case of a service-related accident with an established disability rate, I support you in obtaining fair compensation for your damages."
-        }
-      },
-      "footerTitle": "My objective: have your rights recognized.",
-      "footerDescription": ""
-    },
-    "creations-et-rachat": {
-      "title": "Business creation and acquisition",
-      "subtitle": "Placeholder",
-      "items": {
-        "item1": {
-          "title": "Company incorporation",
-          "description": "Placeholder"
-        },
-        "item2": {
-          "title": "Acquisition of a business",
-          "description": "Placeholder"
-        },
-        "item3": {
-          "title": "Advice on legal form",
-          "description": "Placeholder"
+          "title": "Work-related accident: asserting your rights",
+          "description": "An accident occurring in the course of service may give rise to specific recognition, with significant consequences for the employee concerned. This recognition is not, however, automatic and may be the subject of discussion or challenge by the administration. Legal support then makes it possible to characterise the accident precisely, to establish its link with the service and to defend the employee's rights throughout the procedure."
         },
         "item4": {
-          "title": "Drafting of bylaws",
-          "description": "Placeholder"
-        },
-        "item5": {
-          "title": "Support with formalities",
-          "description": "Placeholder"
-        },
-        "item6": {
-          "title": "Shareholders’ agreements drafting",
-          "description": "Placeholder"
+          "title": "Challenging a refusal of recognition",
+          "description": "A refusal to recognise an occupational illness or a work-related accident can have significant consequences on the employee's situation. It may, in particular, affect medical coverage, remuneration or leave entitlements, and lastingly weaken the professional situation of the person concerned."
         }
       },
-      "footerTitle": "Placeholder",
-      "footerDescription": "Placeholder"
+      "footerTitle": "Support for public-sector employees in Pau",
+      "footerDescription": "The recognition of an occupational illness or a work-related accident is a major issue for public-sector employees. Suitable legal support makes it possible to secure the procedures and to defend your rights effectively. Based in Pau, the firm assists public-sector employees in the Pyrénées-Atlantiques, as well as in Nouvelle-Aquitaine and Occitanie, who face work-related health issues.",
+      "metaTitle": "Occupational illness and work-related accident – Lawyer in Pau",
+      "metaDescription": "Lawyer in Pau for occupational illness and work-related accidents in the public service. Legal support for public-sector employees across Nouvelle-Aquitaine."
     },
-    "vie-de-lentreprise": {
-      "title": "Company operations",
-      "subtitle": "Placeholder",
-      "items": {
-        "item1": {
-          "title": "Corporate housekeeping and secretarial work",
-          "description": "Placeholder"
-        },
-        "item2": {
-          "title": "Approval of accounts and drafting of minutes",
-          "description": "Placeholder"
-        },
-        "item3": {
-          "title": "Keeping statutory registers",
-          "description": "Placeholder"
-        },
-        "item4": {
-          "title": "Filing mandatory documents with the commercial court registry",
-          "description": "Placeholder"
-        },
-        "item5": {
-          "title": "Bylaws amendments (capital increase / registered office transfer / corporate bodies)",
-          "description": "Placeholder"
-        },
-        "item6": {
-          "title": "Contribution of securities and partial asset contributions",
-          "description": "Placeholder"
-        },
-        "item7": {
-          "title": "Tax optimization (dividends / transfer / sale)",
-          "description": "Placeholder"
-        }
+    "meres": {
+      "droit-des-affaires-et-des-societes": {
+        "title": "Business and corporate law",
+        "subtitle": "A methodical approach, attentive to your needs",
+        "intro": "Starting a venture, structuring an activity or developing a company involves binding and sometimes irreversible legal decisions. Based in Pau, the firm assists company directors, entrepreneurs, traders and project holders at every stage in the life of their business. Business law draws on a wide range of cross-cutting areas that affect company heads and the management of their companies. Securing contractual relationships, administrative formalities and various costs all make running a business challenging. Maître Asmae Kirimov offers technical, accessible and tailored support, with no outsourcing, paying particular attention to clarity of the issues at stake and transparency about the risks, to help you find your way through this proliferation of rules. The firm acts in Pau, in the Pyrénées-Atlantiques, as well as in the Nouvelle-Aquitaine and Occitanie regions, and more generally throughout France.",
+        "metaTitle": "Business and corporate law in Pau – Lawyer",
+        "metaDescription": "Lawyer in Pau for business and corporate law. Supporting companies across Nouvelle-Aquitaine and Occitanie."
       },
-      "footerTitle": "Placeholder",
-      "footerDescription": "Placeholder"
-    },
-    "cession-et-transmission": {
-      "title": "Business transfer and sale",
-      "subtitle": "Placeholder",
-      "items": {
-        "item1": { "title": "Sales negotiation", "description": "Placeholder" },
-        "item2": {
-          "title": "Transfer of a business",
-          "description": "Placeholder"
-        },
-        "item3": {
-          "title": "Drafting of transfer and acquisition deeds",
-          "description": "Placeholder"
-        },
-        "item4": {
-          "title": "Amicable dissolution and liquidation",
-          "description": "Placeholder"
-        }
+      "droit-des-etrangers-et-de-la-nationalite": {
+        "title": "Immigration and nationality law",
+        "subtitle": "A human and rigorous approach to immigration law",
+        "intro": "Immigration law deals with personal situations that are often urgent and sensitive, where legal stakes are bound up with powerful human realities. Based in Pau, the firm of Maître Kirimov assists foreign nationals facing complex administrative procedures, refusals or decisions that call into question their right to reside in France. Drawing on experience gained within the French public administration, Maître Asmae Kirimov offers support founded on a clear understanding of administrative mechanisms, legal rigour and personalised follow-up, with no outsourcing. Each situation is analysed transparently, taking account of the real risks, timeframes and prospects. The firm acts mainly in Pau, in the Pyrénées-Atlantiques, and more broadly across Nouvelle-Aquitaine and Occitanie.",
+        "metaTitle": "Immigration and nationality law in Pau – Lawyer",
+        "metaDescription": "Lawyer in Pau for immigration and nationality law. Legal support across Nouvelle-Aquitaine and Occitanie."
       },
-      "footerTitle": "Placeholder",
-      "footerDescription": "Placeholder"
-    },
-    "conditions-generales-de-vente": {
-      "title": "Terms and conditions of sale",
-      "subtitle": "Placeholder",
-      "items": {
-        "item1": { "title": "Placeholder", "description": "Placeholder" }
-      },
-      "footerTitle": "Placeholder",
-      "footerDescription": "Placeholder"
-    },
-    "relations-clients": {
-      "title": "Client / supplier relations",
-      "subtitle": "Placeholder",
-      "items": {
-        "item1": { "title": "Debt collection", "description": "Placeholder" },
-        "item2": {
-          "title": "Challenging service quality",
-          "description": "Placeholder"
-        }
-      },
-      "footerTitle": "Placeholder",
-      "footerDescription": "Placeholder"
-    },
-    "relations-avec-les-tiers": {
-      "title": "Relations with third parties",
-      "subtitle": "Placeholder",
-      "items": {
-        "item1": {
-          "title": "Disputes over commercial leases",
-          "description": "Placeholder"
-        },
-        "item2": {
-          "title": "Disputes between merchants",
-          "description": "Placeholder"
-        },
-        "item3": { "title": "Unfair competition", "description": "Placeholder" }
+      "droit-de-la-fonction-publique": {
+        "title": "Public service law",
+        "subtitle": "Defending the rights of public-sector employees with clarity and rigour",
+        "intro": "Public service law governs the entire career of public-sector employees, both their rights and their obligations. Disciplinary proceedings, situations of harassment and issues relating to health at work can have significant repercussions on both professional and personal life. These situations often call for a fine understanding of the applicable rules and of the mechanisms specific to the administration. Located in Pau, the firm assists public-sector employees in their dealings with the administration. The approach is accessible, instructive and rigorous, so that each employee can understand their rights and the available courses of action. Drawing on experience gained within the French public administration, Maître Asmae Kirimov has concrete knowledge of how it works internally and of the legal levers that make it possible to defend employees' interests effectively. The firm acts in Pau, in the Pyrénées-Atlantiques, and more broadly across Nouvelle-Aquitaine and Occitanie.",
+        "metaTitle": "Public service law in Pau – Lawyer",
+        "metaDescription": "Lawyer in Pau for public service law. Defending public-sector employees across Nouvelle-Aquitaine and Occitanie."
       }
+    },
+    "creation-et-structuration": {
+      "title": "Creation and structuring of businesses",
+      "subtitle": "Setting up a business is the first step towards turning a project into reality, allowing it to be organised and ultimately brought to life. Choosing the corporate form (SAS, SARL, SASU, EI and so on), drafting the articles of association, completing administrative formalities and dealing with taxation: the project holder must carefully study the design of their company so that it meets their expectations and serves their interests. The firm supports you throughout your project, both in advisory work and in litigation.",
+      "items": {
+        "item1": {
+          "title": "Choosing the legal form suited to your project",
+          "description": "The rules governing a company are determined by its corporate form. Choosing a form suited to your project and your ambitions is therefore crucial for the business to thrive. The most appropriate form will vary depending on the number of partners and on the projects and activities the company envisages. For example, the SAS offers shareholders greater freedom but requires carefully drafted articles of association, whereas the SARL benefits from a complete statutory framework. The chosen form will also affect the director's social security regime. This aspect must therefore be taken into account when the company is set up."
+        },
+        "item2": {
+          "title": "Drafting the articles of association and legal organisation",
+          "description": "A genuine cornerstone, the articles of association are intended to govern the entire operation of the company: from the allocation of share capital and the appointment and removal of the director to the holding of general meetings, they make it possible to tailor how the company runs (within the limits imposed by law). It is also possible to insert a whole range of clauses to optimise the company's governance (approval clause, non-competition clause and so on)."
+        },
+        "item3": {
+          "title": "Securing the launch of the business",
+          "description": "Launching a business is often a particular period: it is the moment when the first essential contracts are signed (lease, supply, franchise and so on). It is also a period of uncertainty for the company, which will face its first difficulties. It is not uncommon for the company still to be in the process of formation at launch, which triggers the application of a specific legal regime."
+        }
+      },
+      "footerTitle": "Tailored support",
+      "footerDescription": "Based in Pau, the firm assists entrepreneurs in the Pyrénées-Atlantiques as well as those in Nouvelle-Aquitaine and Occitanie, with concrete knowledge of local economic realities. Creating and structuring a business should never be treated as a mere formality. Legal support from the very beginning makes it possible to secure the project and to prepare for the future with peace of mind.",
+      "metaTitle": "Creation and structuring of businesses in Pau – Lawyer",
+      "metaDescription": "Lawyer in Pau in corporate law for the creation and structuring of businesses. Legal support across Nouvelle-Aquitaine."
+    },
+    "contrats-commerciaux": {
+      "title": "Drafting and securing commercial contracts",
+      "subtitle": "Commercial contracts are of vital importance to a company and represent its source of revenue. Poorly drafted contracts can lead to lengthy deadlocks and disputes between contracting parties. Maître Asmae Kirimov supports clients through the various phases in the life of a contract, from its formation through its performance and ultimately its termination.",
+      "items": {
+        "item1": {
+          "title": "Why secure your commercial contracts legally?",
+          "description": "The legal security of contracts is a key factor for a company. Without it, sustaining a lasting business over the long term is difficult to envisage. Sale, supply, procurement and partnership agreements each have their own legal regime and subtleties that must be mastered to ensure that the relationship runs smoothly."
+        },
+        "item2": {
+          "title": "Drafting contracts tailored to your business",
+          "description": "Adaptability and agility must guide the hand of anyone drafting a contract. Many contract templates exist online, but none can truly be adapted to the constraints of your company. Maître Kirimov has solid experience in contract law and is able to draft your future contractual provisions while respecting your constraints and your needs."
+        },
+        "item3": {
+          "title": "Reviewing and securing existing contracts",
+          "description": "Identifying risks is a crucial concern wherever a contract is involved. A thorough review brings legal weaknesses to light and helps identify any provisions that are no longer up to date. It will be essential to update the company's contract templates so that they always reflect the latest legal developments."
+        },
+        "item4": {
+          "title": "Anticipating disputes and protecting the business",
+          "description": "A well-drafted contract is one that anticipates potential disputes, locks them down and provides a means of resolving them as quickly as possible while avoiding litigation. Naturally, anticipation increases a company's legal protection against non-performance or services that fall short of contractual expectations. The contract may, for example, set out what each party expects from the relationship by means of a preamble. It may also provide for arbitration or mediation clauses in order to avoid court proceedings."
+        }
+      },
+      "footerTitle": "Clear, professional and rigorous support",
+      "footerDescription": "Based in Pau, the firm assists micro-businesses, SMEs, entrepreneurs and traders in Nouvelle-Aquitaine and Occitanie, with personalised and responsive follow-up. Being well supported from the contract formation stage allows the director to manage the company's activity without worrying about the reliability of its contracts. The firm offers tailored support to meet all your needs.",
+      "metaTitle": "Commercial contracts in Pau – Business law lawyer",
+      "metaDescription": "Lawyer in Pau for drafting and securing commercial contracts. Legal support for companies across Nouvelle-Aquitaine."
+    },
+    "relations-commerciales-internationales": {
+      "title": "International commercial relations",
+      "subtitle": "For a company, opening up to international markets brings new challenges and great opportunities. However, these also come with their share of legal issues: applicable law, competent jurisdiction and so on. International law is full of subtleties and calls for support from a qualified professional.",
+      "items": {
+        "item1": {
+          "title": "Securing your international transactions legally",
+          "description": "International trade naturally involves dealing with partners subject to a different legislative and regulatory framework. It is therefore essential to structure international transactions through clear agreements that will serve as the law between the parties."
+        },
+        "item2": {
+          "title": "Drafting and reviewing international commercial contracts",
+          "description": "An international commercial contract requires particular care. The contracting parties must agree not only on the terms of the service but also on the competent jurisdiction and the law applicable in the event of a dispute. A fine knowledge of the rules of international law, combined with meticulous drafting, can turn a restrictive body of legislation into a new opportunity."
+        },
+        "item3": {
+          "title": "Anticipating disputes and protecting the company's interests",
+          "description": "Complex by nature, international contracts call for a strong capacity to anticipate and must not be drafted without prior thought. Arbitration and choice-of-forum clauses are particularly liable to be challenged when a conflict arises. A reliable and secure contract makes it possible to foresee the outcome of a dispute and provides comfort and legal certainty."
+        }
+      },
+      "footerTitle": "Support from Pau towards international markets",
+      "footerDescription": "Located in Pau, the firm offers support towards international markets. The firm is dedicated to helping companies in Nouvelle-Aquitaine, Occitanie and, more generally, throughout France. International commercial relations are an important driver of growth, provided they are legally well managed. Suitable support makes it possible to secure transactions and to support sustainable international development.",
+      "metaTitle": "International commercial relations – Lawyer in Pau",
+      "metaDescription": "Lawyer in Pau to secure your international commercial relations. Legal support for companies across Nouvelle-Aquitaine."
     }
   },
   "seo": {

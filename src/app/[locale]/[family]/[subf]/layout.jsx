@@ -16,22 +16,14 @@ export async function generateMetadata({ params }) {
   try {
     if (contentKey) {
       const t = await getTranslations({ locale, namespace: 'expertises' });
-      // Prefer localized title; if missing, don't throw
-      title = t.optional?.(`${contentKey}.title`) ?? '';
-      // Use subtitle if present; otherwise, fall back to a generic description
-      description = t.optional?.(`${contentKey}.subtitle`) ?? '';
-      if (!description) {
-        description = t('cta_subtitle');
-      }
-    } else {
-      // Fallbacks when there is no contentKey in config
-      if (def?.heroNavKey) {
-        const tNav = await getTranslations({ locale, namespace: 'navbar' });
-        title = tNav(def.heroNavKey);
-      } else {
-        const humanize = (slug) => slug.replace(/-/g, ' ').replace(/\b\w/g, (m) => m.toUpperCase());
-        title = humanize(subf);
-      }
+      title = t.optional?.(`${contentKey}.metaTitle`) ?? t.optional?.(`${contentKey}.title`) ?? '';
+      description =
+        t.optional?.(`${contentKey}.metaDescription`) ??
+        t.optional?.(`${contentKey}.subtitle`) ??
+        t('cta_subtitle');
+    } else if (def?.heroNavKey) {
+      const tNav = await getTranslations({ locale, namespace: 'navbar' });
+      title = tNav(def.heroNavKey);
       const t = await getTranslations({ locale, namespace: 'expertises' });
       description = t('cta_subtitle');
     }
@@ -53,7 +45,8 @@ export async function generateMetadata({ params }) {
     }
   }
 
-  const brandedTitle = title ? `${title} · AKZ Avocat` : 'AKZ Avocat';
+  const hasMeta = !!title && /Avocat|Pau/i.test(title);
+  const brandedTitle = hasMeta ? title : (title ? `${title} · AKZ Avocat` : 'AKZ Avocat');
 
   return {
     title: { absolute: brandedTitle },

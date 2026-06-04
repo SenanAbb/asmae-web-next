@@ -2,8 +2,9 @@
 
 import React from 'react';
 import { useParams } from 'next/navigation';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import ExpertiseDescriptionPage from '@/components/ExpertiseDescriptionPage';
+import JsonLd from '@/components/JsonLd';
 import { subfamilyConfigs } from '@/data/expertisesSubfamilies';
 
 function NotFoundSubfamily() {
@@ -41,6 +42,7 @@ function resolveSubfamilyConfig(key, t, tNav) {
 
 export default function SubfamilyPage() {
   const params = useParams();
+  const locale = useLocale();
   const tNav = useTranslations('navbar');
   const t = useTranslations('expertises');
 
@@ -52,14 +54,21 @@ export default function SubfamilyPage() {
   if (!config) return <NotFoundSubfamily />;
 
   return (
-    <ExpertiseDescriptionPage
-      heroTitle={config.heroTitle}
-      image={config.image}
-      title={config.title}
-      subtitle={config.subtitle}
-      itemsList={config.items}
-      footerTitle={config.footerTitle}
-      footerDescription={config.footerDescription}
-    />
+    <>
+      <JsonLd
+        name={config.title}
+        description={config.subtitle}
+        url={`/${locale}/${familyParam}/${subfParam}`}
+      />
+      <ExpertiseDescriptionPage
+        heroTitle={config.heroTitle}
+        image={config.image}
+        title={config.title}
+        subtitle={config.subtitle}
+        itemsList={config.items}
+        footerTitle={config.footerTitle}
+        footerDescription={config.footerDescription}
+      />
+    </>
   );
 }

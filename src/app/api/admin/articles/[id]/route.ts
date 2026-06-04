@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 import { verifyAuth } from '@/lib/middleware-auth'
+import { revalidateArticles } from '@/lib/revalidate-articles'
 
 // Función para calcular tiempo de lectura basada en caracteres (~900 chars/min)
 function calculateReadingTime(content: string): number {
@@ -103,6 +104,8 @@ export async function PUT(
       data: updateData,
     })
 
+    revalidateArticles()
+
     return NextResponse.json(
       { success: true, article },
       { status: 200 }
@@ -142,6 +145,8 @@ export async function DELETE(
     await prisma.article.delete({
       where: { id },
     })
+
+    revalidateArticles()
 
     return NextResponse.json(
       { success: true, message: 'Artículo eliminado exitosamente' },

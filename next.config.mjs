@@ -32,6 +32,18 @@ const nextConfig = {
       },
     ];
   },
+  async redirects() {
+    const oldBase = 'droit-de-la-mobilite-internationale-et-des-etrangers';
+    const newBase = 'droit-des-etrangers-et-de-la-nationalite';
+    return [
+      // default locale (no prefix): mother page + sous-pages
+      { source: `/${oldBase}`, destination: `/${newBase}`, permanent: true },
+      { source: `/${oldBase}/:subf*`, destination: `/${newBase}/:subf*`, permanent: true },
+      // prefixed locales (en, es)
+      { source: `/:locale(en|es)/${oldBase}`, destination: `/:locale/${newBase}`, permanent: true },
+      { source: `/:locale(en|es)/${oldBase}/:subf*`, destination: `/:locale/${newBase}/:subf*`, permanent: true },
+    ];
+  },
   poweredByHeader: false,
 };
 

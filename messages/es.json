@@ -18,35 +18,41 @@
       "family1": {
         "title": "Derecho mercantil y societario",
         "sub1a": {
-          "title": "Sociedades",
-          "item1": "Creación y adquisición de empresa",
-          "item2": "Vida de la empresa",
-          "item3": "Transmisión y cesión de empresa"
+          "title": "Creación y estructuración de empresas"
         },
         "sub1b": {
-          "title": "Contratos",
-          "item1": "Condiciones generales de venta",
-          "item2": "Mandato de venta / alquiler",
-          "item3": "Arrendamientos comerciales"
+          "title": "Redacción y seguridad de los contratos comerciales"
         },
         "sub1c": {
-          "title": "Comercial",
-          "item1": "Relaciones con clientes / proveedores",
-          "item2": "Relaciones con terceros"
+          "title": "Relaciones comerciales internacionales"
         }
       },
       "family2": {
-        "title": "Derecho de movilidad internacional y de extranjeros",
-        "sub2a": { "title": "Visados y denegaciones de visado" },
-        "sub2b": { "title": "Reagrupación familiar" },
-        "sub2c": { "title": "Solicitudes de asilo y recursos ante la CNDA" },
-        "sub2d": { "title": "Permisos de residencia y OQTF" }
+        "title": "Derecho de extranjería y nacionalidad",
+        "sub2a": {
+          "title": "Visados y denegaciones de visado"
+        },
+        "sub2b": {
+          "title": "Reagrupación familiar"
+        },
+        "sub2c": {
+          "title": "Solicitudes de asilo y recursos ante la CNDA"
+        },
+        "sub2d": {
+          "title": "Permisos de residencia y OQTF"
+        }
       },
       "family3": {
         "title": "Derecho de la función pública",
-        "sub3a": { "title": "Procedimientos disciplinarios" },
-        "sub3b": { "title": "Acoso moral" },
-        "sub3c": { "title": "Enfermedad profesional y accidente de servicio" }
+        "sub3a": {
+          "title": "Procedimientos disciplinarios"
+        },
+        "sub3b": {
+          "title": "Acoso moral"
+        },
+        "sub3c": {
+          "title": "Enfermedad profesional y accidente de servicio"
+        }
       }
     }
   },
@@ -188,308 +194,247 @@
     "contact_section_title": "Contácteme",
     "wip": "En desarrollo",
     "visa": {
-      "title": "Acompañamiento en el procedimiento de visado",
-      "subtitle": "Análisis de su situación, solicitud de visado y ejercicio de los distintos recursos",
+      "title": "Visados y denegaciones de visado",
+      "subtitle": "Solicitar un visado para Francia puede convertirse rápidamente en un proceso complicado. Cuando se produce una denegación, en ocasiones sin una explicación real, esta suele poner en cuestión proyectos importantes, ya sean personales, familiares o profesionales. El despacho, con sede en Pau, acompaña a las personas que se enfrentan a una denegación de visado y las ayuda a interponer los recursos necesarios, tanto ante la administración como ante las jurisdicciones competentes.",
       "items": {
         "item1": {
-          "title": "Análisis del expediente",
-          "description": "Estudio de su situación personal y de los motivos de la denegación."
+          "title": "Comprender los motivos de denegación de visado",
+          "description": "Una denegación de visado puede producirse por múltiples razones: insuficiencia de documentación justificativa, dudas sobre el objeto de la estancia, recursos económicos considerados insuficientes o riesgo de permanencia irregular en el territorio. El análisis del expediente permite identificar la base jurídica de la denegación y elaborar una estrategia adaptada."
         },
         "item2": {
-          "title": "Recurso administrativo",
-          "description": "Redacción y presentación del recurso administrativo ante el organismo competente."
-        },
-        "item3": {
-          "title": "Recurso jurisdiccional",
-          "description": "Recurso ante el juez competente en caso de mantenimiento del rechazo."
+          "title": "Impugnar una denegación de visado: ¿qué trámites seguir?",
+          "description": "Una denegación de visado no es necesariamente definitiva. Existen vías de recurso, siempre que se respeten plazos estrictos y normas procesales precisas. El despacho de Maître KIRIMOV le acompaña en los recursos administrativos previos y, cuando resulta pertinente, en la impugnación por la vía contenciosa."
         }
       },
-      "footerTitle": "Cada situación se estudia con precisión para maximizar sus posibilidades de éxito.",
-      "footerDescription": ""
+      "footerTitle": "Un acompañamiento jurídico desde Pau",
+      "footerDescription": "Una denegación de visado no debe asumirse sin un análisis. Un acompañamiento jurídico riguroso permite evaluar las posibilidades de recurso y defender eficazmente su situación frente a la administración. Con sede en Pau, el despacho acompaña a clientes residentes en Francia o en el extranjero que se enfrentan a denegaciones de visado emitidas por las autoridades francesas. Maître KIRIMOV interviene, a tal efecto, en Nueva Aquitania y Occitania y, más ampliamente, en toda Francia.",
+      "metaTitle": "Denegación de visado en Pau – Abogada de extranjería",
+      "metaDescription": "Abogada en Pau para impugnar una denegación de visado. Acompañamiento jurídico en derecho de extranjería en Nueva Aquitania y Occitania."
     },
     "regroupement-familial": {
-      "title": "Acompañamiento en reagrupación familiar",
-      "subtitle": "Trámites, recursos y respeto de los derechos familiares",
+      "title": "Reagrupación familiar",
+      "subtitle": "La reagrupación familiar permite a un nacional extranjero que reside regularmente en Francia hacer venir a su familia dentro de un marco legal. Este procedimiento, estrictamente regulado, implica condiciones precisas y plazos en ocasiones largos. En Pau, Maître KIRIMOV acompaña a las personas que desean iniciar o asegurar una solicitud de reagrupación familiar.",
       "items": {
         "item1": {
-          "title": "Solicitud de reagrupación familiar",
-          "description": "Me KIRIMOV le asiste en la constitución del expediente y los trámites para traer legalmente a sus familiares a Francia."
+          "title": "Comprender las condiciones de la reagrupación familiar",
+          "description": "El procedimiento de reagrupación familiar se basa en varios criterios acumulativos. Las condiciones se refieren, en particular, a la regularidad de la residencia del solicitante, la duración de la residencia en Francia, los recursos económicos, las condiciones de vivienda y la composición de la familia. Un acompañamiento jurídico permite verificar la conformidad del expediente antes de su presentación."
         },
         "item2": {
-          "title": "Recursos y solicitudes complementarias",
-          "description": "Intervención en caso de denegación o petición compleja por parte de la administración."
+          "title": "Constitución y seguimiento del expediente",
+          "description": "La constitución del expediente de reagrupación familiar requiere la aportación de numerosos documentos administrativos, a menudo difíciles de reunir cuando los miembros de la familia residen en el extranjero. Maître KIRIMOV le asiste en la preparación del expediente, la verificación de la documentación justificativa y el seguimiento del procedimiento ante la administración."
         },
         "item3": {
-          "title": "Reagrupación familiar vinculada al asilo:",
-          "description": "Acompañamiento específico para beneficiarios de protección internacional."
+          "title": "Denegación de la reagrupación familiar: ¿qué soluciones existen?",
+          "description": "Una denegación de la reagrupación familiar puede tener importantes consecuencias en la vida personal y familiar. Sin embargo, existen vías de recurso para que los solicitantes impugnen la denegación de la solicitud de reagrupación familiar; la asistencia de una abogada permite evaluar las posibilidades de éxito del expediente y encontrar una solución adaptada a cada caso."
         }
       },
-      "footerTitle": "Mi papel es garantizar la regularidad del procedimiento y el respeto de los derechos familiares.",
-      "footerDescription": ""
+      "footerTitle": "Un acompañamiento adaptado a cada expediente",
+      "footerDescription": "La reagrupación familiar es un trámite esencial para numerosas familias, pero requiere una preparación rigurosa. Maître KIRIMOV le acompaña en el seguimiento de su expediente y le defiende eficazmente ante las jurisdicciones competentes.",
+      "metaTitle": "Reagrupación familiar en Pau – Abogada de extranjería",
+      "metaDescription": "Abogada en Pau para la reagrupación familiar. Acompañamiento jurídico en derecho de extranjería en Nueva Aquitania y Occitania."
     },
     "demandes-dasile-et-recours-cnda": {
-      "title": "Solicitud de asilo y recurso ante la CNDA",
-      "subtitle": "Me KIRIMOV le asiste y defiende en el marco de su solicitud de protección internacional.",
+      "title": "Solicitudes de asilo y recursos ante la CNDA",
+      "subtitle": "La solicitud de asilo concierne a personas que se enfrentan a situaciones de peligro, persecución o amenazas graves en su país de origen. Este procedimiento conlleva retos humanos y jurídicos de gran calado y exige el cumplimiento de normas estrictas. El despacho acompaña a los solicitantes de asilo a lo largo de todo el procedimiento y en los recursos ante el Tribunal Nacional del Derecho de Asilo (CNDA).",
       "items": {
         "item1": {
-          "title": "Acompañamiento en la solicitud de asilo",
-          "description": "Me Kirimov le explica los retos de la entrevista ante la OFPRA y le prepara para ella."
+          "title": "Comprender el procedimiento de solicitud de asilo",
+          "description": "El procedimiento de asilo se basa en plazos estrictos y formalidades precisas. Una etapa mal comprendida o un error en el expediente puede bastar para comprometer la obtención del estatuto de refugiado o de la protección subsidiaria. Contar con acompañamiento jurídico permite asegurar cada fase del trámite y avanzar con mayor tranquilidad."
         },
         "item2": {
-          "title": "Recurso ante la CNDA",
-          "description": "Me KIRIMOV le representa y prepara un expediente argumentado frente a la denegación de la OFPRA."
+          "title": "Preparar el expediente y la entrevista ante la OFPRA",
+          "description": "La entrevista con la OFPRA (Oficina Francesa de Protección de Refugiados y Apátridas) es una etapa clave de la solicitud de asilo. El despacho le acompaña con antelación, tanto en la preparación del relato como en la recopilación de los elementos de prueba y la preparación de la entrevista, con el fin de presentar un expediente claro, coherente y jurídicamente sólido."
         },
         "item3": {
-          "title": "Garantía de sus derechos fundamentales",
-          "description": "Cada etapa tiene como objetivo defender su necesidad de protección."
+          "title": "Recurso ante la CNDA",
+          "description": "En caso de denegación de la solicitud de asilo por parte de la OFPRA, es posible recurrir ante el Tribunal Nacional del Derecho de Asilo (CNDA) en plazos especialmente breves. Esta etapa exige un análisis atento de la decisión adoptada, así como una preparación rigurosa del recurso. Un acompañamiento jurídico permite construir una argumentación sólida, reunir los elementos útiles y asistir al solicitante a lo largo de todo el procedimiento, en particular durante la vista ante la CNDA."
         }
       },
-      "footerTitle": "Mi intervención garantiza el rigor jurídico y el respeto de sus derechos.",
-      "footerDescription": ""
+      "footerTitle": "Un acompañamiento humano y profesional",
+      "footerDescription": "La solicitud de asilo es un procedimiento exigente que requiere una preparación rigurosa. Un acompañamiento jurídico adecuado permite defender eficazmente su derecho a la protección en Francia. Instalada en Pau, Maître KIRIMOV acompaña a los solicitantes de asilo en los Pirineos Atlánticos, pero también más ampliamente en Nueva Aquitania y Occitania. Cada situación se atiende con escucha, confidencialidad y rigor, respetando la trayectoria y los retos propios de cada persona.",
+      "metaTitle": "Solicitud de asilo y recurso ante la CNDA en Pau – Abogada",
+      "metaDescription": "Abogada en Pau para solicitudes de asilo y recursos ante la CNDA. Acompañamiento jurídico en extranjería en Nueva Aquitania y Occitania."
     },
     "titres-de-sejour-et-oqtf": {
       "title": "Permisos de residencia y OQTF",
-      "subtitle": "Asistencia y defensa de sus derechos",
+      "subtitle": "Los trámites relativos a los permisos de residencia, al igual que las decisiones de obligación de abandonar el territorio francés (OQTF), figuran entre las situaciones más delicadas del derecho de extranjería. A menudo se enmarcan en plazos muy breves y pueden tener repercusiones inmediatas en la vida personal, familiar o profesional.",
       "items": {
         "item1": {
-          "title": "Solicitud o renovación del permiso de residencia",
-          "description": "Intervengo en su interés para solicitar, de forma argumentada, un derecho de residencia asegurando la completitud de su expediente. \n\nDel mismo modo, intervengo ante la comisión de permisos de residencia cuando está en peligro la renovación de su derecho de residencia."
+          "title": "Solicitudes y renovación de permisos de residencia",
+          "description": "La solicitud o la renovación de un permiso de residencia se basa en condiciones precisas, que varían en función de la situación personal, familiar o profesional de cada persona. A menudo es necesario un análisis previo para identificar el permiso más adecuado y evitar errores que puedan retrasar o comprometer el procedimiento. Un acompañamiento jurídico permite así constituir un expediente completo y coherente, pero también asegurar las comunicaciones con la prefectura en cada etapa del trámite."
         },
         "item2": {
-          "title": "Recurso contra una denegación u OQTF",
-          "description": "Me KIRIMOV le defiende ante las autoridades y le acompaña en los procedimientos contenciosos."
+          "title": "Denegación del permiso de residencia: comprender y actuar",
+          "description": "Una denegación del permiso de residencia puede tener consecuencias inmediatas y especialmente gravosas en la situación personal, familiar o profesional de la persona afectada. En este contexto, la intervención de una abogada permite analizar atentamente la decisión adoptada, verificar que se han respetado debidamente las garantías procesales e identificar las vías de recurso posibles. Este acompañamiento es esencial para actuar eficazmente dentro de los plazos establecidos y defender de la mejor manera los derechos de la persona afectada."
         },
         "item3": {
-          "title": "Cambio de estatus o regularización",
-          "description": "Le acompaño para obtener un título adaptado a la evolución de su situación familiar o profesional."
+          "title": "Impugnar una OQTF en plazos limitados",
+          "description": "Una obligación de abandonar el territorio francés (OQTF) conlleva plazos de recurso especialmente breves. Cualquier inacción o error de procedimiento puede convertir rápidamente la decisión en definitiva. El despacho le acompaña en el análisis de la legalidad de la OQTF, la preparación de un recurso adecuado y la defensa de sus derechos ante el tribunal administrativo, en cada etapa del procedimiento."
         }
       },
-      "footerTitle": "Mi objetivo: preservar su derecho a residir en Francia.",
-      "footerDescription": ""
+      "footerTitle": "Un acompañamiento humano y atento",
+      "footerDescription": "Las decisiones relativas a los permisos de residencia y a las OQTF tienen un impacto inmediato en su situación. Un acompañamiento jurídico adecuado permite respetar los plazos, asegurar los trámites y defender eficazmente su derecho a residir. Instalada en Pau, Maître KIRIMOV acompaña a clientes que se enfrentan a problemáticas de permisos de residencia y de OQTF en los Pirineos Atlánticos, así como en Nueva Aquitania y Occitania.",
+      "metaTitle": "Permiso de residencia y OQTF en Pau – Abogada de extranjería",
+      "metaDescription": "Abogada en Pau para permisos de residencia y OQTF. Acompañamiento jurídico en derecho de extranjería en Nueva Aquitania y Occitania."
     },
     "procedures-disciplinaires": {
-      "title": "Procedimientos disciplinarios",
-      "subtitle": "Acompañamiento desde la primera citación o medida",
+      "title": "Procedimientos disciplinarios en la función pública",
+      "subtitle": "Un procedimiento disciplinario puede tener importantes consecuencias en la carrera y la trayectoria profesional de un empleado público. Según los casos, la administración puede contemplar distintas medidas, que van desde la amonestación hasta sanciones más graves, e incluso la suspensión de funciones o la separación del servicio del funcionario.",
       "items": {
         "item1": {
-          "title": "Defensa frente a sanciones disciplinarias",
-          "description": "Suspensión, amonestación u otra sanción disciplinaria: mi intervención vela por el respeto del contradictorio y de los derechos de la defensa."
+          "title": "Comprender el procedimiento disciplinario",
+          "description": "El procedimiento disciplinario está regulado por normas estrictas, concebidas precisamente para garantizar los derechos del empleado público. El incumplimiento de estas garantías puede incidir directamente en la legalidad de la sanción contemplada o impuesta por la administración. Un acompañamiento jurídico permite comprender con claridad los cargos imputados, identificar las garantías procesales aplicables y abordar el procedimiento con un mejor dominio de los retos en juego."
         },
         "item2": {
-          "title": "Recurso contra sanciones abusivas",
-          "description": "Tras analizar su situación y la sanción impuesta, Me KIRIMOV le aconseja sobre la oportunidad de iniciar un procedimiento."
-        },
-        "item3": {
-          "title": "Preparación de la estrategia de defensa",
-          "description": "Me KIRIMOV le acompaña de forma preventiva para anticipar acciones disciplinarias."
+          "title": "Impugnar una sanción disciplinaria",
+          "description": "Una sanción disciplinaria puede impugnarse cuando resulta desproporcionada, insuficientemente fundamentada o impuesta tras un procedimiento irregular. En este contexto, el acompañamiento de una abogada permite analizar la decisión adoptada por la administración e identificar los motivos de impugnación pertinentes. El despacho asiste al empleado público tanto en el marco de los recursos administrativos como ante el tribunal administrativo, con el fin de defender eficazmente sus derechos."
         }
       },
-      "footerTitle": "Mi objetivo: asegurar una defensa rigurosa y adaptada a cada situación.",
-      "footerDescription": ""
+      "footerTitle": "Un acompañamiento y un seguimiento cercanos",
+      "footerDescription": "Un procedimiento disciplinario nunca debe afrontarse en solitario. Un acompañamiento jurídico adecuado permite asegurar el procedimiento y defender eficazmente sus derechos como empleado público. Con sede en Pau, el despacho acompaña a los empleados públicos de los Pirineos Atlánticos, así como a los de Nueva Aquitania y Occitania, con pedagogía y transparencia.",
+      "metaTitle": "Procedimiento disciplinario función pública – Abogada en Pau",
+      "metaDescription": "Abogada en Pau para procedimientos disciplinarios en la función pública. Defensa de los empleados públicos en Nueva Aquitania y Occitania."
     },
     "harcelement-moral": {
-      "title": "Acoso moral",
-      "subtitle": "Reconocimiento y recursos en caso de sufrimiento en el ejercicio de sus funciones.",
+      "title": "Acoso moral en la función pública",
+      "subtitle": "El acoso moral en la función pública constituye un atentado grave contra la dignidad, la salud y las condiciones de trabajo de los empleados públicos. A menudo se manifiesta de forma progresiva y, en ocasiones, insidiosa, lo que dificulta su identificación y su reconocimiento. Sus consecuencias pueden ser especialmente graves, tanto en el plano profesional como en el personal. En Pau, Maître KIRIMOV acompaña a los empleados públicos que se enfrentan a situaciones de acoso moral, con el fin de ayudarles a obtener el reconocimiento de los hechos y a defender sus derechos.",
       "items": {
         "item1": {
-          "title": "Identificación del acoso moral",
-          "description": "Me KIRIMOV le ayuda a establecer los hechos y reunir las pruebas necesarias."
+          "title": "Reconocer una situación de acoso moral",
+          "description": "El acoso moral se caracteriza por actuaciones reiteradas que provocan un deterioro de las condiciones de trabajo. Puede tratarse de presiones excesivas, de marginación, de comentarios degradantes o de atentados contra la salud. Un acompañamiento jurídico permite calificar jurídicamente los hechos y hacer frente a tales actuaciones."
         },
         "item2": {
-          "title": "Responsabilidad del empleador",
-          "description": "Me KIRIMOV le acompaña para hacer reconocer la falta de la administración."
+          "title": "Derechos y protecciones del empleado público",
+          "description": "Los empleados públicos disfrutan de protecciones específicas cuando se enfrentan a situaciones de acoso moral. La administración está obligada a garantizar la salud, la seguridad y el respeto de la dignidad de sus empleados en el ejercicio de sus funciones. Esta obligación implica no solo prevenir las situaciones de acoso, sino también responder a ellas de manera adecuada cuando se ponen en su conocimiento."
         },
         "item3": {
-          "title": "Representación ante los tribunales administrativos",
-          "description": "Me KIRIMOV le defiende con rigor ante los organismos competentes."
+          "title": "Constituir un expediente y emprender los trámites",
+          "description": "La constitución de un expediente sólido constituye una etapa determinante para obtener el reconocimiento de una situación de acoso moral. Implica, en particular, reunir el conjunto de los elementos de prueba disponibles y presentar los hechos de manera clara, coherente y cronológica, con el fin de permitir un análisis preciso de la situación. Es imprescindible recopilar el menor elemento que pueda hacer avanzar el expediente. La anticipación y la preparación son, así, las palabras clave de un expediente sólido."
         }
       },
-      "footerTitle": "Mi objetivo: obtener reparación y restablecimiento de sus derechos.",
-      "footerDescription": ""
+      "footerTitle": "Un acompañamiento humano y atento",
+      "footerDescription": "El acoso moral nunca debe banalizarse. Un acompañamiento jurídico adecuado permite obtener el reconocimiento de la situación, proteger al empleado y obtener una indemnización acorde con el perjuicio sufrido. Instalado en Pau, el despacho acompaña a los empleados públicos de los Pirineos Atlánticos, así como de Nueva Aquitania y Occitania, con confidencialidad y determinación.",
+      "metaTitle": "Acoso moral función pública – Abogada en Pau",
+      "metaDescription": "Abogada en Pau para acoso moral en la función pública. Defensa y acompañamiento de los empleados públicos en Nueva Aquitania."
     },
     "maladie-professionnelle": {
-      "title": "Enfermedad profesional y accidente de servicio",
-      "subtitle": "Constitución de expediente, reconocimiento y recursos.",
+      "title": "Enfermedad profesional y accidente de servicio en la función pública",
+      "subtitle": "Tanto la enfermedad profesional como el accidente de servicio pueden tener consecuencias significativas en la salud, la carrera y los derechos de los empleados públicos. Su reconocimiento por parte de la administración puede, sin embargo, resultar complejo y dar lugar a dificultades, impugnaciones e incluso denegaciones, lo que exige una atención especial en cada etapa del procedimiento.",
       "items": {
         "item1": {
-          "title": "Constitución del expediente",
-          "description": "Me KIRIMOV le ayuda a reunir los documentos necesarios para hacer reconocer su situación."
+          "title": "Comprender la noción de imputabilidad al servicio",
+          "description": "El reconocimiento de una enfermedad profesional o de un accidente de servicio se basa en la noción de imputabilidad al servicio. Resulta entonces necesario acreditar la existencia de un vínculo directo entre la actividad profesional y el daño causado a la salud del empleado. Este reconocimiento reviste una importancia particular, ya que condiciona, en especial, la cobertura de la asistencia sanitaria, el mantenimiento de la retribución y el reconocimiento del derecho a determinadas licencias específicas."
         },
         "item2": {
-          "title": "Recurso en caso de denegación de la administración",
-          "description": "Me KIRIMOV le representa ante la administración o los tribunales competentes."
+          "title": "Trámites para el reconocimiento de una enfermedad profesional",
+          "description": "El reconocimiento de una enfermedad profesional en la función pública se enmarca en un procedimiento administrativo reglado, que requiere la aportación de elementos médicos y profesionales precisos. Estos elementos permiten valorar el vínculo entre el estado de salud del empleado y sus condiciones de trabajo, y condicionan el resultado de la solicitud."
         },
         "item3": {
-          "title": "Gestión de bajas y indemnización",
-          "description": "En caso de accidente de servicio con grado de incapacidad establecido, le acompaño para obtener la indemnización justa de sus perjuicios."
-        }
-      },
-      "footerTitle": "Mi objetivo: hacer reconocer sus derechos.",
-      "footerDescription": ""
-    },
-    "creations-et-rachat": {
-      "title": "Creación y compra de empresa",
-      "subtitle": "Pendiente de redacción",
-      "items": {
-        "item1": {
-          "title": "Constitución de sociedades",
-          "description": "Pendiente de redacción"
-        },
-        "item2": {
-          "title": "Adquisición de fondos de comercio",
-          "description": "Pendiente de redacción"
-        },
-        "item3": {
-          "title": "Asesoramiento sobre la forma jurídica",
-          "description": "Pendiente de redacción"
+          "title": "Accidente de servicio: hacer valer sus derechos",
+          "description": "Un accidente ocurrido en el marco del servicio puede dar derecho a un reconocimiento específico, con importantes consecuencias para el empleado afectado. No obstante, este reconocimiento no es automático y puede ser objeto de discusión o de impugnación por parte de la administración. Un acompañamiento jurídico permite entonces calificar con precisión el accidente, acreditar el vínculo con el servicio y defender los derechos del empleado a lo largo de todo el procedimiento."
         },
         "item4": {
-          "title": "Redacción de estatutos",
-          "description": "Pendiente de redacción"
-        },
-        "item5": {
-          "title": "Acompañamiento en trámites formales",
-          "description": "Pendiente de redacción"
-        },
-        "item6": {
-          "title": "Redacción de pactos de socios",
-          "description": "Pendiente de redacción"
+          "title": "Impugnar una denegación de reconocimiento",
+          "description": "Una denegación del reconocimiento de una enfermedad profesional o de un accidente de servicio puede tener importantes consecuencias en la situación del empleado. Puede, en particular, afectar a la cobertura médica, a la retribución o al derecho a licencias, y debilitar de forma duradera la situación profesional de la persona afectada."
         }
       },
-      "footerTitle": "Pendiente de redacción",
-      "footerDescription": "Pendiente de redacción"
+      "footerTitle": "Acompañamiento de los empleados públicos en Pau",
+      "footerDescription": "El reconocimiento de una enfermedad profesional o de un accidente de servicio constituye un reto fundamental para los empleados públicos. Un acompañamiento jurídico adecuado permite asegurar los trámites y defender eficazmente sus derechos. Instalado en Pau, el despacho acompaña a los empleados públicos de los Pirineos Atlánticos, así como de Nueva Aquitania y Occitania, que se enfrentan a problemáticas de salud relacionadas con el trabajo.",
+      "metaTitle": "Enfermedad profesional y accidente de servicio – Abogada en Pau",
+      "metaDescription": "Abogada en Pau para enfermedad profesional y accidente de servicio en la función pública. Acompañamiento jurídico de los empleados públicos en Nueva Aquitania."
     },
-    "vie-de-lentreprise": {
-      "title": "Vida de la empresa",
-      "subtitle": "Pendiente de redacción",
+    "meres": {
+      "droit-des-affaires-et-des-societes": {
+        "title": "Derecho mercantil y societario",
+        "subtitle": "Un enfoque metódico y atento a sus necesidades",
+        "intro": "Emprender, estructurar una actividad o hacer evolucionar una sociedad implica tomar decisiones jurídicas comprometidas, en ocasiones irreversibles. Instalada en Pau, la abogada acompaña a directivos, emprendedores, comerciantes y promotores de proyectos en cada etapa de la vida de su empresa. El derecho mercantil está formado por una multitud de materias transversales que inciden en los empresarios y en la gestión de sus sociedades. La seguridad de las relaciones contractuales, los trámites administrativos y los distintos gastos hacen ardua la gestión de una empresa. Maître Asmae KIRIMOV ofrece un acompañamiento técnico, accesible y personalizado, sin subcontratación, prestando especial atención a la claridad de los retos y a la transparencia sobre los riesgos, para ayudarle a ver con más claridad en medio de esta proliferación normativa. El despacho interviene en Pau, en los Pirineos Atlánticos, así como en las regiones de Nueva Aquitania y Occitania y, en general, en toda Francia.",
+        "metaTitle": "Derecho mercantil y societario en Pau – Abogada",
+        "metaDescription": "Abogada en Pau en derecho mercantil y societario. Acompañamiento de empresas en Nueva Aquitania y Occitania."
+      },
+      "droit-des-etrangers-et-de-la-nationalite": {
+        "title": "Derecho de extranjería y nacionalidad",
+        "subtitle": "Un enfoque humano y riguroso del derecho de extranjería",
+        "intro": "El derecho de extranjería afecta a situaciones personales a menudo urgentes y delicadas, en las que los retos jurídicos se entrelazan con realidades humanas intensas. Instalado en Pau, el despacho de Maître KIRIMOV acompaña a las personas extranjeras que se enfrentan a trámites administrativos complejos, a denegaciones o a decisiones que cuestionan su derecho a residir en Francia. Con la experiencia adquirida en el seno de la administración francesa, Maître Asmae KIRIMOV ofrece un acompañamiento basado en la comprensión de los mecanismos administrativos, el rigor jurídico y un seguimiento personalizado, sin subcontratación. Cada situación se analiza con transparencia, teniendo en cuenta los riesgos, los plazos y las perspectivas reales. El despacho interviene principalmente en Pau, en los Pirineos Atlánticos, y más ampliamente en Nueva Aquitania y Occitania.",
+        "metaTitle": "Derecho de extranjería y nacionalidad en Pau – Abogada",
+        "metaDescription": "Abogada en Pau en derecho de extranjería y nacionalidad. Acompañamiento jurídico en Nueva Aquitania y Occitania."
+      },
+      "droit-de-la-fonction-publique": {
+        "title": "Derecho de la función pública",
+        "subtitle": "Defender los derechos de los empleados públicos con claridad y rigor",
+        "intro": "El derecho de la función pública regula toda la carrera de los empleados públicos, tanto sus derechos como sus obligaciones. Los procedimientos disciplinarios, las situaciones de acoso o las problemáticas relacionadas con la salud en el trabajo pueden tener importantes repercusiones, tanto en la vida profesional como en la personal. Estas situaciones requieren a menudo una comprensión precisa de las normas aplicables y de los mecanismos propios de la administración. Situado en Pau, el despacho acompaña a los empleados públicos en sus relaciones con la administración. El enfoque es accesible, pedagógico y riguroso, con el fin de permitir a cada empleado comprender sus derechos y los trámites posibles. Con la experiencia adquirida en el seno de la administración francesa, Maître Asmae KIRIMOV cuenta con un conocimiento concreto de su funcionamiento interno y de las herramientas jurídicas que permiten una defensa eficaz de los intereses de los empleados públicos. El despacho interviene en Pau, en los Pirineos Atlánticos, y más ampliamente en Nueva Aquitania y Occitania.",
+        "metaTitle": "Derecho de la función pública en Pau – Abogada",
+        "metaDescription": "Abogada en Pau en derecho de la función pública. Defensa de los empleados públicos en Nueva Aquitania y Occitania."
+      }
+    },
+    "creation-et-structuration": {
+      "title": "Creación y estructuración de empresas",
+      "subtitle": "La creación de una empresa constituye el primer paso hacia la materialización de un proyecto y permite organizarlo para, finalmente, darle vida. La elección de la forma social (SAS, SARL, SASU, EI…), la redacción de los estatutos, los trámites administrativos o la fiscalidad: el promotor del proyecto deberá estudiar con cuidado el diseño de su sociedad para que esta responda a sus expectativas y sirva a sus intereses. El despacho le acompaña a lo largo de todo su proyecto, tanto en asesoramiento como en contencioso.",
       "items": {
         "item1": {
-          "title": "Seguimiento y secretaría jurídica",
-          "description": "Pendiente de redacción"
+          "title": "Elegir la forma jurídica adaptada a su proyecto",
+          "description": "Las normas que rigen una sociedad vienen determinadas por su forma social. Por ello, optar por una forma social adaptada a su proyecto y a sus aspiraciones es crucial para que su actividad prospere. La forma más adecuada variará en función del número de socios o de los proyectos y actividades previstos por la empresa. A modo de ejemplo, la SAS ofrece una mayor libertad a los accionistas, que deberán redactar unos estatutos precisos, mientras que la SARL dispone de un régimen legal completo. La forma elegida también incidirá en el régimen social del directivo. Por tanto, este aspecto deberá tenerse en cuenta en el momento de la constitución."
         },
         "item2": {
-          "title": "Aprobación de cuentas y redacción de actas",
-          "description": "Pendiente de redacción"
+          "title": "Redacción de los estatutos y organización jurídica",
+          "description": "Verdadera piedra angular, los estatutos tienen por objeto regir todo el funcionamiento de la sociedad: desde la distribución del capital social, el nombramiento y la revocación del directivo, hasta la celebración de las juntas generales, los estatutos permiten personalizar el funcionamiento de la sociedad (dentro de los límites impuestos por la ley). También será posible incorporar todo un abanico de cláusulas para optimizar el gobierno de la sociedad (cláusula de aprobación, cláusula de no competencia…)."
         },
         "item3": {
-          "title": "Llevanza de los registros legales",
-          "description": "Pendiente de redacción"
+          "title": "Asegurar el inicio de la actividad",
+          "description": "El lanzamiento de la actividad suele ser un periodo particular: es el momento en que se firman los primeros contratos esenciales (contrato de arrendamiento, suministros, franquicia…). Es también un periodo de incertidumbre para la sociedad, que se enfrentará a sus primeras dificultades. No es infrecuente, además, que al iniciar la actividad la sociedad se encuentre todavía en constitución, lo que conlleva la aplicación de un régimen jurídico específico."
+        }
+      },
+      "footerTitle": "Un acompañamiento a medida",
+      "footerDescription": "Con sede en Pau, el despacho acompaña a los emprendedores de los Pirineos Atlánticos, así como a los de Nueva Aquitania y Occitania, con un conocimiento concreto de los retos económicos locales. La creación y la estructuración de una empresa nunca deben abordarse como simples formalidades. Un acompañamiento jurídico desde el principio permite asegurar el proyecto y preparar el futuro con tranquilidad.",
+      "metaTitle": "Creación y estructuración de empresas en Pau – Abogada",
+      "metaDescription": "Abogada en Pau en derecho de sociedades para la creación y estructuración de empresas. Acompañamiento jurídico en Nueva Aquitania."
+    },
+    "contrats-commerciaux": {
+      "title": "Redacción y seguridad de los contratos comerciales",
+      "subtitle": "Los contratos comerciales tienen una importancia capital para una sociedad y representan su fuente de ingresos. Una redacción deficiente de los contratos puede generar largos bloqueos y situaciones de conflicto entre las partes contratantes. Maître Asmae KIRIMOV acompaña a sus clientes en las distintas fases de la vida del contrato, desde su formación, pasando por su ejecución, hasta, en última instancia, su extinción.",
+      "items": {
+        "item1": {
+          "title": "¿Por qué dotar de seguridad jurídica a sus contratos comerciales?",
+          "description": "La seguridad jurídica de los contratos es un elemento clave para una empresa. Sin él, resulta difícil plantearse mantener una actividad viable a largo plazo. Contrato de compraventa, de suministro, de aprovisionamiento o de colaboración: cada acto cuenta con su propio régimen jurídico y presenta particularidades que conviene dominar para garantizar el buen funcionamiento de la relación."
+        },
+        "item2": {
+          "title": "Redacción de contratos adaptados a su actividad",
+          "description": "La adaptabilidad y la agilidad deben ser las palabras clave que guíen la pluma de quien redacta un contrato. En internet existen numerosos modelos de contratos, pero ninguno permite realmente ajustarse a las exigencias de su empresa. Maître KIRIMOV cuenta con una sólida experiencia en derecho de los contratos y está capacitada para redactar sus futuras estipulaciones contractuales respetando sus exigencias y sus necesidades."
+        },
+        "item3": {
+          "title": "Análisis y seguridad de los contratos existentes",
+          "description": "Identificar los riesgos es un reto crucial ante un contrato. Un análisis exhaustivo pone de manifiesto las deficiencias jurídicas y permite detectar las posibles estipulaciones que hayan quedado desactualizadas. Será fundamental actualizar el modelo de contrato del que dispone la sociedad para que esté siempre a la vanguardia de la última evolución jurídica."
         },
         "item4": {
-          "title": "Presentación de documentos obligatorios ante el registro mercantil",
-          "description": "Pendiente de redacción"
-        },
-        "item5": {
-          "title": "Modificaciones estatutarias (aumento de capital / traslado de domicilio / órganos sociales)",
-          "description": "Pendiente de redacción"
-        },
-        "item6": {
-          "title": "Aportación de títulos y aportación parcial de activos",
-          "description": "Pendiente de redacción"
-        },
-        "item7": {
-          "title": "Optimización fiscal (dividendos / transmisión y cesión)",
-          "description": "Pendiente de redacción"
+          "title": "Anticipar los litigios y proteger la empresa",
+          "description": "Un contrato bien redactado es aquel que anticipa las posibles situaciones de conflicto, las acota y ofrece una solución para que dichos litigios desaparezcan lo antes posible, evitando una fase contenciosa. Naturalmente, la anticipación aumenta la protección jurídica de una sociedad frente a un incumplimiento o a una prestación que no se ajuste a las expectativas contractuales. El contrato podrá, por ejemplo, definir lo que cada parte espera de la relación contractual mediante la redacción de un preámbulo. Asimismo, el contrato podrá prever cláusulas de arbitraje o de mediación para evitar un contencioso judicial."
         }
       },
-      "footerTitle": "Pendiente de redacción",
-      "footerDescription": "Pendiente de redacción"
+      "footerTitle": "Un acompañamiento claro, profesional y riguroso",
+      "footerDescription": "Con sede en Pau, el despacho acompaña a microempresas, pymes, emprendedores y comerciantes de Nueva Aquitania y Occitania, con un seguimiento personalizado y ágil. Contar con un buen acompañamiento desde la fase de formación del contrato permite al directivo dirigir la actividad de su sociedad sin preocuparse por la fiabilidad de sus contratos. El despacho le ofrece un acompañamiento a medida para responder a todas sus necesidades.",
+      "metaTitle": "Contratos comerciales en Pau – Abogada de derecho mercantil",
+      "metaDescription": "Abogada en Pau para la redacción y seguridad de los contratos comerciales. Acompañamiento jurídico de empresas en Nueva Aquitania."
     },
-    "cession-et-transmission": {
-      "title": "Transmisión y cesión de empresa",
-      "subtitle": "Pendiente de redacción",
+    "relations-commerciales-internationales": {
+      "title": "Relaciones comerciales internacionales",
+      "subtitle": "Para una sociedad, la apertura al mercado internacional es una fuente de nuevos retos y de grandes oportunidades. No obstante, estas también traen consigo sus propias problemáticas jurídicas: derecho aplicable, jurisdicción competente, etc. El derecho internacional está repleto de matices y hace necesario el acompañamiento de un profesional cualificado.",
       "items": {
         "item1": {
-          "title": "Negociación de ventas",
-          "description": "Pendiente de redacción"
+          "title": "Dotar de seguridad jurídica a sus intercambios internacionales",
+          "description": "El comercio internacional implica, por naturaleza, comerciar con socios sometidos a un marco legal y reglamentario diferente. Por ello, resulta primordial estructurar los intercambios internacionales mediante acuerdos claros que actúen como ley entre las partes."
         },
         "item2": {
-          "title": "Cesión de fondos de comercio",
-          "description": "Pendiente de redacción"
+          "title": "Redacción y análisis de contratos comerciales internacionales",
+          "description": "Un contrato comercial internacional requiere una atención muy especial. Las partes contratantes deberán llegar a un acuerdo sobre las condiciones de la prestación, pero también sobre la jurisdicción competente y la ley aplicable en caso de litigio. Un conocimiento preciso de las normas de derecho internacional, unido a una redacción minuciosa, puede transformar un marco legal restrictivo en una nueva oportunidad."
         },
         "item3": {
-          "title": "Redacción de contratos de cesión y adquisición de empresas",
-          "description": "Pendiente de redacción"
-        },
-        "item4": {
-          "title": "Disolución y liquidación amistosa",
-          "description": "Pendiente de redacción"
+          "title": "Anticipar los litigios y proteger los intereses de la empresa",
+          "description": "Complejos por naturaleza, los contratos internacionales requieren una gran capacidad de anticipación y no deben redactarse sin una reflexión previa. Las cláusulas de arbitraje y de elección de fuero son objeto de particular cuestionamiento cuando surge un conflicto. Un contrato fiable y seguro permite prever el desenlace de un litigio y aporta comodidad y seguridad jurídica."
         }
       },
-      "footerTitle": "Pendiente de redacción",
-      "footerDescription": "Pendiente de redacción"
-    },
-    "conditions-generales-de-vente": {
-      "title": "Condiciones generales de venta",
-      "subtitle": "Pendiente de redacción",
-      "items": {
-        "item1": {
-          "title": "Pendiente de redacción",
-          "description": "Pendiente de redacción"
-        }
-      },
-      "footerTitle": "Pendiente de redacción",
-      "footerDescription": "Pendiente de redacción"
-    },
-    "relations-clients": {
-      "title": "Relaciones con clientes / proveedores",
-      "subtitle": "Pendiente de redacción",
-      "items": {
-        "item1": {
-          "title": "Gestión de impagos",
-          "description": "Pendiente de redacción"
-        },
-        "item2": {
-          "title": "Impugnación de la calidad del servicio",
-          "description": "Pendiente de redacción"
-        }
-      },
-      "footerTitle": "Pendiente de redacción",
-      "footerDescription": "Pendiente de redacción"
-    },
-    "relations-avec-les-tiers": {
-      "title": "Relaciones con terceros",
-      "subtitle": "Pendiente de redacción",
-      "items": {
-        "item1": {
-          "title": "Litigios sobre arrendamientos comerciales",
-          "description": "Pendiente de redacción"
-        },
-        "item2": {
-          "title": "Litigios entre comerciantes",
-          "description": "Pendiente de redacción"
-        },
-        "item3": {
-          "title": "Competencia desleal",
-          "description": "Pendiente de redacción"
-        }
-      },
-      "footerTitle": "Pendiente de redacción",
-      "footerDescription": "Pendiente de redacción"
-    },
-    "mandat-de-vente-location": {
-      "title": "Mandato de venta / alquiler",
-      "subtitle": "Pendiente de redacción",
-      "items": {
-        "item1": {
-          "title": "Pendiente de redacción",
-          "description": "Pendiente de redacción"
-        }
-      },
-      "footerTitle": "Pendiente de redacción",
-      "footerDescription": "Pendiente de redacción"
-    },
-    "baux-commerciaux": {
-      "title": "Arrendamientos comerciales",
-      "subtitle": "Pendiente de redacción",
-      "items": {
-        "item1": {
-          "title": "Pendiente de redacción",
-          "description": "Pendiente de redacción"
-        }
-      },
-      "footerTitle": "Pendiente de redacción",
-      "footerDescription": "Pendiente de redacción"
+      "footerTitle": "Acompañamiento desde Pau hacia el mercado internacional",
+      "footerDescription": "Situado en Pau, el despacho le ofrece un acompañamiento hacia el mercado internacional. El despacho tiene por vocación ayudar a las empresas situadas en Nueva Aquitania, en Occitania y, en general, en toda Francia. Las relaciones comerciales internacionales constituyen una importante palanca de crecimiento, siempre que se dominen jurídicamente. Un acompañamiento adecuado permite asegurar los intercambios y apoyar un desarrollo internacional sostenible.",
+      "metaTitle": "Relaciones comerciales internacionales – Abogada en Pau",
+      "metaDescription": "Abogada en Pau para asegurar sus relaciones comerciales internacionales. Acompañamiento jurídico de empresas en Nueva Aquitania."
     }
   },
   "seo": {

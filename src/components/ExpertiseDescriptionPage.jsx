@@ -51,8 +51,8 @@ const ExpertiseDescriptionPage = ({
         <ul className="service-list">
           {itemsList.map((item, index) => (
             <li key={index}>
-              <strong>{item.title}</strong>
-              {item.description}
+              <h3 className="service-item-title">{item.title}</h3>
+              <p className="service-item-text">{item.description}</p>
             </li>
           ))}
         </ul>
