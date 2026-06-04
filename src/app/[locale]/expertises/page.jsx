@@ -159,7 +159,7 @@ export default function ExpertisesPage() {
                         </Link>
                       )}
 
-                      {sub.subItems?.length && (
+                      {sub.subItems?.length > 0 && (
                         <AnimatePresence initial={false}>
                           {openSubfamily === sub.subfamilyKey && (
                             <motion.ul
